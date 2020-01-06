@@ -27,6 +27,15 @@ $(document).ready(function(){
       fxb1()
     });
  
+
+
+
+
+
+
+
+
+    terminoelvideov1();
   getvwvh();
   vid = document.getElementById("idvideofondo");
   iniciadeverdad ("");
@@ -98,6 +107,16 @@ vid.currentTime = 0.0;
  
 } 
 
+function terminoelvideov1(){
+  vid=document.getElementById('idvideofondo');
+
+vid.onended = function(e) {
+  /*Do things here!*/
+  stopvid();
+ 
+};
+}
+
 
 
 
@@ -142,13 +161,6 @@ function myHandler(e) {
     
 }
 
-var video =document.getElementById('idvideofondo');
-
-video.onended = function(e) {
-  /*Do things here!*/
-  stopvid();
-  animacontroliniciL();
-};
 
 
 
