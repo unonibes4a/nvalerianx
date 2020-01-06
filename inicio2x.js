@@ -4,6 +4,7 @@
 function cambiotanaboventana(){
  // alert("tamaño de la ventana    "+ vw +"   "+vh);
   window.location.reload();
+  
 }
 var vw=window.innerWidth;
 var vh=window.innerHeight;
@@ -18,10 +19,13 @@ function  getvwvh() {
 $(document).ready(function(){
   $(window).on('resize', function(){
    
-    cambiotanaboventana();  
+    cambiotanaboventana();  });
 
 
-});
+
+    $("#xb1").click(function(){
+      fxb1()
+    });
  
   getvwvh();
   vid = document.getElementById("idvideofondo");
@@ -50,7 +54,9 @@ var vbt=0.25;
     getvwvh();
 
 
-
+setTimeout(function () { 
+  pauseVid();
+ },14000);
     
 
 
@@ -65,8 +71,9 @@ var vbt=0.25;
 // maneja  video v1.mp4
 function playVid() {
 if(document.getElementById("idvideofondo")){
-
+  //stopvid();
   try {
+    stopvid();
     vid = document.getElementById("idvideofondo");
     vid.play();
   // vid.loop=true;
@@ -87,7 +94,7 @@ function pauseVid() {
 
 function stopvid(){
   pauseVid();
-vid.currentTime = 0;
+vid.currentTime = 0.0;
  
 } 
 
@@ -146,3 +153,18 @@ video.onended = function(e) {
 
 
 function  detenervideov1(param) {  }
+
+
+
+
+
+
+
+// llamado d elos botones
+
+function fxb1(){
+
+  playVid();
+}
+
+// fin de llamado de bootones
