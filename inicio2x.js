@@ -1,5 +1,10 @@
 
 
+
+function cambiotanaboventana(){
+ // alert("tamaño de la ventana    "+ vw +"   "+vh);
+  window.location.reload();
+}
 var vw=window.innerWidth;
 var vh=window.innerHeight;
 var vid = document.getElementById("idvideofondo");
@@ -11,6 +16,12 @@ function  getvwvh() {
  }
 
 $(document).ready(function(){
+  $(window).on('resize', function(){
+   
+    cambiotanaboventana();  
+
+
+});
  
   getvwvh();
   vid = document.getElementById("idvideofondo");
@@ -23,6 +34,9 @@ setTimeout(function () {
   });
 
 
+
+
+  
 
   function iniciadeverdad () { 
 
@@ -112,7 +126,7 @@ function animacontroliniciL(){
   $("#xb3").animate({"left":"+="+String(vw*0.46)},2000,function(){});
   $("#xb4").animate({"left":"+="+String(vw*-0.34)},2000,function(){});
   $("#xb5").animate({"left":"+="+String(vw*-0.24)},2000,function(){});
-  $("#xb6").animate({"left":"+="+String(vw*-0.34)},2000,function(){animacontrolfinal();});
+  $("#xb6").animate({"left":"+="+String(vw*-0.34)},2000,function(){});
 }
 
 document.getElementById('idvideofondo').addEventListener('ended',myHandler,false);
