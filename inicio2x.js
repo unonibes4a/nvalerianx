@@ -35,7 +35,7 @@ var arrarypeliculas2019={};
 
 function cambiotanaboventana(){
  // alert("tamaño de la ventana    "+ vw +"   "+vh);
- // window.location.reload();
+  window.location.reload();
   
 }
 var vw=window.innerWidth;
