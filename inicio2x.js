@@ -49,6 +49,12 @@ function  getvwvh() {
  }
 
 $(document).ready(function(){
+
+  $(window).on('hashchange', function(e){
+    var origEvent = e.originalEvent;
+    console.log('Going to: ' + origEvent.newURL + ' from: ' + origEvent.oldURL);
+    alert('Going to: ' + origEvent.newURL + ' from: ' + origEvent.oldURL);
+});
   $(window).on('resize', function(){
    
     cambiotanaboventana();  });
