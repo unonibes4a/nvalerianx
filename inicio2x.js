@@ -35,7 +35,7 @@ var arrarypeliculas2019={};
 
 function cambiotanaboventana(){
  // alert("tamaño de la ventana    "+ vw +"   "+vh);
-  window.location.reload();
+ // window.location.reload();
   
 }
 var vw=window.innerWidth;
@@ -1216,7 +1216,10 @@ document.getElementById("idblockokrucentro").style.top=String(vh)*0.01+"px";
 
 //alert("mi pantalla es "+vw);
 
-
+document.getElementById("idbtblockiframetop").style.display="none";
+document.getElementById("idblockokru").style.display="none";
+document.getElementById("idblockokrucentro").style.display="none";
+document.getElementById("idbtblockiframedown").style.display="none";
 
 
 }
