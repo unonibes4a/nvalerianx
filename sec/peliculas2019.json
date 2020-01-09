@@ -1,6 +1,20 @@
 {
 
 
+  "Aniquilacionx" : {
+    "servidor":"send",
+    "vid":"1",
+    "id" : "id4",
+  "idname" : "Aniquilacionx",
+  "title":"Aniquilacionxxxxxx 2019",
+  "img" : "img/pelis/aniquilacion.jpg",
+  "pg" : "https://waaw.tv/watch_video.php?v=UKaBDxlhpek8"
+  }
+
+
+  ,
+
+
 
   "Matrix1" : {
     "servidor":"3",
