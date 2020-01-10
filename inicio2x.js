@@ -875,7 +875,7 @@ for(var i in arrarypeliculas2019){
         esverdadjuego=false;
 
 
-        cambiapeliscula(arrarypeliculas2019[i].pg);
+        cambiapeliscula(arrarypeliculas2019[i]);
     
     }
 }
@@ -884,12 +884,84 @@ for(var i in arrarypeliculas2019){
 
 
   var objetoiframe="";
+  var stsrc="";
   https://www.facebook.com/Ctermodinamica-1282370398566788/?modal=admin_todo_tour
-  function cambiapeliscula(stsrc){  // iframe le pasa la pelicula o el video elibro juego lo que sea
+  function cambiapeliscula(cosajson){  // iframe le pasa la pelicula o el video elibro juego lo que sea
   
-  
+    document.getElementById("idpaneldepeliculas").style.display="none";
+    document.getElementById("idvisorpelis").style.display="block";
 
-  document.getElementById("idpaneldepeliculas").style.display="none";
+    document.getElementById("idiframe").style.display="none";
+    document.getElementById("idvideomp4").style.display="none";
+    stsrc=cosajson.pg;
+    if(cosajson.presenta){
+  
+      console.log("no existe preseta");
+    
+    }
+    else{
+
+      document.getElementById("idiframe").style.display="block";
+      objetoiframe="";
+  
+      
+      document.getElementById("btmostrarmenu").style.display="block";
+      
+      
+      objetoiframe=document.getElementById("idiframe").src=stsrc;
+      
+      elvideoanotfic=stsrc;
+      elidnamedelvideoanotific="id";
+      
+      if(objetoiframe){
+        document.getElementById("btmostrarenviavideonofunciona").style.display="block";
+      }
+      else{
+        document.getElementById("btmostrarenviavideonofunciona").style.display="block";
+      }
+
+    
+    }
+
+
+    if(cosajson.presenta=="iframe"){
+  
+      document.getElementById("idiframe").style.display="block";
+      objetoiframe="";
+  
+      
+      document.getElementById("btmostrarmenu").style.display="block";
+      
+      
+      objetoiframe=document.getElementById("idiframe").src=stsrc;
+      
+      elvideoanotfic=stsrc;
+      elidnamedelvideoanotific="id";
+      
+      if(objetoiframe){
+        document.getElementById("btmostrarenviavideonofunciona").style.display="block";
+      }
+      else{
+        document.getElementById("btmostrarenviavideonofunciona").style.display="block";
+      }
+    
+    }
+    
+
+if(cosajson.presenta=="mp4"){
+  
+ 
+  document.getElementById("idvideomp4").style.display="block";
+  document.getElementById("idvideomp4").src=stsrc;
+  console.log(stsrc);
+
+}
+
+
+
+  /*
+
+
   
   
   
@@ -911,8 +983,13 @@ for(var i in arrarypeliculas2019){
     document.getElementById("btmostrarenviavideonofunciona").style.display="block";
   }
   
+
+
+  if(){}
   
   deboocultatdeliframe(quetiposoyyo);
+
+  */
       
   }
   
