@@ -234,10 +234,11 @@ setTimeout(function(){
 
 
 // fin   maneja  video v1.mp4
-setInterval(function(){
+function escribe(st){
 
-  document.getElementById("idyo").value="Giovanni Rodriguez Diaz";//vw+"  "+vh;
-},2000);
+  document.getElementById("idyo").value=st;//vw+"  "+vh;
+
+}
 
    
 
@@ -918,7 +919,9 @@ for(var i in arrarypeliculas2019){
 
     document.getElementById("idiframe").style.display="none";
     document.getElementById("idvideomp4").style.display="none";
-    stsrc=cosajson.pg;
+    if(cosajson.pg){stsrc=cosajson.pg;}
+    else{stsrc="";}
+    
     if(cosajson.presenta){
   
       console.log("no existe preseta");
@@ -932,7 +935,8 @@ for(var i in arrarypeliculas2019){
       
       document.getElementById("btmostrarmenu").style.display="block";
       
-      
+      escribe(cosajson.pg);
+      alert("iframe 1");
       objetoiframe=document.getElementById("idiframe").src=stsrc;
       
       elvideoanotfic=stsrc;
@@ -951,14 +955,15 @@ for(var i in arrarypeliculas2019){
 
     if(cosajson.presenta=="iframe"){
   
+      escribe(stsrc);
       document.getElementById("idiframe").style.display="block";
       objetoiframe="";
   
       
       document.getElementById("btmostrarmenu").style.display="block";
+      alert("iframe");
       
-      
-      objetoiframe=document.getElementById("idiframe").src=cosajson.pg;
+      objetoiframe=document.getElementById("idiframe").src=stsrc;
       
       elvideoanotfic=stsrc;
       elidnamedelvideoanotific="id";
@@ -977,8 +982,10 @@ if(cosajson.presenta=="mp4"){
   
  
   document.getElementById("idvideomp4").style.display="block";
-  document.getElementById("idvideomp4").src=stsrc;
-
+  document.getElementById("idvideomp4").src="https://i.download-host.com:443/d/wal6add4t5vdjxij73typfyhlojf6oq2ulcsmxo6htmzq3acbs36xwbm6w45klcxpxtf2gkz/video.mp4";
+  escribe(stsrc);
+  alert("mp4");
+  console.log(cosajson);
 
 }
 
