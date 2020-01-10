@@ -923,8 +923,8 @@ for(var i in arrarypeliculas2019){
     else{stsrc="";}
     
     if(cosajson.presenta){
-  
-      console.log("no existe preseta");
+
+      
     
     }
     else{
@@ -975,6 +975,13 @@ for(var i in arrarypeliculas2019){
         document.getElementById("btmostrarenviavideonofunciona").style.display="block";
       }
     
+      document.getElementById("idbtblockiframetop").style.display="none";
+      document.getElementById("idblockokru").style.display="none";
+      document.getElementById("idblockokrucentro").style.display="none";
+      document.getElementById("idbtblockiframedown").style.display="none";
+
+
+
     }
     
 
@@ -984,44 +991,16 @@ if(cosajson.presenta=="mp4"){
   document.getElementById("idvideomp4").style.display="block";
   document.getElementById("idvideomp4").src="https://i.download-host.com:443/d/wal6add4t5vdjxij73typfyhlojf6oq2ulcsmxo6htmzq3acbs36xwbm6w45klcxpxtf2gkz/video.mp4";
   escribe(stsrc);
-  alert("mp4");
-  console.log(cosajson);
+
+  document.getElementById("idbtblockiframetop").style.display="none";
+  document.getElementById("idblockokru").style.display="none";
+  document.getElementById("idblockokrucentro").style.display="none";
+  document.getElementById("idbtblockiframedown").style.display="none";
+ 
 
 }
 
 
-
-  /*
-
-
-  
-  
-  
-  objetoiframe="";
-  
-  document.getElementById("idvisorpelis").style.display="block";
-  document.getElementById("btmostrarmenu").style.display="block";
-  
-  
-  objetoiframe=document.getElementById("idiframe").src=stsrc;
-  
-  elvideoanotfic=stsrc;
-  elidnamedelvideoanotific="id";
-  
-  if(objetoiframe){
-    document.getElementById("btmostrarenviavideonofunciona").style.display="block";
-  }
-  else{
-    document.getElementById("btmostrarenviavideonofunciona").style.display="block";
-  }
-  
-
-
-  if(){}
-  
-  deboocultatdeliframe(quetiposoyyo);
-
-  */
       
   }
   
