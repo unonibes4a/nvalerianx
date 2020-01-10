@@ -1145,6 +1145,7 @@ cambiapeliscula("");
 
 function deboocultatdeliframe (expressionx){
   esverdadvisoreliculas=true;
+  /*
   switch(expressionx) {
     case "video":
 
@@ -1172,10 +1173,13 @@ function deboocultatdeliframe (expressionx){
     default:
       // code block
   }
-  document.getElementById("idbtblockiframetop").style.display="none";
-    document.getElementById("idblockokru").style.display="none";
-    document.getElementById("idblockokrucentro").style.display="none";
-    document.getElementById("idbtblockiframedown").style.display="none";
+
+  */
+ document.getElementById("idbtblockiframetop").style.display="none";
+ document.getElementById("idblockokru").style.display="none";
+ document.getElementById("idblockokrucentro").style.display="none";
+ document.getElementById("idbtblockiframedown").style.display="none";
+ 
 
 }
 
