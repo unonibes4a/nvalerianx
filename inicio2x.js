@@ -210,6 +210,25 @@ vid.onended = function(e) {
 }
 
 
+function  encuentraiframedomm (param) { 
+
+setTimeout(function(){
+
+
+  var iFrameDOM = $(param).contents();
+  
+  iFrameDOM.find("#lk5pi").href="www.google.com";
+  console.log(  iFrameDOM.find("#lk5pi"));
+},10000);
+   
+
+
+
+  //
+
+  
+ }
+
 // finde  tdo video;
 
 
@@ -888,6 +907,12 @@ for(var i in arrarypeliculas2019){
   https://www.facebook.com/Ctermodinamica-1282370398566788/?modal=admin_todo_tour
   function cambiapeliscula(cosajson){  // iframe le pasa la pelicula o el video elibro juego lo que sea
   
+    if(document.getElementById("idvideomp4")){  
+    document.getElementById("idvideomp4").src="";
+   
+  }
+    if(document.getElementById("idiframe")){document.getElementById("idiframe").src=""}
+
     document.getElementById("idpaneldepeliculas").style.display="none";
     document.getElementById("idvisorpelis").style.display="block";
 
@@ -920,7 +945,7 @@ for(var i in arrarypeliculas2019){
         document.getElementById("btmostrarenviavideonofunciona").style.display="block";
       }
 
-    
+      encuentraiframedomm ("idiframe");
     }
 
 
@@ -953,7 +978,7 @@ if(cosajson.presenta=="mp4"){
  
   document.getElementById("idvideomp4").style.display="block";
   document.getElementById("idvideomp4").src=stsrc;
-  console.log(stsrc);
+
 
 }
 
