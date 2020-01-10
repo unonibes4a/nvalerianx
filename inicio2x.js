@@ -945,7 +945,7 @@ for(var i in arrarypeliculas2019){
         document.getElementById("btmostrarenviavideonofunciona").style.display="block";
       }
 
-      encuentraiframedomm ("idiframe");
+
     }
 
 
@@ -958,7 +958,7 @@ for(var i in arrarypeliculas2019){
       document.getElementById("btmostrarmenu").style.display="block";
       
       
-      objetoiframe=document.getElementById("idiframe").src=stsrc;
+      objetoiframe=document.getElementById("idiframe").src=cosajson.pg;
       
       elvideoanotfic=stsrc;
       elidnamedelvideoanotific="id";
