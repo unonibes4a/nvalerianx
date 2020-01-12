@@ -1,4 +1,6 @@
 
+
+
 var firebaseConfig;
 var firebase;
 var vid ;
@@ -10,610 +12,302 @@ var yyyy = todayx.getFullYear();
 
 var esverdadvisoreliculas=false;
 
-todayx = mm + '/' + dd + '/' + yyyy;
+
+
+
+
+
+
+
+
+
+
+var varid=0;
+var stringpelis="";
+var arrarypeliculas2019={};
+
+
+
+
+
+
+
+
+function cambiotanaboventana(){
+ // alert("tamaño de la ventana    "+ vw +"   "+vh);
+  window.location.reload();
+  
+}
+var vw=window.innerWidth;
+var vh=window.innerHeight;
+var vid = document.getElementById("idvideofondo");
+
+function  getvwvh() { 
+  
+ vw=window.innerWidth;
+ vh=window.innerHeight;
+ }
 
 $(document).ready(function(){
-  cierratramensaje ();
-    todoinicia();
+  $(window).on('resize', function(){
+   
+    cambiotanaboventana();  });
 
 
+
+    $("#xb1").click(function(){
+      fxb1();
+      animacontroliniciL();
+    });
+    $("#xb2").click(function(){
+      fxb2();
+    });
+ 
+
+
+
+    $("#xb3").click(function(){
+      fxb3();
+      animacontroliniciL();
+    });
+
+
+
+    $("#xb4").click(function(){
+      fxb4();
+      animacontroliniciL();
+    });
+
+
+
+
+
+    
+    iniciafiregoo();
+
+    traejsonpeliculas();
+    terminoelvideov1();
+  getvwvh();
+  vid = document.getElementById("idvideofondo");
+  iniciadeverdad ("");
+ 
+setTimeout(function () {
+  playVid();
+  
+},2000);
 
   });
 
 
 
-  function hoyeseldia() {
 
-    todayx = new Date();
-    dd = String(todayx.getDate()).padStart(2, '0');
-    mm = String(todayx.getMonth() + 1).padStart(2, '0'); //January is 0!
-    yyyy = todayx.getFullYear();
-   
-   todayx = mm + '/' + dd + '/' + yyyy;
-    }
-  function todoinicia(){
-    hoyeseldia();
-    iniciafiregoo();
-
-    iniciaelphase();
-    iniciapaneldepeliculas();
-    traejsonpeliculas();
   
-   try {
-    setTimeout(function (param) { 
 
-      vid = document.getElementById("idvideofondo");
- //   vid.play();
-  // playVid();
+  function iniciadeverdad () { 
 
-     },1000);
-   } catch (error) {
-     
+
+    tamanosimg();
    }
- 
-//document.getElementById("idvideofondo").loop = true;
+
+var vbt=0.25;
+   function  tamanosimg() {
+
+    getvwvh();
+
+
+
     
+
+
+
+
+
+//alert(vw+"  oks  "+vh);
+
+     }
+
+     
+// maneja  video v1.mp4
+function playvid2noinial () {
+  if(document.getElementById("idvideofondo")){
+    stopvid();
+      try {
+        animacontroliniciL();
+      
+       // vid = document.getElementById("idvideofondo");
+        vid.play();
+        settimeparapausarvideo();
+      // vid.loop=true;
+     
+      } catch (error) {
+       // alert(error);
+      }
+     
+      
+    
+    }
   }
-
-
-
-
 function playVid() {
+if(document.getElementById("idvideofondo")){
+stopvid();
+  try {
+    animacontrolfinal();
+  
+   // vid = document.getElementById("idvideofondo");
     vid.play();
-    vid.loop=true;
+    settimeparapausarvideo();
+  // vid.loop=true;
+ 
+  } catch (error) {
+   // alert(error);
+  }
+ 
+  
+
+}
+   
+}
+
+function settimeparapausarvideo(){
+  setTimeout(function () { 
+    pauseVid();
+    
+   // vid.currentTime = 0;
+   },13000);
 }
 
 function pauseVid() {
-  vid.loop=false;
     vid.pause();
 }
-  function iniciaelphase(){
-     
-    oklistophas();
 
-  }
+function stopvid(){
+  vid.currentTime = 0;
+  pauseVid();
+ 
+ // vid.src="";
+  //vid.src="v1.mp4";
 
+ 
+} 
 
-  var esverdadjuego=true;
-  function iniciapaneldepeliculas(){
 
-    $("#myInputpeli").on("keyup", function() {
-      /*   valuebusca = $("#myInputpeli").val().toLowerCase();
 
-       
-        $("#idverdaderopeliculas a").filter(function() {
-            $(this).toggle($(this).text().toLowerCase().indexOf(valuebusca) > -1);
-            //var scrollElm = docume.scrollingElement;
-         
-           // document.getElementById("idverdaderopeliculas").scrollingElement.scrollTop = 0;
-//scrollElm.scrollTop = 0;
-        
 
-    
+function terminoelvideov1(){
+  vid=document.getElementById('idvideofondo');
 
-
-        });
-*/
-//ffbuscarlaspeliculas();
-
-      });
-  }
-
-
-  function  ffbuscarlaspeliculas() {  
-
-
-    valuebusca = $("#myInputpeli").val().toLowerCase();
-
-    
-   $("#idverdaderopeliculas a").filter(function() {
-       $(this).toggle($(this).text().toLowerCase().indexOf(valuebusca) > -1);
-      
-
-
-
-   });
-
-
-  }
-
-
-
-
-
-// juegos
-
-var arraryjuegos2019={};
-
-
-function traejsonjuegos(){
-  
-
-       $.getJSON("juegos.json", function(result){
-        
-        arraryjuegos2019=result;
-   
-        
-     
-        traejsonlibros();
-        traejsontelevision();;
-     
-        
-      });
-}
-
-
-
-
-
-
-
-
-function elfordecrearjuegosenpanel1 () { 
-  empityelementosid("#idverdaderopeliculas");
-  for(var i in arraryjuegos2019){
-    
-    crealasjuegosenpanel(arraryjuegos2019[i].idname,
-arraryjuegos2019[i].title,arraryjuegos2019[i].img);
-      
-
-  }
- }
-
-
-
-
- function crealasjuegosenpanel(idname,idtitle,idimgurl){
-  stringpelis="";
-
-  
-  stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cualjuegoespora(this)'>"+
-  "<div class='card'>  <h3 class='pelih3'>"+idtitle+"<br></h3> <img  class='climgrwo' src='"+idimgurl+"'  "+"alt=''>"+
-    "<p>valerianx</p>    </div>"+"</a>  </div>";
-
-
-    
-  $("#idverdaderopeliculas").append(stringpelis);
-
-
-}
-
-
-
-
-
-
-
-
-
-var estajuego="";
-
-
-function cualjuegoespora(thiss){
-
-  
-estajuego=thiss;
-
-
-
-for(var i in arraryjuegos2019){
-
-    if(arraryjuegos2019[i].idname==estajuego.id){
-
-
-        esverdadjuego=false;
-
-
-        cambiapeliscula(arraryjuegos2019[i].pg);
-    
-    }
-}
-  }
-
-// fin de  juegos
-
-
-
-
-
-
-
-
-
-
-// inicio libros
-
-
-
-
-var arrarylibros019={};
-
-
-function traejsonlibros(){
-  
-
-       $.getJSON("libros.json", function(result){
-        
-        arrarylibros019=result;
-   
-        
-      
-
-     
-        
-      });
-}
-
-
-
-
-
-
-
-
-function elfordecrearlibrosenpanel1 () { 
-  empityelementosid("#idverdaderopeliculas");
-  for(var i in arrarylibros019){
-    
-    crealaslibrosenpanel(arrarylibros019[i].idname,
-      arrarylibros019[i].title,arrarylibros019[i].img);
-      
-
-
-  }
- }
-
-
-
-
- function crealaslibrosenpanel(idname,idtitle,idimgurl){
-  stringpelis="";
-
-  
-  stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cuallibrospora(this)'>"+
-  "<div class='card'>  <h3 class='pelih3'>"+idtitle+"<br></h3> <img  class='climgrwo' src='"+idimgurl+"'  "+"alt=''>"+
-    "<p>valerianx</p>    </div>"+"</a>  </div>";
-
-
-    
-  $("#idverdaderopeliculas").append(stringpelis);
-
-
-}
-
-
-
-
-
-
-
-
-
-var estalibro="";
-
-
-function cuallibrospora(thiss){
-
-  
-  estalibro=thiss;
-
-
-
-for(var i in arrarylibros019){
-
-    if(arrarylibros019[i].idname==estalibro.id){
-
-
-        esverdadjuego=false;
-
-
-        cambiapeliscula(arrarylibros019[i].pg);
-    
-    }
-}
-  }
-
-
-
-
-
-
-
-
-//find e juegos
-
-
-
-
-
-
-
-
-
-
-// inicio television
-
-
-
-
-var arrarytelevision019={};
-
-
-function traejsontelevision(){
-  
-
-       $.getJSON("television.json", function(result){
-        
-        arrarytelevision019=result;
-   
-        
-
-     
-        
-      });
-}
-
-
-
-
-
-
-
-
-function elfordecreartelevisionenpanel1 () { 
-  empityelementosid("#idverdaderopeliculas");
-  for(var i in arrarytelevision019){
-    
-    crealastelevisionpanel(arrarytelevision019[i].idname,
-      arrarytelevision019[i].title,arrarytelevision019[i].img);
-      
-
-
-  }
- }
-
-
-
-
- function crealastelevisionpanel(idname,idtitle,idimgurl){
-  stringpelis="";
-
-  
-  stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cualtelevisionpora(this)'>"+
-  "<div class='card'>  <h3 class='pelih3'>"+idtitle+"<br></h3> <img  class='climgrwo' src='"+idimgurl+"'  "+"alt=''>"+
-    "<p>valerianx</p>    </div>"+"</a>  </div>";
-
-
-    
-  $("#idverdaderopeliculas").append(stringpelis);
-
-
-}
-
-
-
-
-
-
-
-
-
-var estatele="";
-
-
-function cualtelevisionpora(thiss){
-
-  
-  estatele=thiss;
-
-
-
-
-
-
-
-var isMobile = {
-  Android: function() {
-      return navigator.userAgent.match(/Android/i);
-  },
-  BlackBerry: function() {
-      return navigator.userAgent.match(/BlackBerry/i);
-  },
-  iOS: function() {
-      return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-  },
-  Opera: function() {
-      return navigator.userAgent.match(/Opera Mini/i);
-  },
-  Windows: function() {
-      return navigator.userAgent.match(/IEMobile/i);
-  },
-  any: function() {
-      return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-  }
+vid.onended = function(e) {
+  /*Do things here!*/
+  stopvid();
+ 
 };
-
-
-
-
-if(isMobile.any()) {
-
-  muestramensaje('Esto es un dispositivo móvil, si especificar cuál');
-}
-if(isMobile.Android()) {
-//  console.log('Esto es un dispositivo Android');
-
-muestramensaje("El modulo TV es para  PC mientras ampliamos nuestra planta, descarga valerian para pc  https://giovannird.itch.io/valerianx");
- 
-}
-
-else{
-  if(isMobile.iOS()) {
-    muestramensaje('Esto es un dispositivo iOS');
-  }
-  else{
-
-    for(var i in arrarytelevision019){
-
-      if(arrarytelevision019[i].idname==estatele.id){
-  
-  
-          esverdadjuego=false;
-  
-  
-          cambiapeliscula(arrarytelevision019[i].pg);
-      
-      }
-  }
-  
-    
-  }
-  
-}
-if(isMobile.BlackBerry()) {
-  muestramensaje('Esto es un dispositivo BlackBerry');
-}
-if(isMobile.iOS()) {
-  muestramensaje('Esto es un dispositivo iOS');
-}
-if(isMobile.Opera()) {
-  muestramensaje('Esto es un dispositivo Opera');
-}
-if(isMobile.Windows()) {
-  muestramensaje('Esto es un dispositivo Windows');
 }
 
 
+// finde  tdo video;
 
 
 
+// fin   maneja  video v1.mp4
+setInterval(function(){
 
+  document.getElementById("idyo").value="Giovanni Rodriguez Diaz";//vw+"  "+vh;
+},2000);
 
-
-
-
-
-
-
-
-
-
-
-  }
-
-
-
-
-
-
-
-
-//find e television
-
-
-
-
-var arrarypeliculas2019={};
-
-
-function traejsonpeliculas(){
-  
-
-       $.getJSON("peliculas2019.json", function(result){
-        
-        arrarypeliculas2019=result;
    
-        
-        traejsonseries();
 
-       
+
+
+
+
+function animacontrolfinal(){
+
+
+  $("#xb1").animate({"left":"+="+String(vw*-0.46)},2000,function(){});
+  $("#xb2").animate({"left":"+="+String(vw*-0.36)},2000,function(){});
+  $("#xb3").animate({"left":"+="+String(vw*-0.46)},2000,function(){});
+  $("#xb4").animate({"left":"+="+String(vw*0.34)},2000,function(){});
+  $("#xb5").animate({"left":"+="+String(vw*0.24)},2000,function(){});
+  $("#xb6").animate({"left":"+="+String(vw*0.34)},2000,function(){});
+}
+
+function animacontroliniciL(){
+
+  $("#xb1").animate({"left":"+="+String(vw*0.46)},2000,function(){});
+  $("#xb2").animate({"left":"+="+String(vw*0.36)},2000,function(){});
+  $("#xb3").animate({"left":"+="+String(vw*0.46)},2000,function(){});
+  $("#xb4").animate({"left":"+="+String(vw*-0.34)},2000,function(){});
+  $("#xb5").animate({"left":"+="+String(vw*-0.24)},2000,function(){});
+  $("#xb6").animate({"left":"+="+String(vw*-0.34)},2000,function(){});
+}
+
+document.getElementById('idvideofondo').addEventListener('ended',myHandler,false);
+function myHandler(e) {
+    // What you want to do after the event
+    
+}
+
+
+
+
+function  detenervideov1(param) {  }
+
+
+
+
+
+
+
+// llamado de los botones
+
+
+
+// todod  sereis
+
+// fin de  series
+
+var arraryseries2019={};
+
+
+function traejsonseries(){
+  
+
+       $.getJSON("./sec/series.json", function(result){
+        
+        arraryseries2019=result;
+   
+        traejsonjuegos();
+      
         
       });
 }
 
-//peliculas
-
-var varid=0;
-var stringpelis="";
-function crealaspeliculasenpanel(idname,idtitle,idimgurl){
-    stringpelis="";
-
-    
-    stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cualpeliculaespora(this)'>"+
-    "<div class='card'>  <h3 class='pelih3'>"+idtitle+"<br></h3> <img  class='climgrwo' src='"+idimgurl+"'  "+"alt=''>"+
-      "<p>valerianx</p>    </div>"+"</a>  </div>";
 
 
-      
-    $("#idverdaderopeliculas").append(stringpelis);
 
+function fxb2(){
+
+  quetiposoyyo="video";
+  document.getElementById("idpaneldepeliculas").style.display="flex";
+  elfordecrearseriessenpanel1 ();
+  ffbuscarlaspeliculas();
 
 }
 
-function empityelementosid(idel){
+function elfordecrearseriessenpanel1 (){
 
-    $(idel).empty();
-}
-
-function elfordecrearpeliculasenpanel1 () { 
   empityelementosid("#idverdaderopeliculas");
-  for(var i in arrarypeliculas2019){
+  for(var i in arraryseries2019){
     
-crealaspeliculasenpanel(arrarypeliculas2019[i].idname,
-arrarypeliculas2019[i].title,arrarypeliculas2019[i].img);
+    crealasseriesenpanel(arraryseries2019[i].idname,
+arraryseries2019[i].title,arraryseries2019[i].pg);
       
 
   }
  }
 
 
-
- var estapelicula="";
-
-
- function cualpeliculaespora(thiss){
  
-   
- estapelicula=thiss;
-
- 
- 
- for(var i in arrarypeliculas2019){
-
-     if(arrarypeliculas2019[i].idname==estapelicula.id){
-
- 
-         esverdadjuego=false;
-
-
-         cambiapeliscula(arrarypeliculas2019[i].pg);
-     
-     }
- }
-   }
-
- // series
-
-
-
- var arraryseries2019={};
-
-
- function traejsonseries(){
-   
- 
-        $.getJSON("series.json", function(result){
-         
-         arraryseries2019=result;
-    
-         traejsonjuegos();
-        
-         
-       });
- }
-
-
-
 
  function crealasseriesenpanel(idname,idtitle,idimgurl){
   stringpelis="";
@@ -628,17 +322,11 @@ arrarypeliculas2019[i].title,arrarypeliculas2019[i].img);
 
 
 }
- function elfordecrearseriessenpanel1 (){
 
-  empityelementosid("#idverdaderopeliculas");
-  for(var i in arraryseries2019){
-    
-    crealasseriesenpanel(arraryseries2019[i].idname,
-arraryseries2019[i].title,arraryseries2019[i].pg);
-      
 
-  }
- }
+
+
+
 
 
 var stestaserie="";
@@ -673,7 +361,6 @@ break;
 }
 
 
-
 var arraysonestastemporadas=[];
 function elforparasaberquetempioradas(){
   arraysonestastemporadas=[];
@@ -694,22 +381,9 @@ function elforparasaberquetempioradas(){
 
  festoyenestatemporada(arraysonestastemporadas); //tener 
 }
-var stimgparavideodetemop="";
-var intcomteodevideos=0;
-var arraytengolastemporadasseries=[];
-function tengolatemporada(){
-
-  intcomteodevideos=0;
-  for(var i in arraysonestastemporadas ){
-
-    intcomteodevideos=intcomteodevideos+1;
-    if(arraysonestastemporadas[0]["temporada"]["v"+String(intcomteodevideos+1)]){//intcomteodevideos
-    }
-    creapanelvideosdelatemp(arraysonestastemporadas.temporada.idname,arraysonestastemporadas.title,stimgparavideodetemop)
-  }
 
 
-}
+
 
 var arrayestoyenestatemporada=[];
 
@@ -738,6 +412,7 @@ for(var i in arraytengolastemporadasseries ){
 
 
 
+
 function creapaneltemporadaslistas(idname,idtitle,idimgurl){
   stringpelis="";
   
@@ -750,6 +425,9 @@ function creapaneltemporadaslistas(idname,idtitle,idimgurl){
 
 
 }
+
+
+
 
 var arraytengoestatemporada=[];
 var stestatemporadaen="";// la  temporada  que tengo
@@ -775,6 +453,8 @@ if(arraytengolastemporadasseries[i].idname==stestatemporadaen){
 }
 
 
+
+
 var intconteovideos=0;
 var arraytengolosvideosseries=[];
 
@@ -797,7 +477,7 @@ function elforparacrearvideosdetempora(){
   creaelpanelconvideosdelatemporada();
 
 }
-//btvideospanel
+
 
 var intenlosvideoscanti=0;
 function creaelpanelconvideosdelatemporada(){
@@ -834,6 +514,9 @@ function fstrinparacrearvideostemp(idname,idtitle,idimgurl){
 }
 
 
+
+
+
 var esteelevideoqueveodeseri="";// video d eserie que quier ver
 function cualvideodelaserie(thiss){
   esteelevideoqueveodeseri="";
@@ -847,6 +530,7 @@ function cualvideodelaserie(thiss){
 abrirvideodeserie();
 
 }
+
 
 
 
@@ -882,14 +566,191 @@ if(puedovervideoserie){
 
 
 
-function creapanelvideosdelatemp(idname,idtitle,idimgurl){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// todo juegos
+
+var arraryjuegos2019={};
+
+
+function traejsonjuegos(){
+  
+
+       $.getJSON("./sec/juegos.json", function(result){
+        
+        arraryjuegos2019=result;
+   
+     
+      traejsonlibros();
+    //    traejsontelevision();;
+     
+        
+      });
+}
+
+
+
+
+function elfordecrearjuegosenpanel1 () { 
+  empityelementosid("#idverdaderopeliculas");
+  for(var i in arraryjuegos2019){
+    
+    crealasjuegosenpanel(arraryjuegos2019[i].idname,
+arraryjuegos2019[i].title,arraryjuegos2019[i].img);
+      
+
+  }
+ }
+
+
+
+
+
+ 
+ function crealasjuegosenpanel(idname,idtitle,idimgurl){
   stringpelis="";
 
-  stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cualserie(this)'>"+
+  
+  stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cualjuegoespora(this)'>"+
   "<div class='card'>  <h3 class='pelih3'>"+idtitle+"<br></h3> <img  class='climgrwo' src='"+idimgurl+"'  "+"alt=''>"+
     "<p>valerianx</p>    </div>"+"</a>  </div>";
 
 
+    
+  $("#idverdaderopeliculas").append(stringpelis);
+
+
+}
+
+
+var estajuego="";
+
+
+function cualjuegoespora(thiss){
+
+  
+estajuego=thiss;
+
+
+
+for(var i in arraryjuegos2019){
+
+    if(arraryjuegos2019[i].idname==estajuego.id){
+
+
+        esverdadjuego=false;
+
+
+        cambiapeliscula(arraryjuegos2019[i].pg);
+    
+    }
+}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fin de  juegos
+
+
+function fxb3(){
+
+  quetiposoyyo="juego";
+  document.getElementById("idpaneldepeliculas").style.display="flex";
+  elfordecrearjuegosenpanel1 ();
+  ffbuscarlaspeliculas();
+
+}
+
+
+
+// tpdpd ñibros
+
+
+
+
+
+var arrarylibros019={};
+
+
+function traejsonlibros(){
+  
+
+       $.getJSON("./sec/libros.json", function(result){
+        
+        arrarylibros019=result;
+   
+        
+      
+
+     
+        
+      });
+}
+
+
+
+
+
+function elfordecrearlibrosenpanel1 () { 
+  empityelementosid("#idverdaderopeliculas");
+  for(var i in arrarylibros019){
+    
+    crealaslibrosenpanel(arrarylibros019[i].idname,
+      arrarylibros019[i].title,arrarylibros019[i].img);
+      
+
+
+  }
+ }
+
+
+ function crealaslibrosenpanel(idname,idtitle,idimgurl){
+  stringpelis="";
+
+  
+  stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cuallibrospora(this)'>"+
+  "<div class='card'>  <h3 class='pelih3'>"+idtitle+"<br></h3> <img  class='climgrwo' src='"+idimgurl+"'  "+"alt=''>"+
+    "<p>valerianx</p>    </div>"+"</a>  </div>";
+
+
+    
   $("#idverdaderopeliculas").append(stringpelis);
 
 
@@ -897,54 +758,239 @@ function creapanelvideosdelatemp(idname,idtitle,idimgurl){
 
 
 
+var estalibro="";
+
+
+function cuallibrospora(thiss){
+
+  
+  estalibro=thiss;
 
 
 
+for(var i in arrarylibros019){
+
+    if(arrarylibros019[i].idname==estalibro.id){
 
 
+        esverdadjuego=false;
 
 
-
-
-var objetoiframe="";
-https://www.facebook.com/Ctermodinamica-1282370398566788/?modal=admin_todo_tour
-function cambiapeliscula(stsrc){  // iframe le pasa la pelicula o el video elibro juego lo que sea
-
-
-detenerphaserudate();
-document.getElementById("idpaneldepeliculas").style.display="none";
-
-
-
-objetoiframe="";
-
-document.getElementById("idvisorpelis").style.display="block";
-document.getElementById("btmostrarmenu").style.display="block";
-
-
-objetoiframe=document.getElementById("idiframe").src=stsrc;
-
-elvideoanotfic=stsrc;
-elidnamedelvideoanotific="id";
-
-if(objetoiframe){
-  document.getElementById("btmostrarenviavideonofunciona").style.display="block";
-}
-else{
-  document.getElementById("btmostrarenviavideonofunciona").style.display="block";
-}
-
-
-deboocultatdeliframe(quetiposoyyo);
+        cambiapeliscula(arrarylibros019[i].pg);
     
+    }
+}
+  }
+
+
+
+
+
+
+
+
+// fin de libros
+
+
+
+
+
+function fxb4(){
+
+  quetiposoyyo="libros";
+  document.getElementById("idpaneldepeliculas").style.display="flex";
+  elfordecrearlibrosenpanel1 ();
+  ffbuscarlaspeliculas();
+
 }
 
 
 
-function GetDoc(x) {
-  return x.contentDocument || x.contentWindow.document;
+//aca peliculas
+function fxb1(){
+
+  quetiposoyyo="video";
+
+  document.getElementById("idpaneldepeliculas").style.display="flex";
+  elfordecrearpeliculasenpanel1 ();
+  ffbuscarlaspeliculas();
+
+
+}
+function elfordecrearpeliculasenpanel1 () { 
+  empityelementosid("#idverdaderopeliculas");
+  for(var i in arrarypeliculas2019){
+    
+crealaspeliculasenpanel(arrarypeliculas2019[i].idname,
+arrarypeliculas2019[i].title,arrarypeliculas2019[i].img);
+      
+
+  }
+ }
+
+ function empityelementosid(idel){
+
+  $(idel).empty();
 }
 
+
+function crealaspeliculasenpanel(idname,idtitle,idimgurl){
+    stringpelis="";
+
+    
+    stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cualpeliculaespora(this)'>"+
+    "<div class='card'>  <h3 class='pelih3'>"+idtitle+"<br></h3> <img  class='climgrwo' src='"+idimgurl+"'  "+"alt=''>"+
+      "<p>valerianx</p>    </div>"+"</a>  </div>";
+
+
+      
+    $("#idverdaderopeliculas").append(stringpelis);
+
+
+} 
+
+
+
+var estapelicula="";
+
+
+function cualpeliculaespora(thiss){
+
+  
+estapelicula=thiss;
+
+
+
+for(var i in arrarypeliculas2019){
+
+    if(arrarypeliculas2019[i].idname==estapelicula.id){
+
+
+        esverdadjuego=false;
+
+
+        cambiapeliscula(arrarypeliculas2019[i].pg);
+    
+    }
+}
+  }
+
+
+
+  var objetoiframe="";
+  https://www.facebook.com/Ctermodinamica-1282370398566788/?modal=admin_todo_tour
+  function cambiapeliscula(stsrc){  // iframe le pasa la pelicula o el video elibro juego lo que sea
+  
+  
+
+  document.getElementById("idpaneldepeliculas").style.display="none";
+  
+  
+  
+  objetoiframe="";
+  
+  document.getElementById("idvisorpelis").style.display="block";
+  document.getElementById("btmostrarmenu").style.display="block";
+  
+  
+  objetoiframe=document.getElementById("idiframe").src=stsrc;
+  
+  elvideoanotfic=stsrc;
+  elidnamedelvideoanotific="id";
+  
+  if(objetoiframe){
+    document.getElementById("btmostrarenviavideonofunciona").style.display="block";
+  }
+  else{
+    document.getElementById("btmostrarenviavideonofunciona").style.display="block";
+  }
+  
+  
+  deboocultatdeliframe(quetiposoyyo);
+      
+  }
+  
+
+
+
+
+
+
+
+function traejsonpeliculas(){
+  
+
+       $.getJSON("./sec/peliculas2019.json", function(result){
+        
+        arrarypeliculas2019=result;
+   
+     
+        
+
+      traejsonseries();
+
+       
+        
+      });
+}
+
+
+
+// fin  peliculas
+
+// codigo de  los botonescuando se pulzan
+
+
+
+
+function onclikhexapeliculaspeliculsa1(){
+
+
+}
+
+
+
+
+//  fin codigo de  los botonescuando se pulzan
+
+
+
+
+
+
+
+// television
+
+
+
+var arrarytelevision019={};
+
+
+function traejsontelevision(){
+  
+
+       $.getJSON("television.json", function(result){
+        
+        arrarytelevision019=result;
+   
+        
+
+     
+        
+      });
+}
+
+
+
+
+
+
+
+
+
+
+
+// fin television
 
 
 
@@ -957,14 +1003,9 @@ function GetDoc(x) {
 
 
 function fbtiramenu(){
-  esverdadvisoreliculas=false;
-try {esverdadjuego=true;
-    nuevogame();
-} catch (error) {
-    
-}
+ 
 cambiapeliscula("");
-reanudarphaserudate();
+
 
     document.getElementById("idvisorpelis").style.display="none";
     document.getElementById("idpaneldepeliculas").style.display="none";
@@ -975,8 +1016,237 @@ reanudarphaserudate();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+function deboocultatdeliframe (expressionx){
+  esverdadvisoreliculas=true;
+  switch(expressionx) {
+    case "video":
+
+      // code block
+      paraiframeconvideo ();
+      break;
+      case "juego":
+
+   
+        paraiframeconjuego ();
+        // code block}
+
+        break;  
+      case "tele":
+
+      
+          paraiframeconjuego ();
+          // code block
+              break;
+
+    case "libros":
+      paraiframeconpdf ();
+      
+    break;
+    default:
+      // code block
+  }
+
+}
+
+
+
+function paraiframeconjuego (){ 
+
+  if( document.getElementById("idvisorpelis")){
+   
+    document.getElementById("idbtblockiframetop").style.display="none";
+    document.getElementById("idblockokru").style.display="none";
+    document.getElementById("idblockokrucentro").style.display="none";
+    document.getElementById("idbtblockiframedown").style.display="none";
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  }
+
+ }
+function paraiframeconvideo (){ 
+
+if( document.getElementById("idvisorpelis")){
+document.getElementById("idbtblockiframetop").style.display="block";
+document.getElementById("idblockokru").style.display="block";
+document.getElementById("idblockokrucentro").style.display="block";
+document.getElementById("idbtblockiframedown").style.display="block";
+
+
+
+
+
+var isMobile = {
+Android: function() {
+  return navigator.userAgent.match(/Android/i);
+},
+BlackBerry: function() {
+  return navigator.userAgent.match(/BlackBerry/i);
+},
+iOS: function() {
+  return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+},
+Opera: function() {
+  return navigator.userAgent.match(/Opera Mini/i);
+},
+Windows: function() {
+  return navigator.userAgent.match(/IEMobile/i);
+},
+any: function() {
+  return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+}
+};
+
+
+
+
+if(isMobile.any()) {
+
+
+}
+if(isMobile.Android()) {
+//  console.log('Esto es un dispositivo Android');
+
+//muestramensaje("El modulo TV es para  PC mientras ampliamos nuestra planta, descarga valerian para pc  https://giovannird.itch.io/valerianx");
+document.getElementById("idblockokru").style.display="none";
+}
+
+else{
+if(isMobile.iOS()) {
+muestramensaje('Esto es un dispositivo iOS');
+}
+else{
+
+for(var i in arrarytelevision019){
+
+  if(arrarytelevision019[i].idname==estatele.id){
+
+
+      esverdadjuego=false;
+
+
+      cambiapeliscula(arrarytelevision019[i].pg);
+  
+  }
+}
+
+
+}
+
+}
+if(isMobile.BlackBerry()) {
+muestramensaje('Esto es un dispositivo BlackBerry');
+}
+if(isMobile.iOS()) {
+muestramensaje('Esto es un dispositivo iOS');
+}
+if(isMobile.Opera()) {
+muestramensaje('Esto es un dispositivo Opera');
+}
+if(isMobile.Windows()) {
+muestramensaje('Esto es un dispositivo Windows');
+}
+
+
+if(vw>=810&&quetiposoyyo!="juego"&& quetiposoyyo!="libros"){
+
+
+
+document.getElementById("idblockokrucentro").style.position="absolute";
+
+document.getElementById("idblockokrucentro").style.top=String(vh)*0.01+"px";
+
+setTimeout(function (param) {
+
+
+
+if(esverdadvisoreliculas){
+
+document.getElementById("idblockokrucentro").style.position="absolute";
+
+document.getElementById("idblockokrucentro").style.top=String(vh)*0.3+"px";
+
+
+}
+else{ 
+
+if(document.getElementById("idblockokrucentro").style.top==(String(vh)*0.3+"px")){
+document.getElementById("idblockokrucentro").style.position="absolute";
+
+document.getElementById("idblockokrucentro").style.top=String(vh)*0.01+"px";
+}
+}
+
+
+},5000); 
+
+
+
+
+
+
+
+}else{
+
+
+}
+
+//alert("mi pantalla es "+vw);
+
+document.getElementById("idbtblockiframetop").style.display="none";
+document.getElementById("idblockokru").style.display="none";
+document.getElementById("idblockokrucentro").style.display="none";
+document.getElementById("idbtblockiframedown").style.display="none";
+
+
+}
+
+
+ }
+function paraiframeconpdf (){ 
+
+
+  if( document.getElementById("idvisorpelis")){
+   
+    document.getElementById("idbtblockiframetop").style.display="block";
+    document.getElementById("idblockokru").style.display="none";
+    document.getElementById("idblockokrucentro").style.display="none";
+    document.getElementById("idbtblockiframedown").style.display="none";
+  
+  }
+
+
+ }
+
+
+
+ 
+
 function fcbtcerrarpanelpeliculas(){
-  reanudarphaserudate();
+playVid();
     document.getElementById("idpaneldepeliculas").style.display="none";
     document.getElementById("myInputpeli").value="";
    
@@ -984,487 +1254,26 @@ function fcbtcerrarpanelpeliculas(){
 
 
 
+function  ffbuscarlaspeliculas() {  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  valuebusca = $("#myInputpeli").val().toLowerCase();
 
   
-  // solo phaser
-
-  var IDE_HOOK = false;
-  var VERSION = '2.6.2';
-
-  var arraysphexa=[];
-var vw=window.innerWidth*1;
-var vh=window.innerHeight;
-
-
-//div  238  517  2.172268907563025 0.15
-//div  654  1366  2.08868501529052
-
-var sclegame=1;
-var textCURSOS;
-var texttelevision;
-
-vw=window.innerWidth*1;
-vh=window.innerHeight;
-sclegame=0.000235571*(vw)+(0.028209658);
-
-  var game; //= new Phaser.Game(vw, vh, Phaser.AUTO, 'phaser-example', {update:update,preload: preload, create: create });
-
-var graphics;
-
-var textLIBROS;
-
-function nuevogame(){
-  esverdadvisoreliculas=false;
-vw=window.innerWidth*1;
-vh=window.innerHeight;
-sclegame=0.000235571*(vw)+(0.028209658);
-
-try {
-  //game.destroy();
-  game = new Phaser.Game(vw, vh,Phaser.CANVAS , 'phaser-example', {update:update,preload: preload, create: create });
-
-} catch (error) {
-  
-}  
-
-}
-
-function preload() {
-
-game.load.image('vidrio', 'vidrio2.png');
-game.load.shader('bacteria', 'bacteria.frag');
-game.load.image('fondo', 'fondo.jpg');
-
-
-game.load.video('videospace', 'mivideo.mp4');
-
-}
-  
-var video;
-
-var texture;
-var fondosp;
-var sptextminombre="Giovanni Rodriguez Diaz";
-
-function create() {
-
-    arraysphexa=[];
-game.stage.backgroundColor = '#b61313bb';
-fondosp= game.add.sprite(0, 0, 'fondo');
-fondosp.width=vw;
-fondosp.height=vh;
-existelefiler=false;
-
-try {
-  
-
-  
-  //video = game.add.video('videospace');
-
-  video.play(true);
- video.loop=true;
- video.width=100;
- video.x=vw*0.5;
- video.height=vh*0.3;
- if(vw<700){
- //  video.x=vw*0.5;
- }
-
-  //  x, y, anchor x, anchor y, scale x, scale y
- // video.addToWorld();
- 
-} catch (error) {
-  
-}
-
-
-try {
- filter = new Phaser.Filter(game, null, game.cache.getShader('bacteria'));
-  if(filter)
-  {texture= filter.addToWorld(0, 0, vw, vh);  existelefiler=true;}  
-} catch (error) {
-  
-}
-
-
-
-graphics = game.add.graphics(vw*0.36, vh*0.27);
-
-drawShape(0x000000, 0xFFFFFF );
-
-graphics.inputEnabled = true;
-graphics.input.useHandCursor = true;
-
-graphics.events.onInputDown.add(onDown, this);
-graphics.events.onInputUp.add(onUp, this);
-graphics.events.onInputOver.add(onOver, this);
-graphics.events.onInputOut.add(onOut, this);
-graphics.inputEnabled=true;
-graphics.input.draggable=true;
-
-// var hexpeli = game.add.sprite(200, 100, 'vidrio');
-/* test.scale.x=0.15;
-test.scale.y=0.15;
-test.inputEnabled=true;
-test.input.draggable=true;*/
-//var sphexpelis=  creahexagonosprite(100, 100, 0.15,'vidrio');
-
-//var sphexpelis2=  creahexagonosprite(300, 100, 0.15,'vidrio');
-var texture; elforarrayhexa(arraysphexa,0,0,sclegame,'vidrio');
-
-//arraysphexa[1].sprite.setTexture(texture, false)
-
-
-sptextminombre= game.add.text(vw*0.05, vh*0.9, "vicite: https://giovannird.itch.io/valerianx", { font: "10px Arial", fill: "#33C7FF", align: "center" });
-sptextminombre.anchor.setTo(0.0, 0.0);
-
-
-sptextvalerian= game.add.text(vw*0.5, vh*0.2, "VALERIANX "+ todayx, { font: "17px Arial", fill: "#33C7FF", align: "center" });
-sptextvalerian.anchor.setTo(0.5, 0.5);
-
-setTimeout(function () {
-
-  //game.paused=true;
-  setTimeout(function () {
-
-   // game.paused=false;
-    },7000);
-  },7000);
-}
-
-function drawShape(fill, style) {
-
-graphics.clear();
-
-graphics.beginFill(fill);
-graphics.lineStyle(4, style, 1);
-
-graphics.moveTo(0, 0);
-graphics.lineTo(250, 0);
-graphics.lineTo(250, 200);
-graphics.lineTo(125, 100);
-graphics.lineTo(0, 200);
-graphics.lineTo(0, 0);
-
-graphics.endFill();
-
-graphics.alpha=0.3;
-
-}
-
-function onOver() {
-
-//drawShape(0xab3602, 0xeb6702);
-
-}
-
-function onDown() {
-
-// drawShape(0x717a02, 0xebfd02);
-//  graphics.x=0;
-
-
-}
-
-function onUp() {
-
-// drawShape(0x027a71, 0x611554);
-
-}
-
-function onOut() {
-
-//  drawShape(0x027a71, 0x02fdeb);
-
-}
-
-var existelefiler=false;
-function update() {
-    if(esverdadjuego){  if(existelefiler){filter.update();} // si la var es true e spor qu etoy en menu del valerianx
-        posicionatextos();// si es false es por que estoy en pelicula o video viendo
+ $("#idverdaderopeliculas a").filter(function() {
+     $(this).toggle($(this).text().toLowerCase().indexOf(valuebusca) > -1);
     
-    }
 
 
 
-}    
-
-
-
-function creahexagonosprite(px,py,ps,pimg){
-var test = game.add.sprite(px, py, pimg);
-test.scale.x=ps;
-test.scale.y=ps;
-test.inputEnabled=true;
-test.input.draggable=true;
-return test;
-
-}
-function elforarrayhexa(elaarray,px,py,ps,pimg){
-/*for(var i=0;i<3; i=i+1){
-elaarray.push({id:1,sprite:creahexagonosprite(px,py,ps,pimg)});
-elaarray[i].sprite.anchor.x=0.5;
-elaarray[i].sprite.anchor.y=0.5;
-}*/
-
-arraysphexa.push({id:1,sprite:creahexagonosprite(px+vw*0.1,py+vh*0.18,ps,pimg)});
-arraysphexa[0].sprite.anchor.x=0.5;
-arraysphexa[0].sprite.anchor.y=0.5;
-arraysphexa[0].sprite.inputEnabled=true;
-arraysphexa[0].sprite.input.draggable=true;
-arraysphexa[0].sprite.events.onInputDown.add(onclikhexapeliculaspeliculsa1, this);
- textpeliculas = game.add.text(game.world.centerX, game.world.centerY, "PELICULAS", 
- { font: "10px Arial", fill: "#FFFFFF ", align: "center" });
-textpeliculas.anchor.setTo(0.5, 0.5);
-textpeliculas.x=arraysphexa[0].sprite.x;
-textpeliculas.y=arraysphexa[0].sprite.y;
-
-arraysphexa.push({id:1,sprite:creahexagonosprite(px+vw*0.16,py+vh*0.44,ps,pimg)});
-arraysphexa[1].sprite.anchor.x=0.5;
-arraysphexa[1].sprite.anchor.y=0.5;
-arraysphexa[1].sprite.inputEnabled=true;
-arraysphexa[1].sprite.input.draggable=true;
-arraysphexa[1].sprite.events.onInputDown.add(onclikhexapeliculasseries2, this);
-
-
-
- textseries = game.add.text(game.world.centerX, game.world.centerY, "SERIES", 
- { font: "10px Arial", fill: "#FFFFFF", align: "center" });
-textseries.anchor.setTo(0.5, 0.5);
-textseries.x=arraysphexa[1].sprite.x;
-textseries.y=arraysphexa[1].sprite.y;
-
-arraysphexa.push({id:1,sprite:creahexagonosprite(px+vw*0.1,py+vh*0.71,ps,pimg)});
-arraysphexa[2].sprite.anchor.x=0.5;
-arraysphexa[2].sprite.anchor.y=0.5;
-arraysphexa[2].sprite.inputEnabled=true;
-arraysphexa[2].sprite.input.draggable=true;
-arraysphexa[2].sprite.events.onInputDown.add(onclikhexajuegos3, this);
-
-//arraysphexa[2].sprite.visible=false;
-//arraysphexa[1].sprite.visible=false;
-//arraysphexa[0].sprite.visible=false;
-
- textJUEGOS = game.add.text(game.world.centerX, game.world.centerY, "JUEGOS",
-  { font: "10px Arial", fill: "#FFFFFF", align: "center" });
-textJUEGOS.anchor.setTo(0.5, 0.5);
-textJUEGOS.x=arraysphexa[2].sprite.x;
-textJUEGOS.y=arraysphexa[2].sprite.y;
-
-
-
-
-
-arraysphexa.push({id:1,sprite:creahexagonosprite(px+vw*0.9,py+vh*0.18,ps,pimg)});
-arraysphexa[3].sprite.anchor.x=0.5;
-arraysphexa[3].sprite.anchor.y=0.5;
-arraysphexa[3].sprite.inputEnabled=true;
-arraysphexa[3].sprite.input.draggable=true;
-arraysphexa[3].sprite.events.onInputDown.add(onclikhexalibros3, this);
-
-
-
-
-
-
-textLIBROS = game.add.text(game.world.centerX, game.world.centerY, "LIBROS",
-  { font: "10px Arial", fill: "#FFFFFF", align: "center" });
-  textLIBROS.anchor.setTo(0.5, 0.5);
-  textLIBROS.x=arraysphexa[3].sprite.x;
-  textLIBROS.y=arraysphexa[3].sprite.y;
-
-
-
-
-  
-  arraysphexa.push({id:1,sprite:creahexagonosprite(px+vw*0.84,py+vh*0.44,ps,pimg)});
-  arraysphexa[4].sprite.anchor.x=0.5;
-  arraysphexa[4].sprite.anchor.y=0.5;
-  arraysphexa[4].sprite.inputEnabled=true;
-  arraysphexa[4].sprite.input.draggable=true;
-  arraysphexa[4].sprite.events.onInputDown.add(onclikhexacursos5, this);
-  
-  
-  textCURSOS = game.add.text(game.world.centerX, game.world.centerY, "CURSOS",
-{ font: "10px Arial", fill: "#FFFFFF", align: "center" });
-textCURSOS.anchor.setTo(0.5, 0.5);
-textCURSOS.x=arraysphexa[4].sprite.x;
-textCURSOS.y=arraysphexa[4].sprite.y;
-
-  
-  
-
-
-
-arraysphexa.push({id:1,sprite:creahexagonosprite(px+vw*0.9,py+vh*0.71,ps,pimg)});
-arraysphexa[5].sprite.anchor.x=0.5;
-arraysphexa[5].sprite.anchor.y=0.5;
-arraysphexa[5].sprite.inputEnabled=true;
-arraysphexa[5].sprite.input.draggable=true;
-arraysphexa[5].sprite.events.onInputDown.add(onclikhexatelevison6, this);
-
-
-texttelevision = game.add.text(game.world.centerX, game.world.centerY, "TELEVISION",
-{ font: "10px Arial", fill: "#FFFFFF", align: "center" });
-texttelevision.anchor.setTo(0.5, 0.5);
-texttelevision.x=arraysphexa[5].sprite.x;
-texttelevision.y=arraysphexa[5].sprite.y;
-
-
-
-
+ });
 
 
 }
-var textpeliculas ;
-var textseries ;
-var textJUEGOS;
-
-function posicionatextos() {
-
-    textpeliculas.x=arraysphexa[0].sprite.x;
-    textpeliculas.y=arraysphexa[0].sprite.y;
-    textseries.x=arraysphexa[1].sprite.x;
-textseries.y=arraysphexa[1].sprite.y;
-    textJUEGOS.x=arraysphexa[2].sprite.x;
-    textJUEGOS.y=arraysphexa[2].sprite.y;
-
-    
-}
-
-function onresizemio(){
-vw=window.innerWidth*1;
-vh=window.innerHeight;
-esverdadvisoreliculas=false;
-
-//detenerphaserudate();
-//reanudarphaserudate();
-//location.reload();
-location.href = location.href;
-
-}
-
-function oklistophas(){
-  esverdadvisoreliculas=false;
- game = new Phaser.Game(vw, vh, Phaser.CANVAS, 'phaser-example', {update:update,preload: preload, create: create });
-
-
- //setTimeout(function(){onresizemio();},2000);
-}
 
 
 
 
-
-
-function onclikhexapeliculaspeliculsa1(){
-  quetiposoyyo="video";
-
-    document.getElementById("idpaneldepeliculas").style.display="flex";
-    elfordecrearpeliculasenpanel1 ();
-    ffbuscarlaspeliculas();
-
-}
-
-function onclikhexapeliculasseries2(){
-  quetiposoyyo="video";
-  document.getElementById("idpaneldepeliculas").style.display="flex";
-  elfordecrearseriessenpanel1 ();
-  ffbuscarlaspeliculas();
-   
-}
-
-
-function onclikhexajuegos3 () {  
-  quetiposoyyo="juego";
-  document.getElementById("idpaneldepeliculas").style.display="flex";
-  elfordecrearjuegosenpanel1 ();
-  ffbuscarlaspeliculas();
-}
-
-
-function onclikhexalibros3(){
-
-  quetiposoyyo="libros";
-  document.getElementById("idpaneldepeliculas").style.display="flex";
-  elfordecrearlibrosenpanel1 ();
-  ffbuscarlaspeliculas();
-
-}
-
-function onclikhexacursos5(){
-
-  document.getElementById("idcodigocursos").style.display="flex";
-
-
-}
-
-
-
-
-function onclikhexatelevison6(){
-
-  
-  quetiposoyyo="tele";
-  document.getElementById("idpaneldepeliculas").style.display="flex";
-  elfordecreartelevisionenpanel1 ();
-  ffbuscarlaspeliculas();
-
-}
-function detenerphaserudate(){
-  esverdadjuego=false;
-  game.paused=true;
-  game.destroy();
-  $("#phaser-example").empty();
- // nuevogame();
-
-}
-
-function reanudarphaserudate(){
-  esverdadjuego=true;
-  //game.paused=false;
-  try {
-    if(game){
-      game.paused=false;
-      game.destroy();
-      $("#phaser-example").empty();
-    }
-  } catch (error) {
-    
-  }
-  $("#phaser-example").empty();
- 
-  nuevogame();
-
-}
 
 
 function iniciafiregoo()
@@ -1506,260 +1315,35 @@ function fvideonofunciona()  {
 
   }
 
-  // fin solo phaser
 
 
 
-var escodigocorrectocurso="false";
-  function fbtcodigocursos(){
-    escodigocorrectocurso=document.getElementById("idinpucodigocursos").value;
-    document.getElementById("idcodigocursos").style.display="none";
- 
-    if(escodigocorrectocurso=="nadax"){}
-    else{
-      muestramensaje("codigo no valido " +escodigocorrectocurso);
+  function hoyeseldia() {
+
+    todayx = new Date();
+    dd = String(todayx.getDate()).padStart(2, '0');
+    mm = String(todayx.getMonth() + 1).padStart(2, '0'); //January is 0!
+    yyyy = todayx.getFullYear();
    
+   todayx = mm + '/' + dd + '/' + yyyy;
     }
-  } 
+
+
+
+
+    function muestramensaje (paramx) {
+
+      document.getElementById("idpanelmensajes").style.display="block";
+      document.getElementById("idacamensajetask").innerHTML=paramx;
   
-  function fbtcodigocursoscerrar(){
-   
-    document.getElementById("idcodigocursos").style.display="none";
- 
-  }
-
-
-  function muestramensaje (paramx) {
-
-    document.getElementById("idpanelmensajes").style.display="block";
-    document.getElementById("idacamensajetask").innerHTML=paramx;
-
-    }
-
-    function cierratramensaje () {
-
-      document.getElementById("idpanelmensajes").style.display="none";
-      document.getElementById("idacamensajetask").innerHTML="";
-      
       }
 
 
+      function cierratramensaje () {
 
-
-
-
-
-
-
-
-
-
-      function deboocultatdeliframe (expressionx){
-        esverdadvisoreliculas=true;
-        switch(expressionx) {
-          case "video":
-      
-            // code block
-            paraiframeconvideo ();
-            break;
-            case "juego":
-
-         
-              paraiframeconjuego ();
-              // code block}
-
-              break;  
-            case "tele":
-
-            
-                paraiframeconjuego ();
-                // code block
-                    break;
-
-          case "libros":
-            paraiframeconpdf ();
-            
-          break;
-          default:
-            // code block
-        }
-
-      }
-
-
-
-      function paraiframeconjuego (){ 
-
-        if( document.getElementById("idvisorpelis")){
-         
-          document.getElementById("idbtblockiframetop").style.display="none";
-          document.getElementById("idblockokru").style.display="none";
-          document.getElementById("idblockokrucentro").style.display="none";
-          document.getElementById("idbtblockiframedown").style.display="none";
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-        }
-
-       }
-      function paraiframeconvideo (){ 
-
-if( document.getElementById("idvisorpelis")){
-  document.getElementById("idbtblockiframetop").style.display="block";
-  document.getElementById("idblockokru").style.display="block";
-  document.getElementById("idblockokrucentro").style.display="block";
-  document.getElementById("idbtblockiframedown").style.display="block";
-
-
-
-
-
-  var isMobile = {
-    Android: function() {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function() {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function() {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function() {
-        return navigator.userAgent.match(/IEMobile/i);
-    },
-    any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-    }
-  };
-  
-  
-  
-  
-  if(isMobile.any()) {
-  
-    
-  }
-  if(isMobile.Android()) {
-  //  console.log('Esto es un dispositivo Android');
-  
-  //muestramensaje("El modulo TV es para  PC mientras ampliamos nuestra planta, descarga valerian para pc  https://giovannird.itch.io/valerianx");
-  document.getElementById("idblockokru").style.display="none";
-  }
-  
-  else{
-    if(isMobile.iOS()) {
-      muestramensaje('Esto es un dispositivo iOS');
-    }
-    else{
-  
-      for(var i in arrarytelevision019){
-  
-        if(arrarytelevision019[i].idname==estatele.id){
-    
-    
-            esverdadjuego=false;
-    
-    
-            cambiapeliscula(arrarytelevision019[i].pg);
+        document.getElementById("idpanelmensajes").style.display="none";
+        document.getElementById("idacamensajetask").innerHTML="";
         
         }
-    }
-    
-      
-    }
-    
-  }
-  if(isMobile.BlackBerry()) {
-    muestramensaje('Esto es un dispositivo BlackBerry');
-  }
-  if(isMobile.iOS()) {
-    muestramensaje('Esto es un dispositivo iOS');
-  }
-  if(isMobile.Opera()) {
-    muestramensaje('Esto es un dispositivo Opera');
-  }
-  if(isMobile.Windows()) {
-    muestramensaje('Esto es un dispositivo Windows');
-  }
- 
-  
-  if(vw>=810&&quetiposoyyo!="juego"&& quetiposoyyo!="libros"){
-
-
-
-    document.getElementById("idblockokrucentro").style.position="absolute";
-
-    document.getElementById("idblockokrucentro").style.top=String(vh)*0.01+"px";
-  
-  setTimeout(function (param) {
-    
   
   
-  if(esverdadvisoreliculas){
-  
-    document.getElementById("idblockokrucentro").style.position="absolute";
-  
-    document.getElementById("idblockokrucentro").style.top=String(vh)*0.3+"px";
-    alert("si esta visor");
-  
-  }
-  else{ alert("no esta visor");
-  
-  if(document.getElementById("idblockokrucentro").style.top==(String(vh)*0.3+"px")){
-    document.getElementById("idblockokrucentro").style.position="absolute";
-  
-    document.getElementById("idblockokrucentro").style.top=String(vh)*0.01+"px";
-  }
-  }
-  
-  
-   },5000); 
-
-
-
-
-
-
-    
-  }else{
-   
-
-  }
-
-  alert("mi pantalla es "+vw);
-
-
-
-
-}
-
-
-       }
-      function paraiframeconpdf (){ 
-
-
-        if( document.getElementById("idvisorpelis")){
-         
-          document.getElementById("idbtblockiframetop").style.display="block";
-          document.getElementById("idblockokru").style.display="none";
-          document.getElementById("idblockokrucentro").style.display="none";
-          document.getElementById("idbtblockiframedown").style.display="none";
-        
-        }
-
-
-       }

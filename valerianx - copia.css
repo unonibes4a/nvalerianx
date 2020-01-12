@@ -353,6 +353,7 @@ text-align: center;
         height: 44.8%;
         background-color: rgba(15, 156, 34, 0.411);
         z-index: 6;
+        display: none;
     }
 
     #idblockokrucentro{

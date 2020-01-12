@@ -53,7 +53,7 @@ $(document).ready(function(){
   $(window).on('hashchange', function(e){
     var origEvent = e.originalEvent;
     console.log('Going to: ' + origEvent.newURL + ' from: ' + origEvent.oldURL);
-    alert('Going to: ' + origEvent.newURL + ' from: ' + origEvent.oldURL);
+   
 });
   $(window).on('resize', function(){
    
@@ -236,7 +236,7 @@ setTimeout(function(){
 // fin   maneja  video v1.mp4
 function escribe(st){
 
-  document.getElementById("idyo").value=st;//vw+"  "+vh;
+  document.getElementById("idyo").value="Giovanni Rodriguez D";//vw+"  "+vh;
 
 }
 
@@ -936,7 +936,7 @@ for(var i in arrarypeliculas2019){
       document.getElementById("btmostrarmenu").style.display="block";
       
       escribe(cosajson.pg);
-      alert("iframe 1");
+
       objetoiframe=document.getElementById("idiframe").src=stsrc;
       
       elvideoanotfic=stsrc;
@@ -961,7 +961,7 @@ for(var i in arrarypeliculas2019){
   
       
       document.getElementById("btmostrarmenu").style.display="block";
-      alert("iframe");
+
       
       objetoiframe=document.getElementById("idiframe").src=stsrc;
       
@@ -1316,7 +1316,7 @@ document.getElementById("idblockokrucentro").style.top=String(vh)*0.01+"px";
 
 }
 
-//alert("mi pantalla es "+vw);
+
 
 document.getElementById("idbtblockiframetop").style.display="none";
 document.getElementById("idblockokru").style.display="none";
