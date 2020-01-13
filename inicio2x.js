@@ -52,7 +52,7 @@ $(document).ready(function(){
 
   $(window).on('hashchange', function(e){
     var origEvent = e.originalEvent;
-    console.log('Going to: ' + origEvent.newURL + ' from: ' + origEvent.oldURL);
+  
    
 });
   $(window).on('resize', function(){
@@ -248,7 +248,7 @@ function escribe(st){
 
 function animacontrolfinal(){
 
-
+getvwvh();
   $("#xb1").animate({"left":"+="+String(vw*-0.46)},2000,function(){});
   $("#xb2").animate({"left":"+="+String(vw*-0.36)},2000,function(){});
   $("#xb3").animate({"left":"+="+String(vw*-0.46)},2000,function(){});
@@ -258,7 +258,7 @@ function animacontrolfinal(){
 }
 
 function animacontroliniciL(){
-
+getvwvh();
   $("#xb1").animate({"left":"+="+String(vw*0.46)},2000,function(){});
   $("#xb2").animate({"left":"+="+String(vw*0.36)},2000,function(){});
   $("#xb3").animate({"left":"+="+String(vw*0.46)},2000,function(){});
@@ -630,7 +630,7 @@ function traejsonjuegos(){
        $.getJSON("./sec/juegos.json", function(result){
         
         arraryjuegos2019=result;
-   
+
      
       traejsonlibros();
     //    traejsontelevision();;
@@ -692,7 +692,7 @@ for(var i in arraryjuegos2019){
         esverdadjuego=false;
 
 
-        cambiapeliscula(arraryjuegos2019[i].pg);
+        cambiapeliscula(arraryjuegos2019[i]);
     
     }
 }
@@ -802,7 +802,7 @@ for(var i in arrarylibros019){
         esverdadjuego=false;
 
 
-        cambiapeliscula(arrarylibros019[i].pg);
+        cambiapeliscula(arrarylibros019[i]);
     
     }
 }
@@ -928,7 +928,7 @@ for(var i in arrarypeliculas2019){
     
     }
     else{
-
+stsrc=cosajson.pg;
       document.getElementById("idiframe").style.display="block";
       objetoiframe="";
   
@@ -936,6 +936,7 @@ for(var i in arrarypeliculas2019){
       document.getElementById("btmostrarmenu").style.display="block";
       
       escribe(cosajson.pg);
+ 
 
       objetoiframe=document.getElementById("idiframe").src=stsrc;
       
@@ -954,7 +955,7 @@ for(var i in arrarypeliculas2019){
 
 
     if(cosajson.presenta=="iframe"){
-  
+      stsrc=cosajson.pg;
       escribe(stsrc);
       document.getElementById("idiframe").style.display="block";
       objetoiframe="";

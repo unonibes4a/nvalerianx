@@ -1,6 +1,49 @@
 {
 
 
+  
+  "call-of-war" : {
+    "id" : "id9",
+  "idname" : "call-of-war",
+  "title":"call-of-war <br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg",
+  "pg" :"https://play.famobi.com/call-of-war"
+  }
+  ,
+
+
+  
+  "ThugRacer" : {
+    "id" : "id9",
+  "idname" : "ThugRacer",
+  "title":"Thug Racer <br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ThugRacerTeaser.jpg",
+  "pg" :"https://play.famobi.com/thug-racer"
+  }
+  ,
+
+  
+
+  
+  "Batidos" : {
+    "id" : "id9",
+  "idname" : "Batidos",
+  "title":"Shakes & Fidget<br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ShakesAndFidgetTeaser.jpg",
+  "pg" :"https://play.famobi.com/shakes-and-fidget"
+  }
+  ,
+  
+  "Table3d" : {
+    "id" : "id9",
+  "idname" : "Table3d",
+  "title":"Table Tennis World Tour <br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TableTennis_WorldTour_Teaser.jpg",
+  "pg" :"https://play.famobi.com/table-tennis-world-tour"
+  }
+  ,
+
+
   "BillarBlitz" : {
     "id" : "id9",
   "idname" : "BillarBlitz",
