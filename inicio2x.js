@@ -1009,6 +1009,10 @@ if(cosajson.presenta=="mp4"){
 }
 
 
+document.getElementById("idbtblockiframetop").style.display="none";
+document.getElementById("idblockokru").style.display="none";
+document.getElementById("idblockokrucentro").style.display="none";
+document.getElementById("idbtblockiframedown").style.display="none";
       
   }
   
