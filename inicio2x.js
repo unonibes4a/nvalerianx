@@ -67,6 +67,7 @@ $(document).ready(function(){
     });
     $("#xb2").click(function(){
       fxb2();
+      animacontroliniciL();
     });
  
 
@@ -1112,6 +1113,12 @@ cambiapeliscula("");
     document.getElementById("idpaneldepeliculas").style.display="none";
     document.getElementById("btmostrarmenu").style.display="none";
     empityelementosid("#idverdaderopeliculas");
+
+
+
+    playVid();
+  
+    
 
 }
 
