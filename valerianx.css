@@ -94,6 +94,12 @@
   left: 0%;
   width: 100%;
   height: 100%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
       overflow-y: scroll;
   }
   .pelih3{

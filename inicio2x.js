@@ -95,6 +95,7 @@ $(document).ready(function(){
     terminoelvideov1();
   getvwvh();
   vid = document.getElementById("idvideofondo");
+  vid.volume = 0.06;
   iniciadeverdad ("");
  
 setTimeout(function () {
@@ -218,7 +219,8 @@ setTimeout(function(){
   var iFrameDOM = $(param).contents();
   
   iFrameDOM.find("#lk5pi").href="www.google.com";
-  console.log(  iFrameDOM.find("#lk5pi"));
+
+  
 },10000);
    
 
@@ -572,7 +574,7 @@ function abrirvideodeserie(){
     if(arraytengolosvideosseries[i].idname==esteelevideoqueveodeseri){
     
       puedovervideoserie=true;
-stdireecciondelvideo=arraytengolosvideosseries[i].pg;
+stdireecciondelvideo=arraytengolosvideosseries[i];
 
 //stdireecciondelvideo=arraysonestastemporadas[0]["temporada"]["v"+String(intcomteodevideos+1)].pg;
 
@@ -583,7 +585,8 @@ stdireecciondelvideo=arraytengolosvideosseries[i].pg;
 if(puedovervideoserie){
   puedovervideoserie=true;
   cambiapeliscula(stdireecciondelvideo);
- 
+
+  
 }
   
 }
@@ -988,9 +991,12 @@ stsrc=cosajson.pg;
 
 if(cosajson.presenta=="mp4"){
   
- 
+  document.getElementById("btmostrarmenu").style.display="block";
   document.getElementById("idvideomp4").style.display="block";
-  document.getElementById("idvideomp4").src="https://i.download-host.com:443/d/wal6add4t5vdjxij73typfyhlojf6oq2ulcsmxo6htmzq3acbs36xwbm6w45klcxpxtf2gkz/video.mp4";
+  document.getElementById("idvideomp4").src=cosajson.pg;
+  //"https://i.download-host.com:443/d/wal6add4t5vdjxij73typfyhlojf6oq2ulcsmxo6htmzq3acbs36xwbm6w45klcxpxtf2gkz/video.mp4";
+  
+  //https://dl2.sendit.cloud:443/d/vulw6rl5t5vdjxij4dty3b2el4h2afrt4zlgrodwhhjfdswfcjgm74jzq45pzfxiduqc23dv/video.mp4
   escribe(stsrc);
 
   document.getElementById("idbtblockiframetop").style.display="none";
@@ -1450,3 +1456,22 @@ function fvideonofunciona()  {
         }
   
   
+/*
+
+"Shaftqq" : {
+    "presenta":"iframe",
+     "vid":"1",
+     "id" : "id11",
+   "idname" : "Shaftqq",
+   "title":"Shaftqq (2019)",
+   "img" : "https://image.tmdb.org/t/p/w92/xCmrARxj3DFKk6ojSRbMwEbvDt4.jpg",
+   "pg" : "//mixdrop.co/e/ik3k7ev"
+   }
+ 
+
+
+
+
+
+
+*/ 
