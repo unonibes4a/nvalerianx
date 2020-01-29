@@ -1653,7 +1653,19 @@
 "idname" : "telerium4",
 "title":"telerium2222",
 "img" : "",
-"pg" : "televisiongratisenvivo.com/deportes-en-vivo/directv-sports-en-vivo-online-live-en-directo/"
+"pg" : "http://canal.televisiongratisenvivo.com/canales/canalesplay2/deportes/directv.php"
+}
+
+
+,
+
+"telerium5" : {
+  
+  "id" : "id11",
+"idname" : "telerium5",
+"title":"tev",
+"img" : "",
+"pg" : "https://unonibes4a.github.io/putass/"
 }
  }
  
