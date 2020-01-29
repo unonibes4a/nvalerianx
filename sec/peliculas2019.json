@@ -1624,8 +1624,16 @@
 "pg" : "https://embed.telerium.tv/embed.js"
 }
 
+,
 
-
+"telerium2" : {
+  
+  "id" : "id11",
+"idname" : "telerium2",
+"title":"telerium2222",
+"img" : "",
+"pg" : "https://embed.telerium.tv/embed.js"
+}
 
  
  }
