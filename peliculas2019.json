@@ -1621,13 +1621,89 @@
 "idname" : "telerium",
 "title":"telerium",
 "img" : "",
-"pg" : "http://play.afreecatv.com/suylem/220540684/embed"
+"pg" : "https://embed.telerium.tv/embed.js"
+}
+
+,
+
+"telerium2" : {
+  
+  "id" : "id11",
+"idname" : "telerium2",
+"title":"telerium2222",
+"img" : "",
+"pg" : "https://embed.telerium.tv/embed.js"
+}
+,
+
+"telerium3" : {
+  
+  "id" : "id11",
+"idname" : "telerium3",
+"title":"telerium2222",
+"img" : "",
+"pg" : "https://sandup.co/embed-fyddg0xsyiid.html"
+}
+
+,
+
+"telerium4" : {
+  
+  "id" : "id11",
+"idname" : "telerium4",
+"title":"telerium2222",
+"img" : "",
+"pg" : "http://canal.televisiongratisenvivo.com/canales/canalesplay2/deportes/directv.php"
+}
+
+
+,
+
+"telerium5" : {
+  "cambiaurl":"https://unonibes4a.github.io/putass/",
+  "id" : "id11",
+"idname" : "telerium5",
+"title":"tev",
+"img" : "",
+"pg" : "https://unonibes4a.github.io/putass/"
+}
+
+,
+
+"eSPN" : {
+  "vid":"1",
+  "id" : "id9",
+"idname" : "eSPN",
+"title":"ESPN 2019",
+"img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Q0btoxGlrhmHkW9z3k3hwIfuptEg4RMPlKN8c7buA_AO1DsAqw",
+"pg" : "https://sandup.co/embed-ku9qcu6kgv6x.html"
+}
+
+,
+
+"ne1" : {
+  "vid":"1",
+  "id" : "id9",
+"idname" : "ne1t",
+"title":"nev2019",
+"img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Q0btoxGlrhmHkW9z3k3hwIfuptEg4RMPlKN8c7buA_AO1DsAqw",
+"pg" : "https://hqq.tv/player/embed_player.php?vid=dU1td0lsOHRkSFAxZWtVWWZaSEdsZz09&autoplay=no"
+}
+
+
+,
+
+"net" : {
+  "vid":"1",
+  "id" : "id9",
+"idname" : "net",
+"title":"Television 2020",
+"img" : "",
+"pg" : "https://player.twitch.tv/?channel=unonubestres"
 }
 
 
 
-
- 
  }
  
  
