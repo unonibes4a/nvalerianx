@@ -1730,17 +1730,6 @@
 
 
 
-,
-
-"7up" : {
-  "presenta":"mp4",
-  "vid":"1",
-  "id" : "id9",
-"idname" : "7up",
-"title":"7up mp4",
-"img" : "",
-"pg" : "https://lemon-8.seven-up.co:8080/files/3/rdvgbsszlvjn22/video.mp4"
-}
 
 
 ,
@@ -1753,6 +1742,29 @@
 "title":"Television 2020",
 "img" : "",
 "pg" : "https://player.twitch.tv/?channel=unonubestres"
+},
+"7up2" : {
+
+  
+  "vid":"1",
+  "id" : "id9",
+"idname" : "7up2",
+"title":"7up iframe",
+"img" : "",
+"pg" : "https://7-up.net/embed-79lvb68hrsg7.html"
+}
+
+
+,
+
+"7up" : {
+  "presenta":"mp4",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "7up",
+"title":"7up mp4",
+"img" : "",
+"pg" : "https://lemon-8.seven-up.co:8080/files/3/rdvgbsszlvjn22/video.mp4"
 }
 
 
