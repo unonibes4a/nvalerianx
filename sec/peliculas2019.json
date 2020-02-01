@@ -1769,12 +1769,13 @@
 
 ,
 
-"caty" : {
+"telev" : {
+
   
   "vid":"1",
   "id" : "id9",
-"idname" : "caty",
-"title":"canal tymellia",
+"idname" : "telev",
+"title":"tv televilla",
 "img" : "",
 "pg" : "https://tvmelilla-backend.flumotion.com/api/v1/player_site/?asset=712456&player=85"
 }
@@ -1782,6 +1783,18 @@
 
 
 
+,
+
+"foxsports" : {
+
+  
+  "vid":"1",
+  "id" : "id9",
+"idname" : "foxsports",
+"title":"tv foxsports",
+"img" : "",
+"pg" : "https://soloveo.com/foxsports2.php"
+}
 
 
 
