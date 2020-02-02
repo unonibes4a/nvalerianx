@@ -1808,12 +1808,25 @@
   "vid":"1",
   "id" : "id9",
 "idname" : "pscp",
-"title":"live yotube",
+"title":"live youtub",
 "img" : "",
 "pg" : "https://www.youtube.com/embed/4nRROY8_RVI"
 }
 
 
+
+,
+
+"meet" : {
+
+  "cambiaurl":"https://meet.jit.si/",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "meet",
+"title":"meet",
+"img" : "",
+"pg" : "https://shortpaid.com/dsNSp9"
+}
 
 
 
