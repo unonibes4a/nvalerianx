@@ -1691,20 +1691,178 @@
 }
 
 
+
+,
+
+"streamplay" : {
+  "vid":"1",
+  "id" : "id9",
+"idname" : "streamplay",
+"title":"http://streamplay.to/ 2020",
+"img" : "",
+"pg" : "https://streamplay.to/embed-spbwackhytus.html"
+}
+,
+
+"fembed1" : {
+  "vid":"1",
+  "id" : "id9",
+"idname" : "fembed1",
+"title":"fembed 2020",
+"img" : "",
+"pg" : "https://www.fembed.com/v/mjk7pb54dggg2pp"
+}
+
+
+
+,
+
+"mixdrop21" : {
+  "vid":"1",
+  "id" : "id9",
+"idname" : "mixdrop21",
+"title":"mixdrop 2020",
+"img" : "",
+"pg" : "https://7-up.net/embed-z5aiz40rd19n.html"
+}
+
+
+
+
+
+
+
 ,
 
 "net" : {
+
   "vid":"1",
   "id" : "id9",
 "idname" : "net",
 "title":"Television 2020",
 "img" : "",
 "pg" : "https://player.twitch.tv/?channel=unonubestres"
+},
+"7up2" : {
+
+  
+  "vid":"1",
+  "id" : "id9",
+"idname" : "7up2",
+"title":"7up iframe",
+"img" : "",
+"pg" : "https://7-up.net/embed-79lvb68hrsg7.html"
+}
+
+
+,
+
+"7up" : {
+  "presenta":"mp4",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "7up",
+"title":"7up mp4",
+"img" : "",
+"pg" : "https://lemon-8.seven-up.co:8080/files/3/rdvgbsszlvjn22/video.mp4"
+}
+
+,
+
+"telev" : {
+
+  
+  "vid":"1",
+  "id" : "id9",
+"idname" : "telev",
+"title":"tv televilla",
+"img" : "",
+"pg" : "https://tvmelilla-backend.flumotion.com/api/v1/player_site/?asset=712456&player=85"
 }
 
 
 
- }
+
+,
+
+"foxsports" : {
+
+  
+  "vid":"1",
+  "id" : "id9",
+"idname" : "foxsports",
+"title":"tv foxsports",
+"img" : "",
+"pg" : "https://soloveo.com/foxsports2.php"
+}
+
+
+
+
+
+,
+
+"pscp" : {
+
+  
+  "vid":"1",
+  "id" : "id9",
+"idname" : "pscp",
+"title":"live youtub",
+"img" : "",
+"pg" : "https://embed.mystream.to/uoq915cm4cj8"
+}
+
+
+
+,
+
+"meet2" : {
+
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "meet2",
+"title":"vidfastco",
+"img" : "",
+"pg" : "https://vidfast.co/embed-guw31s8u21lq.html"
+}
+
+,
+
+"meet" : {
+
+  "cambiaurl":"https://gnula.blog/ver-proyecto-geminis-online-espanol/",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "meet",
+"title":"meetobline",
+"img" : "",
+"pg" : "https://shortpaid.com/dsNSp9"
+}
+,
+
+
+"okru2" : {
+"presenta":"iframe",
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "meet",
+"title":"okru2 live",
+"img" : "",
+"pg" :"https://ok.ru/videoembed/1594467425904" 
+}
+
+
+}
+
+
+
+
+
+
+ 
  
  
  
