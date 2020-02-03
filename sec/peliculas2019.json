@@ -1810,11 +1810,23 @@
 "idname" : "pscp",
 "title":"live youtub",
 "img" : "",
-"pg" : "https://www.livestreamhd.net/channelhd/"
+"pg" : "https://embed.mystream.to/uoq915cm4cj8"
 }
 
 
 
+,
+
+"meet2" : {
+
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "meet2",
+"title":"vidfastco",
+"img" : "",
+"pg" : "https://vidfast.co/embed-guw31s8u21lq.html"
+}
 
 ,
 
@@ -1824,11 +1836,10 @@
   "vid":"1",
   "id" : "id9",
 "idname" : "meet",
-"title":"meet",
+"title":"meetobline",
 "img" : "",
 "pg" : "https://shortpaid.com/dsNSp9"
 }
-
 
 
 
