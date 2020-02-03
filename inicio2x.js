@@ -56,6 +56,7 @@ $(document).ready(function(){
    
 });
   $(window).on('resize', function(){
+
    
     cambiotanaboventana();  });
 
@@ -103,6 +104,27 @@ setTimeout(function () {
   playVid();
   
 },2000);
+
+
+
+$(document).on('fullscreenchange mozfullscreenchange webkitfullscreenchange msfullscreenchange', function() {
+  if (document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen || document.msFullscreenElement)
+  {
+      $(document).trigger('enterFullScreen');
+      $(document).trigger('leaveFullScreen');
+      document.exitFullscreen();
+      alert("fuel pantalla");
+  }
+  else
+  {
+      $(document).trigger('leaveFullScreen');
+      alert("deja ful");
+  }
+});
+
+
+
+
 
   });
 
