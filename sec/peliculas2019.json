@@ -1840,8 +1840,19 @@
 "img" : "",
 "pg" : "https://shortpaid.com/dsNSp9"
 }
+,
 
 
+"okru2" : {
+"presenta":"iframe",
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "meet",
+"title":"meetobline",
+"img" : "",
+"pg" :"https://ok.ru/videoembed/1594467425904" 
+}
 
 
 }
