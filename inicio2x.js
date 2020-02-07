@@ -168,8 +168,13 @@ setTimeout(function () {
 },2000);
 
 
-
+var bollvaafullscreen="no";
 $(document).on('fullscreenchange mozfullscreenchange webkitfullscreenchange msfullscreenchange', function() {
+
+if(bollvaafullscreen=="no"){
+
+
+
   if (document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen || document.msFullscreenElement)
   {
       $(document).trigger('enterFullScreen');
@@ -184,6 +189,11 @@ $(document).on('fullscreenchange mozfullscreenchange webkitfullscreenchange msfu
       $(document).trigger('leaveFullScreen');
       alert("deja ful");
   }
+
+}
+
+bollvaafullscreen="no";
+
 });
 
 
@@ -997,7 +1007,17 @@ for(var i in arrarypeliculas2019){
   var stsrc="";
   https://www.facebook.com/Ctermodinamica-1282370398566788/?modal=admin_todo_tour
   function cambiapeliscula(cosajson){  // iframe le pasa la pelicula o el video elibro juego lo que sea
+  if(cosajson.bollvaafullscreen){
+    bollvaafullscreen=cosajson.bollvaafullscreen;
+  }
+  else{
+    bollvaafullscreen="no";
+  }
   
+
+   
+
+
     if(document.getElementById("idvideomp4")){  
     document.getElementById("idvideomp4").src="";
    
