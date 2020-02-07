@@ -1946,6 +1946,34 @@
 "pg" : "https://series24.to/home/"
 }
 
+,
+
+"estrenoshd" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "estrenoshd",
+"title":"va a estrenoshd",
+"img" : "",
+"pg" : "https://www.estrenoshd.tv/"
+}
+,
+
+"movidyco" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "movidyco",
+"title":"va a seri movidy.co",
+"img" : "",
+"pg" : "https://movidy.co/"
+}
+
+
+
+
 }
 
 
