@@ -31,6 +31,9 @@ var arrarypeliculas2019={};
 var boolnoandroid=false;
 var boolnoesios=false;
 
+var bollvaafullscreen="";
+
+
 function fenquedispositivoestoy(){
   var isMobile = {
     Android: function() {
@@ -111,7 +114,7 @@ function  getvwvh() {
  }
 
 $(document).ready(function(){
-
+  bollvaafullscreen="";
   $(window).on('hashchange', function(e){
     var origEvent = e.originalEvent;
   
@@ -168,9 +171,9 @@ setTimeout(function () {
 },2000);
 
 
-var bollvaafullscreen="no";
-$(document).on('fullscreenchange mozfullscreenchange webkitfullscreenchange msfullscreenchange', function() {
 
+$(document).on('fullscreenchange mozfullscreenchange webkitfullscreenchange msfullscreenchange', function() {
+  alert("1 sale "+bollvaafullscreen);
 if(bollvaafullscreen=="no"){
 
 
@@ -180,19 +183,19 @@ if(bollvaafullscreen=="no"){
       $(document).trigger('enterFullScreen');
       $(document).trigger('leaveFullScreen');
       document.exitFullscreen();
-      alert("fuel pantalla");
+    // alert("fuel pantalla");
  
       
   }
   else
   {
       $(document).trigger('leaveFullScreen');
-      alert("deja ful");
+     // alert("deja ful");
   }
 
 }
+//alert("sale "+bollvaafullscreen);
 
-bollvaafullscreen="no";
 
 });
 
@@ -1009,11 +1012,14 @@ for(var i in arrarypeliculas2019){
   function cambiapeliscula(cosajson){  // iframe le pasa la pelicula o el video elibro juego lo que sea
   if(cosajson.bollvaafullscreen){
     bollvaafullscreen=cosajson.bollvaafullscreen;
+   // alert("if   "+bollvaafullscreen);
+    
   }
   else{
     bollvaafullscreen="no";
+   //alert("else   "+bollvaafullscreen);
   }
-  
+
 
    
 
@@ -1091,7 +1097,7 @@ stsrc=cosajson.pg;
       document.getElementById("idblockokrucentro").style.display="none";
       document.getElementById("idbtblockiframedown").style.display="none";
 
-
+   //   alert("entra  "+bollvaafullscreen);
 
     }
     
