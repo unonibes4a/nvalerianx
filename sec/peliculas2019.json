@@ -2146,10 +2146,22 @@
     }
     
  
+    ,
 
+    "vidoza" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "vidoza",
+     "title":"vidoza.net",
+     "img" : "",
+     "pg" : "https://vidoza.net/embed-4iutic7xh3cj.html"
+     }
+     
   
-   
-
+ 
+ 
 
 
 }
