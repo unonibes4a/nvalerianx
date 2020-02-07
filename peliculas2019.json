@@ -1830,16 +1830,19 @@
 
 ,
 
-"meet" : {
+"meet3" : {
 
-  "cambiaurl":"https://gnula.blog/ver-proyecto-geminis-online-espanol/",
+  "cambiaurl":"https://www.pelisplay.co/",
   "vid":"1",
   "id" : "id9",
-"idname" : "meet",
-"title":"va a genula",
+"idname" : "meet3",
+"title":"https://www.pelisplay.co/",
 "img" : "",
-"pg" : "https://shortpaid.com/dsNSp9"
+"pg" : "https://www.pelisplay.co/"
 }
+
+
+
 ,
 
 
@@ -1853,10 +1856,8 @@
 "img" : "",
 "pg" :"https://ok.ru/videoembed/1594467425904" 
 },
-"vidfast" : {
-
-  
-
+"vidfast" : { 
+ 
   "vid":"1",
   "id" : "id9",
 "idname" : "vidfast",
@@ -1864,6 +1865,145 @@
 "img" : "",
 "pg" :"https://vidfast.co/embed-wdcrueobdus5.html" 
 }
+,
+"cinecalidad" : { 
+  "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "cinecalidad",
+"title":"va a cinecalidad",
+"img" : "",
+"pg" :"https://www.cine-calidad.com/" 
+}
+
+,
+
+"genula" : {
+  "bollvaafullscreen":"si",
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "genula",
+"title":"va a genula",
+"img" : "",
+"pg" : "https://gnula.blog/"
+}
+
+,
+
+"pelisplay" : {
+
+  "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "pelisplay",
+"title":"va a pelisplay",
+"img" : "",
+"pg" : "https://www.pelisplay.co/"
+}
+
+,
+
+"allpeliculas" : {
+  "bollvaafullscreen":"si",
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "allpeliculas",
+"title":"va a allpeliculas",
+"img" : "",
+"pg" : "https://allpeliculas.io/"
+}
+
+
+,
+
+"animeflv" : {
+
+  "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "animeflv",
+"title":"va a animeflv",
+"img" : "",
+"pg" : "https://animeflv.ru/"
+}
+
+
+
+
+
+,
+
+"series24" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "series24",
+"title":"va a series24",
+"img" : "",
+"pg" : "https://series24.to/home/"
+}
+
+,
+
+"estrenoshd" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "estrenoshd",
+"title":"va a estrenoshd",
+"img" : "",
+"pg" : "https://www.estrenoshd.tv/"
+}
+,
+
+"movidyco" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "movidyco",
+"title":"va a seri movidy.co",
+"img" : "",
+"pg" : "https://movidy.co/"
+}
+
+,
+
+"elitestream" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "elitestream",
+"title":"va a seri elitestream",
+"img" : "",
+"pg" : "https://www.elitestream.io/"
+}
+
+
+
+,
+
+"seriescube" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "eseriescube",
+"title":"va a seri seriescube",
+"img" : "",
+"pg" : "https://seriescube.pw/"
+}
+
+
+
+
+
+
 
 
 
