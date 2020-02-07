@@ -1857,19 +1857,6 @@
 
 ,
 
-"meetqw" : {
-
-  "cambiaurl":"https://www.cinecalidad.is/",
-  "vid":"1",
-  "id" : "id9",
-"idname" : "meetqw",
-"title":"vacine calidad",
-"img" : "",
-"pg" : ""
-}
-
-,
-
 
 "okru2" : {
 "presenta":"iframe",
@@ -1881,9 +1868,7 @@
 "img" : "",
 "pg" :"https://ok.ru/videoembed/1594467425904" 
 },
-"vidfast" : {
-
-  
+"vidfast" : { 
 
   "vid":"1",
   "id" : "id9",
@@ -1892,7 +1877,16 @@
 "img" : "",
 "pg" :"https://vidfast.co/embed-wdcrueobdus5.html" 
 }
+,
+"cinecalidad" : { 
 
+  "vid":"1",
+  "id" : "id9",
+"idname" : "cinecalidad",
+"title":"cinecalidad",
+"img" : "",
+"pg" :"https://www.cine-calidad.com/" 
+}
 
 
 
