@@ -2010,7 +2010,33 @@
 "title":"va a seri cuevana3",
 "img" : "",
 "pg" : "https://cuevana3.io/"
-},
+}
+
+
+,
+
+"pelispedia" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "cuevana3",
+"title":"pelispedia",
+"img" : "",
+"pg" : "https://www.pelispedia.nu/"
+}
+
+
+
+
+
+
+
+
+
+
+
+,
 
 "vidia" : {
 
