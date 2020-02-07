@@ -2085,15 +2085,27 @@
     "vid":"1",
     "id" : "id9",
   "idname" : "jetload",
-  "title":" jetload.net",
+  "title":" jetload.net para cursoso arregle pc",
   "img" : "",
   "pg" : "https://jetload.net/e/ZXch37RraeQS"
   }
   
  
+  ,
+
+ "gamovideo" : {
  
-
-
+   "bollvaafullscreen":"si",
+    "vid":"1",
+    "id" : "id9",
+  "idname" : "gamovideo",
+  "title":" gamovideo ok",
+  "img" : "",
+  "pg" : "http://gamovideo.com/embed-8ek4ktd3ih68.html"
+  }
+  
+ 
+  
 
 
 
