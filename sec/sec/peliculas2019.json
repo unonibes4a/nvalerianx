@@ -1971,6 +1971,90 @@
 "pg" : "https://movidy.co/"
 }
 
+,
+
+"elitestream" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "elitestream",
+"title":"va a seri elitestream",
+"img" : "",
+"pg" : "https://www.elitestream.io/"
+}
+
+
+
+,
+
+"seriescube" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "eseriescube",
+"title":"va a seri seriescube",
+"img" : "",
+"pg" : "https://seriescube.pw/"
+}
+
+,
+
+"cuevana3" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "cuevana3",
+"title":"va a seri cuevana3",
+"img" : "",
+"pg" : "https://cuevana3.io/"
+},
+
+"vidia" : {
+
+  "bollvaafullscreen":"no",
+   "vid":"1",
+   "id" : "id9",
+ "idname" : "vidia",
+ "title":"https://vidia.tv/  no sirve en android",
+ "img" : "",
+ "pg" : "https://vidia.tv/embed-xjiomuypi3c2.html"
+ }
+ 
+ ,
+
+"videobin" : {
+
+  "bollvaafullscreen":"si",
+   "vid":"1",
+   "id" : "id9",
+ "idname" : "videobin",
+ "title":" https://videobin.co",
+ "img" : "",
+ "pg" : "https://videobin.co/embed-8icvv3s6huf8.html"
+ }
+ 
+
+
+ ,
+
+ "mixdrop" : {
+ 
+   "bollvaafullscreen":"si",
+    "vid":"1",
+    "id" : "id9",
+  "idname" : "mixdrop",
+  "title":" mixdrop ok",
+  "img" : "",
+  "pg" : "https://mixdrop.to/e/ik3k7ev"
+  }
+  
+ 
+ 
+
+
 
 
 
