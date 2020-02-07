@@ -2018,15 +2018,27 @@
    "vid":"1",
    "id" : "id9",
  "idname" : "vidia",
- "title":"https://vidia.tv/",
+ "title":"https://vidia.tv/  no sirve en android",
  "img" : "",
  "pg" : "https://vidia.tv/embed-xjiomuypi3c2.html"
  }
  
+ ,
+
+"videobin" : {
+
+  "bollvaafullscreen":"si",
+   "vid":"1",
+   "id" : "id9",
+ "idname" : "videobin",
+ "title":" https://videobin.co",
+ "img" : "",
+ "pg" : "https://videobin.co/embed-8icvv3s6huf8.html"
+ }
  
 
 
-
+ 
 
 
 
