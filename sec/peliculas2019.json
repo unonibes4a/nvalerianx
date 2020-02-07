@@ -2040,8 +2040,18 @@
 "pg" : "https://seriesblanco.org/"
 }
 
+,
 
+"miradetodo" : {
 
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "miradetodo",
+"title":"series miradetodo",
+"img" : "",
+"pg" : "https://miradetodo.co/"
+}
 
 
 
