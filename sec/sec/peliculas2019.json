@@ -2010,7 +2010,46 @@
 "title":"va a seri cuevana3",
 "img" : "",
 "pg" : "https://cuevana3.io/"
-},
+}
+
+
+,
+
+"pelispedia" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "cuevana3",
+"title":"pelispedia",
+"img" : "",
+"pg" : "https://www.pelispedia.nu/"
+}
+
+
+,
+
+"seriesblanco" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "cuevana3",
+"title":"seriesblanco",
+"img" : "",
+"pg" : "https://seriesblanco.org/"
+}
+
+
+
+
+
+
+
+
+
+
+,
 
 "vidia" : {
 
@@ -2040,21 +2079,66 @@
 
  ,
 
- "mixdrop" : {
+ "jetload" : {
  
    "bollvaafullscreen":"si",
     "vid":"1",
     "id" : "id9",
-  "idname" : "mixdrop",
-  "title":" mixdrop ok",
+  "idname" : "jetload",
+  "title":" jetload.net para cursoso arregle pc",
   "img" : "",
-  "pg" : "https://mixdrop.to/e/ik3k7ev"
+  "pg" : "https://jetload.net/e/ZXch37RraeQS"
   }
   
  
+  ,
+
+ "vidtodo" : {
+ 
+   "bollvaafullscreen":"si",
+    "vid":"1",
+    "id" : "id9",
+  "idname" : "vidtodo",
+  "title":" vidtodo",
+  "img" : "",
+  "pg" : "https://vidtodo.com/emb.html?rk4bkxlnxae8=s10.vidtodo.com/i/01/00903/rk4bkxlnxae8"
+  }
+  
+ 
+  ,
+
+  "yourupload" : {
+  
+    "bollvaafullscreen":"si",
+     "vid":"1",
+     "id" : "id9",
+   "idname" : "yourupload",
+   "title":" yourupload",
+   "img" : "",
+   "pg" : "https://www.yourupload.com/embed/t0R8i5sQO72k"
+   }
+   
+
+
+
+
+   ,
+
+   "vupto" : {
+   
+     "bollvaafullscreen":"si",
+      "vid":"1",
+      "id" : "id9",
+    "idname" : "vupto",
+    "title":"vupto",
+    "img" : "",
+    "pg" : "https://vup.to/emb.html?527m4bn2920l=img.vup.to/46/01/00105/527m4bn2920l"
+    }
+    
  
 
-
+  
+   
 
 
 
