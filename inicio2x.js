@@ -1016,7 +1016,7 @@ for(var i in arrarypeliculas2019){
     
   }
   else{
-    bollvaafullscreen="no";
+   // bollvaafullscreen="no";
    //alert("else   "+bollvaafullscreen);
   }
 
