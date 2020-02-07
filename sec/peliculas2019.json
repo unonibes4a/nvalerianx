@@ -1841,18 +1841,6 @@
 "pg" : "https://www.pelisplay.co/"
 }
 
-,
-
-"meet" : {
-
-  "cambiaurl":"https://gnula.blog/",
-  "vid":"1",
-  "id" : "id9",
-"idname" : "meet",
-"title":"va a genula",
-"img" : "",
-"pg" : "https://shortpaid.com/dsNSp9"
-}
 
 
 ,
@@ -1883,13 +1871,80 @@
   "vid":"1",
   "id" : "id9",
 "idname" : "cinecalidad",
-"title":"cinecalidad",
+"title":"va a cinecalidad",
 "img" : "",
 "pg" :"https://www.cine-calidad.com/" 
 }
 
+,
+
+"genula" : {
 
 
+  "vid":"1",
+  "id" : "id9",
+"idname" : "genula",
+"title":"va a genula",
+"img" : "",
+"pg" : "https://gnula.blog/"
+}
+
+,
+
+"pelisplay" : {
+
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "pelisplay",
+"title":"va a pelisplay",
+"img" : "",
+"pg" : "https://www.pelisplay.co/"
+}
+
+,
+
+"allpeliculas" : {
+
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "allpeliculas",
+"title":"va a allpeliculas",
+"img" : "",
+"pg" : "https://allpeliculas.io/"
+}
+
+
+,
+
+"animeflv" : {
+
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "animeflv",
+"title":"va a animeflv",
+"img" : "",
+"pg" : "https://animeflv.ru/"
+}
+
+
+
+
+
+,
+
+"series24" : {
+
+
+  "vid":"1",
+  "id" : "id9",
+"idname" : "series24",
+"title":"va a series24",
+"img" : "",
+"pg" : "https://series24.to/home/"
+}
 
 }
 
