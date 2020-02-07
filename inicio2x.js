@@ -171,9 +171,8 @@ setTimeout(function () {
 },2000);
 
 
-
 $(document).on('fullscreenchange mozfullscreenchange webkitfullscreenchange msfullscreenchange', function() {
-  alert("1 sale "+bollvaafullscreen);
+
 if(bollvaafullscreen=="no"){
 
 
