@@ -1857,7 +1857,7 @@
 "pg" :"https://ok.ru/videoembed/1594467425904" 
 },
 "vidfast" : { 
-
+ 
   "vid":"1",
   "id" : "id9",
 "idname" : "vidfast",
@@ -1867,7 +1867,7 @@
 }
 ,
 "cinecalidad" : { 
-
+  "bollvaafullscreen":"si",
   "vid":"1",
   "id" : "id9",
 "idname" : "cinecalidad",
@@ -1879,7 +1879,7 @@
 ,
 
 "genula" : {
-
+  "bollvaafullscreen":"si",
 
   "vid":"1",
   "id" : "id9",
@@ -1893,7 +1893,7 @@
 
 "pelisplay" : {
 
-
+  "bollvaafullscreen":"si",
   "vid":"1",
   "id" : "id9",
 "idname" : "pelisplay",
@@ -1905,7 +1905,7 @@
 ,
 
 "allpeliculas" : {
-
+  "bollvaafullscreen":"si",
 
   "vid":"1",
   "id" : "id9",
@@ -1920,7 +1920,7 @@
 
 "animeflv" : {
 
-
+  "bollvaafullscreen":"si",
   "vid":"1",
   "id" : "id9",
 "idname" : "animeflv",
@@ -1937,7 +1937,7 @@
 
 "series24" : {
 
-
+ "bollvaafullscreen":"si",
   "vid":"1",
   "id" : "id9",
 "idname" : "series24",
