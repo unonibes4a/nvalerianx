@@ -1971,6 +1971,41 @@
 "pg" : "https://movidy.co/"
 }
 
+,
+
+"elitestream" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "elitestream",
+"title":"va a seri elitestream",
+"img" : "",
+"pg" : "https://www.elitestream.io/"
+}
+
+
+
+,
+
+"seriescube" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "eseriescube",
+"title":"va a seri seriescube",
+"img" : "",
+"pg" : "https://seriescube.pw/"
+}
+
+
+
+
+
+
+
+
 
 
 
