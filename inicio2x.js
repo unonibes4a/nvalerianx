@@ -28,14 +28,76 @@ var arrarypeliculas2019={};
 
 
 
+var boolnoandroid=false;
+var boolnoesios=false;
+
+function fenquedispositivoestoy(){
+  var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+       
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+  
+  if(isMobile.any()) {
+    console.log('Esto es un dispositivo móvil, si especificar cuál');
+    boolnoandroid=true;
+  }
+  if(isMobile.Android()) {
+    console.log('Esto es un dispositivo Android');
+
+    boolnoandroid=true;
+  }
+  if(isMobile.BlackBerry()) {
+    console.log('Esto es un dispositivo BlackBerry');
+
+  }
+  if(isMobile.iOS()) {
+    console.log('Esto es un dispositivo iOS');
+    boolnoesios=true;
+  }
+  if(isMobile.Opera()) {
+    console.log('Esto es un dispositivo Opera');
+    boolnoesios=true;
+  }
+  if(isMobile.Windows()) {
+    console.log('Esto es un dispositivo Windows');
+    boolnoesios=true;
+  }
+
+if(boolnoesios||boolnoandroid){
 
 
+}
+else{
+  window.location.reload();
+}
 
+boolnoandroid=false;
+boolnoesios=false;
+
+}
 
 
 function cambiotanaboventana(){
  // alert("tamaño de la ventana    "+ vw +"   "+vh);
-  window.location.reload();
+ fenquedispositivoestoy();
+ 
   
 }
 var vw=window.innerWidth;
@@ -114,6 +176,8 @@ $(document).on('fullscreenchange mozfullscreenchange webkitfullscreenchange msfu
       $(document).trigger('leaveFullScreen');
       document.exitFullscreen();
       alert("fuel pantalla");
+ 
+      
   }
   else
   {
