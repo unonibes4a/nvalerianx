@@ -2197,12 +2197,12 @@
      }
      ,
   
-     "series24" : {
+     "series24v" : {
     
       "bollvaafullscreen":"si",
        "vid":"1",
        "id" : "id9",
-     "idname" : "series24",
+     "idname" : "series24v",
      "title":"series24",
      "img" : "",
      "pg" : "https://www.series24.me/"
