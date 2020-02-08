@@ -2195,8 +2195,19 @@
      "img" : "",
      "pg" : "https://poseidonhd.me/tvshows/"
      }
+     ,
   
-     
+     "series24" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "series24",
+     "title":"series24",
+     "img" : "",
+     "pg" : "https://www.series24.me/"
+     }
+    
 
 }
 
