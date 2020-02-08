@@ -2040,10 +2040,73 @@
 "pg" : "https://seriesblanco.org/"
 }
 
+,
+
+"miradetodo" : {
+
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "miradetodo",
+"title":"series miradetodo",
+"img" : "",
+"pg" : "https://miradetodo.co/"
+}
 
 
 
+,
+  
+"series24v" : {
 
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "series24v",
+"title":"series24",
+"img" : "",
+"pg" : "https://www.series24.me/"
+}
+
+,
+  
+     "poseidonhd" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "poseidonhd",
+     "title":"peli poseidonhd.me",
+     "img" : "",
+     "pg" : "https://poseidonhd.me/tvshows/"
+     }
+  
+     ,
+  
+     "cuevana3x" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "cuevana3x",
+     "title":"cuevana3",
+     "img" : "",
+     "pg" : "https://cuevana3.io/"
+     }
+  
+     ,
+  
+     "pelisplus" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "pelisplus",
+     "title":"pelisplus",
+     "img" : "",
+     "pg" : "https://pelisplus.me/"
+     }
+      
 
 
 
@@ -2136,9 +2199,75 @@
     }
     
  
+    ,
 
+    "vidoza" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "vidoza",
+     "title":"vidoza.net",
+     "img" : "",
+     "pg" : "https://vidoza.net/embed-4iutic7xh3cj.html"
+     }
+     
+     ,
+
+    "clipwatching" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "clipwatching",
+     "title":"clipwatching.com",
+     "img" : "",
+     "pg" : "https://clipwatching.com/embed-zod45hyvbji6.html"
+     }
+
+
+
+     ,
+
+     "streamplayv" : {
+     
+       "bollvaafullscreen":"si",
+        "vid":"1",
+        "id" : "id9",
+      "idname" : "streamplayv",
+      "title":"streamplay.to",
+      "img" : "",
+      "pg" : "https://streamplay.to/embed-53httw1id6vj.html"
+      }
+ 
+ 
+ 
+
+     
+
+
+
+
+
+
+     ,
   
-   
+     "nimo" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "nimo",
+     "title":"live nimo",
+     "img" : "",
+     "pg" : "https://www.nimo.tv/embed/6803727046"
+     }
+     
+
+     
+
+
+
 
 
 
