@@ -2183,7 +2183,18 @@
      "img" : "",
      "pg" : "https://www.nimo.tv/embed/6803727046"
      }
-     
+     ,
+  
+     "poseidonhd" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "poseidonhd",
+     "title":"peli poseidonhd.me",
+     "img" : "",
+     "pg" : "https://poseidonhd.me/tvshows/"
+     }
   
      
 
