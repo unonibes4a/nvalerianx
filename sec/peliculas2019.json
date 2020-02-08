@@ -2055,8 +2055,45 @@
 
 
 
+,
+  
+"series24v" : {
 
+ "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+"idname" : "series24v",
+"title":"series24",
+"img" : "",
+"pg" : "https://www.series24.me/"
+}
 
+,
+  
+     "poseidonhd" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "poseidonhd",
+     "title":"peli poseidonhd.me",
+     "img" : "",
+     "pg" : "https://poseidonhd.me/tvshows/"
+     }
+  
+     ,
+  
+     "cuevana3x" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "cuevana3x",
+     "title":"cuevana3",
+     "img" : "",
+     "pg" : "https://cuevana3.io/"
+     }
+  
 
 
 ,
@@ -2171,6 +2208,32 @@
      "img" : "",
      "pg" : "https://clipwatching.com/embed-zod45hyvbji6.html"
      }
+
+
+
+     ,
+
+     "streamplayv" : {
+     
+       "bollvaafullscreen":"si",
+        "vid":"1",
+        "id" : "id9",
+      "idname" : "streamplayv",
+      "title":"streamplay.to",
+      "img" : "",
+      "pg" : "https://streamplay.to/embed-53httw1id6vj.html"
+      }
+ 
+ 
+ 
+
+     
+
+
+
+
+
+
      ,
   
      "nimo" : {
@@ -2183,31 +2246,14 @@
      "img" : "",
      "pg" : "https://www.nimo.tv/embed/6803727046"
      }
-     ,
-  
-     "poseidonhd" : {
-    
-      "bollvaafullscreen":"si",
-       "vid":"1",
-       "id" : "id9",
-     "idname" : "poseidonhd",
-     "title":"peli poseidonhd.me",
-     "img" : "",
-     "pg" : "https://poseidonhd.me/tvshows/"
-     }
-     ,
-  
-     "series24v" : {
-    
-      "bollvaafullscreen":"si",
-       "vid":"1",
-       "id" : "id9",
-     "idname" : "series24v",
-     "title":"series24",
-     "img" : "",
-     "pg" : "https://www.series24.me/"
-     }
-    
+     
+
+     
+
+
+
+
+
 
 }
 
