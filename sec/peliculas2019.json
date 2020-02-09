@@ -2266,15 +2266,15 @@
 
      ,
   
-     "fullseriehd" : {
+     "gnulac" : {
     
       "bollvaafullscreen":"si",
        "vid":"1",
        "id" : "id9",
-     "idname" : "fullseriehd",
-     "title":"fullseriehd",
+     "idname" : "gnulac",
+     "title":"gnula.co",
      "img" : "",
-     "pg" :"https://fullseriehd.com/" 
+     "pg" :"https://www.gnula.co/" 
     
     }
       
