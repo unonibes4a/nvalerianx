@@ -2264,7 +2264,20 @@
      }
      
 
-     
+     ,
+  
+     "fullseriehd" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "fullseriehd",
+     "title":"fullseriehd",
+     "img" : "",
+     "pg" :"https://fullseriehd.com/" 
+    
+    }
+      
 
 
 
