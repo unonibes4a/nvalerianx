@@ -2278,10 +2278,24 @@
     
     }
       
+    ,
+  
+    "gnulabz" : {
+   
+     "bollvaafullscreen":"si",
+      "vid":"1",
+      "id" : "id9",
+    "idname" : "gnulabz",
+    "title":"gnula.bz",
+    "img" : "",
+    "pg" :"https://www.gnula.bz/" 
+   
+   }
+     
 
 
 
-
+    
 
 
 }
