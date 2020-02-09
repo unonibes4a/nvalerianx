@@ -1,6 +1,27 @@
 
 
 
+
+var varvaloradesifrar="";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var firebaseConfig;
 var firebase;
 var vid ;
@@ -114,6 +135,12 @@ function  getvwvh() {
  }
 
 $(document).ready(function(){
+
+
+
+
+  iframesuscrol();
+  
   bollvaafullscreen="";
   $(window).on('hashchange', function(e){
     var origEvent = e.originalEvent;
@@ -1020,7 +1047,7 @@ for(var i in arrarypeliculas2019){
   }
 
 
-   
+  console.log("stsrc123 "+cosajson.pg);
 
 
     if(document.getElementById("idvideomp4")){  
@@ -1043,7 +1070,17 @@ for(var i in arrarypeliculas2019){
     
     }
     else{
-stsrc=cosajson.pg;
+
+      if(cosajson.cd){
+  
+        stsrc=decodifi(cosajson.pg);
+       //console.log("stsrc  "+stsrc);
+      }
+      else{
+        stsrc=cosajson.pg;
+      }
+      
+
       document.getElementById("idiframe").style.display="block";
       objetoiframe="";
   
@@ -1065,13 +1102,22 @@ stsrc=cosajson.pg;
         document.getElementById("btmostrarenviavideonofunciona").style.display="block";
       }
 
-
+      iframesuscrol();
     }
 
 
     if(cosajson.presenta=="iframe"){
+
+if(cosajson.cd){
+ 
+
+  stsrc=decodifi(cosajson.pg);
+ 
+}
+else{
       stsrc=cosajson.pg;
-      escribe(stsrc);
+    
+    } 
       document.getElementById("idiframe").style.display="block";
       objetoiframe="";
   
@@ -1096,16 +1142,30 @@ stsrc=cosajson.pg;
       document.getElementById("idblockokrucentro").style.display="none";
       document.getElementById("idbtblockiframedown").style.display="none";
 
-   //   alert("entra  "+bollvaafullscreen);
+ 
+ 
 
     }
     
 
 if(cosajson.presenta=="mp4"){
+
+
+
+  if(cosajson.cd){
+ 
+
+    stsrc=decodifi(cosajson.pg);
+   
+  }
+  else{
+        stsrc=cosajson.pg;
+      
+      } 
   
   document.getElementById("btmostrarmenu").style.display="block";
   document.getElementById("idvideomp4").style.display="block";
-  document.getElementById("idvideomp4").src=cosajson.pg;
+  document.getElementById("idvideomp4").src=stsrc;
   //"https://i.download-host.com:443/d/wal6add4t5vdjxij73typfyhlojf6oq2ulcsmxo6htmzq3acbs36xwbm6w45klcxpxtf2gkz/video.mp4";
   
   //https://dl2.sendit.cloud:443/d/vulw6rl5t5vdjxij4dty3b2el4h2afrt4zlgrodwhhjfdswfcjgm74jzq45pzfxiduqc23dv/video.mp4
@@ -1600,3 +1660,306 @@ function fvideonofunciona()  {
 
 
 */ 
+
+
+var x = 0;
+var x2 = 0;
+function qwert() {
+
+
+}
+
+function escribeenbt(st){
+  $("#btmostrarenviavideonofunciona").text(st);
+  //document.getElementById("btmostrarenviavideonofunciona").text=st;
+}
+
+function iframesuscrol(){
+ /* $("#idiframe").scroll(function(e){
+  $("span").text( $("div").scrollTop().valueOf());
+   escribeenbt(33333333);
+  });*/
+ 
+ // iframesuscrol()
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+var vx=76423;
+
+
+var  v1=1+vx;
+var  v2=2+vx;
+var  v3=3+vx;
+var  v4=4+vx;
+var  v5=5+vx;
+var  v6=6+vx;
+var  v7=7+vx;
+var  v8=8+vx;
+var  v9=9+vx;
+var  v10=10+vx;
+var  v11=11+vx;
+var  v12=12+vx;
+var  v13=13+vx;
+var  v14=14+vx;
+var  v15=15+vx;
+var  v16=16+vx;
+var  v17=17+vx;
+var  v18=18+vx;
+var  v19=19+vx;
+var  v20=20+vx;
+var  v21=21+vx;
+var  v22=22+vx;
+var  v23=23+vx;
+var  v24=24+vx;
+
+var  v25=25+vx;
+var  v26=26+vx;
+var  v27=27+vx;
+var  v28=28+vx;
+var  v29=29+vx;
+var  v30=30+vx;
+var  v31=31+vx;
+var  v32=32+vx;
+var  v33=33+vx;
+var  v34=34+vx;
+var  v35=35+vx;
+var  v36=36+vx;
+var  v37=37+vx;
+var  v38=38+vx;
+var  v39=39+vx;
+var  v40=40+vx;
+var  v41=41+vx;
+var  v42=42+vx;
+var  v43=43+vx;
+var  v44=44+vx;
+var  v45=45+vx;
+var  v46=46+vx;
+var  v47=47+vx;
+var  v48=48+vx;
+var  v49=49+vx;
+var  v50=50+vx;
+var  v51=51+vx;
+var  v52=52+vx;
+var  v53=53+vx;
+var  v54=54+vx;
+var  v55=55+vx;
+var  v56=56+vx;
+var  v57=57+vx;
+var  v58=58+vx;
+var  v59=59+vx;
+var  v60=60+vx;
+
+var  v61=61+vx;
+var  v62=62+vx;
+var  v63=63+vx;
+
+
+var  v64=64+vx;
+var  v65=65+vx;
+var  v66=66+vx;
+var  v67=67+vx;
+var  v68=68+vx;
+var  v69=69+vx;
+var  v70=70+vx;
+var  v71=71+vx;
+var  v72=72+vx;
+var  v73=73+vx;
+var  v74=74+vx;
+var  v75=75+vx;
+var  v76=76+vx;
+var  v77=77+vx;
+var  v78=78+vx;
+var  v79=79+vx;
+var  v80=80+vx;
+var  v81=81+vx;
+var  v82=82+vx;
+var  v83=83+vx;
+var  v84=84+vx;
+var  v85=85+vx;
+var  v86=86+vx;
+var  v87=87+vx;
+var  v88=88+vx;
+var  v89=89+vx;
+var  v90=90+vx;
+var  v91=91+vx;
+var  v92=92+vx;
+var  v93=93+vx;
+
+
+
+
+ var  arraycodigo=[]
+ var  lt="";
+
+
+
+
+
+var stdecodi="";
+
+
+
+
+
+
+function decodifi(st){
+  arraycodigo =[];
+
+  stdecodi=st;
+  arraycodigo=stdecodi.split("|");
+
+
+
+
+
+
+lt="";
+
+  for(var i in arraycodigo ){
+
+
+if(arraycodigo[i]==""){}
+else{
+
+  switch(parseFloat( arraycodigo[i])) {
+case v1: lt=lt+"a";    break;
+case v2: lt=lt+"b";    break;
+case v3: lt=lt+"c";    break;
+case v4: lt=lt+"d";    break;
+case v5: lt=lt+"e";    break;
+case v6: lt=lt+"f";    break;
+case v7: lt=lt+"g";    break;
+case v8: lt=lt+"h";    break;
+case v9: lt=lt+"i";    break;
+case v10: lt=lt+"j";    break;
+case v11: lt=lt+"k";    break;
+case v12: lt=lt+"l";    break;
+case v13: lt=lt+"m";    break;
+case v14: lt=lt+"n";    break;
+case v15: lt=lt+"ñ";    break;
+case v16: lt=lt+"o";    break;
+case v17: lt=lt+"p";    break;
+case v18: lt=lt+"q";    break;
+case v19: lt=lt+"r";    break;
+case v20: lt=lt+"s";    break;
+case v21: lt=lt+"t";    break;
+case v22: lt=lt+"u";    break;
+case v23: lt=lt+"v";    break;
+case v24: lt=lt+"x";    break;
+case v25: lt=lt+"y";    break;
+case v26: lt=lt+"z";    break;
+case v27: lt=lt+".";    break;
+case v28: lt=lt+":";    break;
+case v29: lt=lt+"/";    break;
+case v30: lt=lt+"";    break;
+case v31: lt=lt+"0";    break;
+case v32: lt=lt+"1";    break;
+case v33: lt=lt+"2";    break;
+case v34: lt=lt+"3";    break;
+case v35: lt=lt+"4";    break;
+case v36: lt=lt+"5";    break;
+case v37: lt=lt+"6";    break;
+case v38: lt=lt+"7";    break;
+case v39: lt=lt+"8";    break;
+case v40: lt=lt+"9";    break;
+case v41: lt=lt+"-";    break;
+case v42: lt=lt+"!";    break;
+case v43: lt=lt+"#";    break;
+case v44: lt=lt+"$";    break;
+case v45: lt=lt+"%";    break;
+case v46: lt=lt+"(";    break;
+case v47: lt=lt+")";    break;
+case v48: lt=lt+"=";    break;
+case v49: lt=lt+"?";    break;
+case v50: lt=lt+"¿";    break;
+case v51: lt=lt+"¡";    break;
+case v52: lt=lt+"+";    break;
+case v53: lt=lt+"*";    break;
+case v54: lt=lt+"{";    break;
+case v55: lt=lt+"}";    break;
+case v56: lt=lt+"[";    break;
+case v57: lt=lt+";";    break;
+case v58: lt=lt+"<";    break;
+case v59: lt=lt+">";    break;
+
+case v61: lt=lt+"@";   break;
+case v62: lt=lt+"&";    break;
+
+
+case v63: lt=lt+"A";    break;
+case v64: lt=lt+"B";    break;
+case v65: lt=lt+"C";    break;
+case v66: lt=lt+"D";    break;
+case v67: lt=lt+"E";    break;
+case v68: lt=lt+"F";   break;
+case v69: lt=lt+"G";    break;
+case v70: lt=lt+"H";    break;
+case v71: lt=lt+"I";    break;
+case v72: lt=lt+"J";    break;
+case v73: lt=lt+"K";    break;
+case v74: lt=lt+"L";   break;
+case v75: lt=lt+"M";    break;
+case v76: lt=lt+"N";    break;
+case v77: lt=lt+"Ñ";    break;
+case v78: lt=lt+"O";    break;
+case v79: lt=lt+"P";    break;
+case v80: lt=lt+"Q";    break;
+
+case v81: lt=lt+"R";    break;
+case v82: lt=lt+"S";   break;
+case v83: lt=lt+"T";    break;
+case v84: lt=lt+"U";   break;
+case v85: lt=lt+"V";   break;
+case v86: lt=lt+"X";   break;
+case v87: lt=lt+"Y";   break;
+case v88: lt=lt+"Z";    break;
+
+case v89: lt=lt+"W";    break;
+case v90: lt=lt+"w";    break;
+
+case v91: lt=lt+"_";    break;
+case v92: lt=lt+",";    break;
+case v93: lt=lt+"'";    break;
+
+
+default:
+
+}
+
+
+
+
+
+}
+
+
+}
+
+return lt;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
