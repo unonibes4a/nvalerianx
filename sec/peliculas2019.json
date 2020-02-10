@@ -2337,7 +2337,20 @@
   "pg" :"" 
  
  }
-    
+ ,
+  
+ "eltime" : {
+
+"cambiaurl":"https://www.eltiempo.com/deportes" ,
+"bollvaafullscreen":"si",
+"vid":"1",
+"id" : "id9",
+ "idname" : "eltime",
+ "title":"eltime",
+ "img" : "",
+ "pg" :"" 
+
+} 
 
 
 }
