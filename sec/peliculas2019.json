@@ -2316,14 +2316,27 @@
   "vid":"1",
   "id" : "id9",
    "idname" : "bliblio",
-   "title":"bliblio",
+   "title":"bliblio iframe",
    "img" : "",
    "pg" :"https://es.wikipedia.org/wiki/Historia_de_Colombia" 
   
   }
     
 
-
+  ,
+  
+  "bliblio2" : {
+ 
+"cambiaurl":"https://es.wikipedia.org/wiki/Historia_de_Colombia" ,
+ "bollvaafullscreen":"si",
+ "vid":"1",
+ "id" : "id9",
+  "idname" : "bliblio2",
+  "title":"bliblio",
+  "img" : "",
+  "pg" :"" 
+ 
+ }
     
 
 

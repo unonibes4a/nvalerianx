@@ -1007,7 +1007,7 @@ function crealaspeliculasenpanel(idname,idtitle,idimgurl){
 
 
 var estapelicula="";
-
+var boolsipeliculasmostrar=false;
 
 function cualpeliculaespora(thiss){
 
@@ -1023,11 +1023,21 @@ for(var i in arrarypeliculas2019){
 
         esverdadjuego=false;
 
+        boolsipeliculasmostrar=true;
+       break;
 
-        cambiapeliscula(arrarypeliculas2019[i]);
+
     
     }
+  
 }
+
+if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
+  cambiapeliscula(arrarypeliculas2019[i]);
+  console.log(arrarypeliculas2019[i]);
+ 
+}
+
   }
 
 
@@ -1697,7 +1707,7 @@ function iframesuscrol(){
 
 
 
-var vx=76423;
+var vx=777;
 
 
 var  v1=1+vx;
@@ -1952,14 +1962,4 @@ return lt;
 
 
 }
-
-
-
-
-
-
-
-
-
-
 
