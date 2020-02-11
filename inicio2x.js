@@ -167,7 +167,7 @@ $(document).ready(function(){
 
 
     $("#xb3").click(function(){
-      fxb3();
+      fxb3(); //adultos
       animacontroliniciL();
     });
 
@@ -180,6 +180,10 @@ $(document).ready(function(){
 
 
 
+    $("#xb6").click(function(){
+      fxb6();// va a juegos
+      animacontroliniciL();
+    });
 
 
     
@@ -837,14 +841,90 @@ for(var i in arraryjuegos2019){
 
 
 
+//ADULTOS 
+
+  function fxb3(){
+
+    quetiposoyyo="adulto";
+    document.getElementById("idpaneldepeliculas").style.display="flex";
+    elfordecrearjuegosenpanel1 ();
+    ffbuscarlaspeliculas();
 
 
+    quetiposoyyo="video";
+
+  document.getElementById("idpaneldepeliculas").style.display="flex";
+  elfordecrearpeliculasenpanel1 ();
+  ffbuscarlaspeliculas();
+  
+  }
+  
+  function elfordecrearadultosenpanel1 () { 
+    empityelementosid("#idverdaderopeliculas");
+    for(var i in arraryadultos){
+      
+  crealasadultoenpanel(arraryadultos[i].idname,
+    arraryadultos[i].title,arraryadultos[i].img);
+        
+  
+    }
+   }
+
+
+   function crealasadultoenpanel(idname,idtitle,idimgurl){
+    stringpelis="";
+
+    
+    stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cualpeliculaespora(this)'>"+
+    "<div class='card'>  <h3 class='pelih3'>"+idtitle+"<br></h3> <img  class='climgrwo' src='"+idimgurl+"'  "+"alt=''>"+
+      "<p>valerianx</p>    </div>"+"</a>  </div>";
+
+
+      
+    $("#idverdaderopeliculas").append(stringpelis);
+
+
+} 
+
+var estaadulto="";
+var boolsiadultomostrar=false;
+
+function cualadultoespora(thiss){
+
+  
+estaadulto=thiss;
+
+
+
+for(var i in arraryadultos){
+
+    if(arraryadultos[i].idname==estaadulto.id){
+
+
+        esverdadjuego=false;
+
+        boolsiadultomostrar=true;
+       break;
+
+
+    
+    }
+  
+}
+
+if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
+  cambiapeliscula(arraryadultos[i]);
+ 
+ 
+}
+
+  }
 
 
 // fin de  juegos
 
 
-function fxb3(){
+function fxb6(){
 
   quetiposoyyo="juego";
   document.getElementById("idpaneldepeliculas").style.display="flex";
@@ -873,7 +953,7 @@ function traejsonlibros(){
    
         
       
-
+        traejsonadultos();
      
         
       });
@@ -1197,6 +1277,27 @@ if(cosajson.cambiaurl){
 
   window.location=cosajson.cambiaurl;
 }
+
+
+if(cosajson.ocultacentroarriba){
+
+  if(window.innerWidth<800){
+    document.getElementById("idbtblockiframetopleft").style.display="none";
+    document.getElementById("idbtblockiframetocentro").style.display="block";
+
+  }
+  else{
+    document.getElementById("idbtblockiframetopleft").style.display="block";
+    document.getElementById("idbtblockiframetocentro").style.display="none";
+  }
+
+}
+else{
+  document.getElementById("idbtblockiframetopleft").style.display="block";
+  document.getElementById("idbtblockiframetocentro").style.display="none";
+}
+document.getElementById("btmostrarenviavideonofunciona").style.display="none";
+
   
   }
   
@@ -1243,6 +1344,34 @@ function onclikhexapeliculaspeliculsa1(){
 
 //  fin codigo de  los botonescuando se pulzan
 
+
+
+
+//aduktos
+var arraryadultos=[];
+
+function traejsonadultos(){
+  
+
+  $.getJSON("./sec/adultos.json", function(result){
+   
+   arrarypeliculas2019=result;
+
+
+   
+
+
+  
+   
+ });
+}
+
+
+
+
+
+
+//fin  de adultos
 
 
 
