@@ -153,6 +153,14 @@ $(document).ready(function(){
     cambiotanaboventana();  });
 
 
+    $("#btconfiredad").click(function(){
+      fbtbtconfiredad();
+    });
+    
+    $("#btconfiredadno").click(function(){
+      fbtbtconfiredadno();
+    });
+    
 
     $("#xb1").click(function(){
       fxb1();
@@ -167,8 +175,7 @@ $(document).ready(function(){
 
 
     $("#xb3").click(function(){
-      fxb3(); //adultos
-      animacontroliniciL();
+      mostrarmensajadultos () 
     });
 
 
@@ -2096,3 +2103,19 @@ return lt;
 
 }
 
+
+
+function fbtbtconfiredad(){
+document.getElementById("idadultosconfirmaredad").style.display="none";
+  fxb3(); //adultos
+  animacontroliniciL();
+}
+function fbtbtconfiredadno(){
+  document.getElementById("idadultosconfirmaredad").style.display="none";
+  
+  }
+
+  function mostrarmensajadultos () {  
+
+    document.getElementById("idadultosconfirmaredad").style.display="flex";
+  }
