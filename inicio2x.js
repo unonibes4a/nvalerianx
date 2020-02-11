@@ -1428,6 +1428,7 @@ function fbtiramenu(){
  
 //cambiapeliscula("iframedecambio.gif");
 
+if(document.getElementById("idiframe")){document.getElementById("idiframe").src="iframedecambio.gif";}
 
     document.getElementById("idvisorpelis").style.display="none";
     document.getElementById("idpaneldepeliculas").style.display="none";
