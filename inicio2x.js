@@ -1124,7 +1124,12 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
   var objetoiframe="";
   var stsrc="";
   https://www.facebook.com/Ctermodinamica-1282370398566788/?modal=admin_todo_tour
-  function cambiapeliscula(cosajson){  // iframe le pasa la pelicula o el video elibro juego lo que sea
+  function cambiapeliscula(cosajson){
+    
+    
+    
+    
+    // iframe le pasa la pelicula o el video elibro juego lo que sea
   if(cosajson.bollvaafullscreen){
     bollvaafullscreen=cosajson.bollvaafullscreen;
    // alert("if   "+bollvaafullscreen);
@@ -1143,7 +1148,7 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
     document.getElementById("idvideomp4").src="";
    
   }
-    if(document.getElementById("idiframe")){document.getElementById("idiframe").src=""}
+    if(document.getElementById("idiframe")){document.getElementById("idiframe").src="iframedecambio.gif"}
 
     document.getElementById("idpaneldepeliculas").style.display="none";
     document.getElementById("idvisorpelis").style.display="block";
