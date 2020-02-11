@@ -1426,7 +1426,7 @@ function traejsontelevision(){
 
 function fbtiramenu(){
  
-cambiapeliscula("iframedecambio.gif");
+//cambiapeliscula("iframedecambio.gif");
 
 
     document.getElementById("idvisorpelis").style.display="none";
