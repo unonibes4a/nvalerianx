@@ -845,24 +845,24 @@ for(var i in arraryjuegos2019){
 
   function fxb3(){
 
-    quetiposoyyo="adulto";
+    quetiposoyyo="video";
     document.getElementById("idpaneldepeliculas").style.display="flex";
-    elfordecrearjuegosenpanel1 ();
+    elfordecrearadultosenpanel1 ();
     ffbuscarlaspeliculas();
 
 
-    quetiposoyyo="video";
 
-  document.getElementById("idpaneldepeliculas").style.display="flex";
-  elfordecrearpeliculasenpanel1 ();
-  ffbuscarlaspeliculas();
+
   
   }
   
   function elfordecrearadultosenpanel1 () { 
     empityelementosid("#idverdaderopeliculas");
+  console.clear();
+  console.log(arraryadultos);
+  
     for(var i in arraryadultos){
-      
+     
   crealasadultoenpanel(arraryadultos[i].idname,
     arraryadultos[i].title,arraryadultos[i].img);
         
@@ -875,15 +875,14 @@ for(var i in arraryjuegos2019){
     stringpelis="";
 
     
-    stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cualpeliculaespora(this)'>"+
+    stringpelis=  "<div  class='column'><a id='"+ String(idname)+"'" +"  onclick='cualadultoespora(this)'>"+
     "<div class='card'>  <h3 class='pelih3'>"+idtitle+"<br></h3> <img  class='climgrwo' src='"+idimgurl+"'  "+"alt=''>"+
       "<p>valerianx</p>    </div>"+"</a>  </div>";
 
 
       
     $("#idverdaderopeliculas").append(stringpelis);
-
-
+    console.log(idname);
 } 
 
 var estaadulto="";
@@ -912,7 +911,7 @@ for(var i in arraryadultos){
   
 }
 
-if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
+if(boolsiadultomostrar){boolsiadultomostrar=false;
   cambiapeliscula(arraryadultos[i]);
  
  
@@ -1316,7 +1315,7 @@ function traejsonpeliculas(){
         arrarypeliculas2019=result;
    
      
-        
+     
 
       traejsonseries();
 
@@ -1355,11 +1354,11 @@ function traejsonadultos(){
 
   $.getJSON("./sec/adultos.json", function(result){
    
-   arrarypeliculas2019=result;
-
-
+   arraryadultos=result;
+console.clear();
+console.log(arraryadultos);
    
-
+console.log("arraryadultos");
 
   
    
