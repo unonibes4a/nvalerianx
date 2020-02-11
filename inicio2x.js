@@ -1127,12 +1127,7 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
   function cambiapeliscula(cosajson){
     
     
-    if(cosajson.pg){
 
-    }
-    else{
-      document.getElementById("idiframe").src="iframedecambio.gif";
-    }
     
     // iframe le pasa la pelicula o el video elibro juego lo que sea
   if(cosajson.bollvaafullscreen){
@@ -1433,7 +1428,7 @@ function traejsontelevision(){
 
 function fbtiramenu(){
  
-cambiapeliscula("");
+cambiapeliscula("iframedecambio.gif");
 
 
     document.getElementById("idvisorpelis").style.display="none";
