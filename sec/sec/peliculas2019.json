@@ -1752,7 +1752,7 @@
 "title":"7up iframe",
 "img" : "",
 "pg" : "https://7-up.net/embed-79lvb68hrsg7.html"
-}
+}     
 
 
 ,
@@ -2202,7 +2202,7 @@
     ,
 
     "vidoza" : {
-    
+   
       "bollvaafullscreen":"si",
        "vid":"1",
        "id" : "id9",
@@ -2260,11 +2260,147 @@
      "idname" : "nimo",
      "title":"live nimo",
      "img" : "",
-     "pg" : "https://www.nimo.tv/embed/6803727046"
+     "pg" : "https://animeflv.ru/anime/10375/air-pelicula-2005?__cf_chl_jschl_tk__=26ca91b6f840aad9cd36468b81598a5979ab79d5-1581144360-0-AbCerz57oqxfWWgJ3ievYVPycFd0RYqn9LpPvey1xrAQYEg4vEQNy7feYKWb0p2RamqGpTursLXzIGvXsAGKLdgNxE9hjN2dmcqXNFLSPz_y8BVdSomeOPz2iFFmIhEFkvToZUdCeJiEZobLsLzJTYF3CcM3WrK5KIbfocT3W6E_arK2LJc_2evuSi3Gz--JerTJLkEjxk4Y32czsn8L84Z0KYB4nx_2BCIteQka02wiYPWvo77mA8pMOWm4kwVpY2ezM_XS2FQPECQ0rdP6AcNa6BXJ2s4OLjl94FHZvKcIn_4GSlnAwwGw_XK_NOR7kg"
      }
      
 
+     ,
+  
+     "gnulac" : {
+    
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id9",
+     "idname" : "gnulac",
+     "title":"gnula.co",
+     "img" : "",
+     "pg" :"https://www.gnula.co/" 
+    
+    }
+      
+    ,
+  
+    "gnulabz" : {
+   
+     "bollvaafullscreen":"si",
+      "vid":"1",
+      "id" : "id9",
+    "idname" : "gnulabz",
+    "title":"gnula.bz",
+    "img" : "",
+    "pg" :"https://www.gnula.bz/" 
+   
+   }
      
+   ,
+  
+    "cd1" : {
+   
+   "cd":"ok",
+   "bollvaafullscreen":"si",
+   "vid":"1",
+   "id" : "id9",
+    "idname" : "cd1",
+    "title":"codificado giovanni",
+    "img" : "",
+    "pg" :"785|798|798|794|797|805|806|806|867|867|867|804|784|791|799|789|778|804|779|803|806|" 
+   
+   }
+     
+   ,
+  
+   "bliblio" : {
+  
+ 
+  "bollvaafullscreen":"si",
+  "vid":"1",
+  "id" : "id9",
+   "idname" : "bliblio",
+   "title":"bliblio iframe",
+   "img" : "",
+   "pg" :"https://es.wikipedia.org/wiki/Historia_de_Colombia" 
+  
+  }
+    
+
+  ,
+  
+  "bliblio2" : {
+ 
+"cambiaurl":"https://es.wikipedia.org/wiki/Historia_de_Colombia" ,
+ "bollvaafullscreen":"si",
+ "vid":"1",
+ "id" : "id9",
+  "idname" : "bliblio2",
+  "title":"bliblio",
+  "img" : "",
+  "pg" :"" 
+ 
+ }
+ ,
+  
+ "eltime" : {
+
+"cambiaurl":"https://www.eltiempo.com/deportes" ,
+"bollvaafullscreen":"si",
+"vid":"1",
+"id" : "id9",
+ "idname" : "eltime",
+ "title":"eltime",
+ "img" : "",
+ "pg" :"" 
+
+} 
+
+,
+  
+"selvapor" : {
+
+
+"bollvaafullscreen":"si",
+"vid":"1",
+"id" : "id9",
+"idname" : "selvapor",
+"title":"selvapornoxxx",
+"img" : "",
+"pg" :"https://selvaporno.com/" 
+
+} 
+
+
+,
+  
+"findtubes" : {
+
+
+"bollvaafullscreen":"si",
+"vid":"1",
+"id" : "id9",
+"idname" : "findtubes",
+"title":"findtubes xxx",
+"img" : "",
+"pg" :"https://www.xvideos.com/" 
+
+} 
+
+
+,
+  
+"pelisplay2" : {
+
+
+"bollvaafullscreen":"si",
+"vid":"1",
+"id" : "id9",
+"idname" : "pelisplay2",
+"title":"pelisplay neflix",
+"img" : "",
+"pg" :"https://www.pelisplay.co/netflix" 
+
+} 
+
+
+
 
 
 
