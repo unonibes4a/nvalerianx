@@ -79,28 +79,28 @@ function fenquedispositivoestoy(){
 };
   
   if(isMobile.any()) {
-    console.log('Esto es un dispositivo móvil, si especificar cuál');
+
     boolnoandroid=true;
   }
   if(isMobile.Android()) {
-    console.log('Esto es un dispositivo Android');
+
 
     boolnoandroid=true;
   }
   if(isMobile.BlackBerry()) {
-    console.log('Esto es un dispositivo BlackBerry');
+
 
   }
   if(isMobile.iOS()) {
-    console.log('Esto es un dispositivo iOS');
+   
     boolnoesios=true;
   }
   if(isMobile.Opera()) {
-    console.log('Esto es un dispositivo Opera');
+ 
     boolnoesios=true;
   }
   if(isMobile.Windows()) {
-    console.log('Esto es un dispositivo Windows');
+
     boolnoesios=true;
   }
 
@@ -858,8 +858,7 @@ for(var i in arraryjuegos2019){
   
   function elfordecrearadultosenpanel1 () { 
     empityelementosid("#idverdaderopeliculas");
-  console.clear();
-  console.log(arraryadultos);
+
   
     for(var i in arraryadultos){
      
@@ -882,7 +881,7 @@ for(var i in arraryjuegos2019){
 
       
     $("#idverdaderopeliculas").append(stringpelis);
-    console.log(idname);
+
 } 
 
 var estaadulto="";
@@ -1113,7 +1112,7 @@ for(var i in arrarypeliculas2019){
 
 if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
   cambiapeliscula(arrarypeliculas2019[i]);
-  console.log(arrarypeliculas2019[i]);
+ 
  
 }
 
@@ -1166,7 +1165,7 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
       if(cosajson.cd){
   
         stsrc=decodifi(cosajson.pg);
-       //console.log("stsrc  "+stsrc);
+       
       }
       else{
         stsrc=cosajson.pg;
@@ -1361,10 +1360,9 @@ function traejsonadultos(){
   $.getJSON("./sec/adultos.json", function(result){
    
    arraryadultos=result;
-console.clear();
-console.log(arraryadultos);
+
    
-console.log("arraryadultos");
+
 
   
    
@@ -1566,7 +1564,7 @@ if(isMobile.any()) {
 
 }
 if(isMobile.Android()) {
-//  console.log('Esto es un dispositivo Android');
+
 
 //muestramensaje("El modulo TV es para  PC mientras ampliamos nuestra planta, descarga valerian para pc  https://giovannird.itch.io/valerianx");
 document.getElementById("idblockokru").style.display="none";
