@@ -368,7 +368,7 @@ setTimeout(function(){
 // fin   maneja  video v1.mp4
 function escribe(st){
 
-  document.getElementById("idyo").value="Giovanni Rodriguez D";//vw+"  "+vh;
+  document.getElementById("idyo").value="Valerianx";//vw+"  "+vh;
 
 }
 
