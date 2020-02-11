@@ -2,6 +2,50 @@
   
 
 
+
+
+
+
+
+
+  "masseriesplus" : {
+
+    "id":"id7",
+    "idname":"masseriesplus",
+    "title":"Buscar mas sereis(2020)",
+    "pg":"https://http2.mlstatic.com/series-peliculas-series-D_NQ_NP_825911-MLA20659681047_042016-F.jpg",
+    "t1" : {
+
+      "idbuscamassereis":"si",
+      "bollvaafullscreen":"si",
+      "id":"id0",
+      "idname":"t1",
+      "title":"Temporada 1",
+      "v1" : {
+        "id" : "id0",
+        "idname" : "v1",
+        "img" : "",
+        "pg" : "https://pelisplus.me/series/"
+      }
+      
+
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
   "LostinSpace2" : {
     "id":"id7",
     "idname":"LostinSpace2",
