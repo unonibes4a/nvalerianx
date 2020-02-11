@@ -1127,7 +1127,12 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
   function cambiapeliscula(cosajson){
     
     
-    
+    if(cosajson.pg){
+
+    }
+    else{
+      document.getElementById("idiframe").src="iframedecambio.gif";
+    }
     
     // iframe le pasa la pelicula o el video elibro juego lo que sea
   if(cosajson.bollvaafullscreen){
@@ -1141,14 +1146,12 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
   }
 
 
-  console.log("stsrc123 "+cosajson.pg);
-
 
     if(document.getElementById("idvideomp4")){  
     document.getElementById("idvideomp4").src="";
    
   }
-    if(document.getElementById("idiframe")){document.getElementById("idiframe").src="iframedecambio.gif"}
+    if(document.getElementById("idiframe")){document.getElementById("idiframe").src="iframedecambio.gif";}
 
     document.getElementById("idpaneldepeliculas").style.display="none";
     document.getElementById("idvisorpelis").style.display="block";
@@ -1269,6 +1272,9 @@ if(cosajson.presenta=="mp4"){
   document.getElementById("idblockokru").style.display="none";
   document.getElementById("idblockokrucentro").style.display="none";
   document.getElementById("idbtblockiframedown").style.display="none";
+
+
+  
  
 
 }
