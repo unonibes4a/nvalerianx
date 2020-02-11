@@ -1,5 +1,17 @@
 {
 
+  "cinecalidad2" : { 
+    "bollvaafullscreen":"si",
+    "vid":"1",
+    "id" : "id9",
+  "idname" : "cinecalidad2",
+  "title":"BUSCAR MÁS PELICULAS",
+  "img" : "img/maspeliculas.jpg",
+  "pg" :"https://www.cine-calidad.com/" 
+  }
+  
+  ,
+
   "Shaftqq" : {
     "presenta":"mp4",
      "vid":"1",
