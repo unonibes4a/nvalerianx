@@ -255,7 +255,7 @@ background-color: rgba(0, 0, 0, 0.425);
     width: 20%;
     height: 20%;
     z-index: 6;  
-    background-color: rgb(180, 13, 13);
+    background-color: rgba(180, 13, 13, 0);
 }
 
 
@@ -815,7 +815,7 @@ display: none;
   #idh6vio{
     position: absolute;
     left:20%;
-    top: 5%;
+    top: 11%;
     font-size: 11px;
     text-align: center;
 color: rgba(2, 48, 133, 0.808);
