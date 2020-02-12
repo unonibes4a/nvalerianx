@@ -152,6 +152,15 @@ $(document).ready(function(){
    
     cambiotanaboventana();  });
 
+
+    $("body").click(function(thiss){
+     
+     
+
+     escribe(thiss.tagName);
+    });
+
+
     $("#idbtblockiframedown").click(function(){
      fbtidbtblockiframedown();
     });
@@ -378,8 +387,8 @@ setTimeout(function(){
 // fin   maneja  video v1.mp4
 function escribe(st){
 
-  document.getElementById("idyo").value="Valerianx";//vw+"  "+vh;
-
+  document.getElementById("idyo").value=st;//"Valerianx";//vw+"  "+vh;
+alert(st);
 }
 
    
