@@ -152,6 +152,9 @@ $(document).ready(function(){
    
     cambiotanaboventana();  });
 
+    $("#idbtblockiframedown").click(function(){
+     fbtidbtblockiframedown();
+    });
 
     $("#btconfiredad").click(function(){
       fbtbtconfiredad();
@@ -1133,18 +1136,9 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
   function cambiapeliscula(cosajson){
     
     
-
+    lacosaobjamacenada=cosajson;
     
     // iframe le pasa la pelicula o el video elibro juego lo que sea
-  if(cosajson.bollvaafullscreen){
-    bollvaafullscreen=cosajson.bollvaafullscreen;
-   // alert("if   "+bollvaafullscreen);
-    
-  }
-  else{
-   // bollvaafullscreen="no";
-   //alert("else   "+bollvaafullscreen);
-  }
 
 
 
@@ -1279,11 +1273,16 @@ if(cosajson.presenta=="mp4"){
  
 
 }
-
-document.getElementById("idbtblockiframetop").style.display="none";
+try {
+  document.getElementById("idbtblockiframetop").style.display="none";
 document.getElementById("idblockokru").style.display="none";
 document.getElementById("idblockokrucentro").style.display="none";
 document.getElementById("idbtblockiframedown").style.display="none";
+} catch (error) {
+  
+}
+
+
 if(cosajson.cambiaurl){
 
   window.location=cosajson.cambiaurl;
@@ -1309,12 +1308,48 @@ else{
 }
 document.getElementById("btmostrarenviavideonofunciona").style.display="none";
 
+
+if(cosajson.bollvaafullscreen){
+  bollvaafullscreen=cosajson.bollvaafullscreen;
+if(cosajson.bollvaafullscreen=="no"){
+
+
+  setTimeout(function(){
+    try {
+      document.getElementById("idbtblockiframedown").style.display="block";
+      alert("idbtblockiframedown");
+    } catch (error) {
+      
+    }
+ 
+  },25000)
+
+}
+
+ // alert("if   "+bollvaafullscreen);
+  
+}
+else{
+ // bollvaafullscreen="no";
+ //alert("else   "+bollvaafullscreen);
+}
+
+
+
+
+
+
   
   }
   
-
-
-
+var lacosaobjamacenada;
+var boollacosaobjamacenada=fale;
+ function fbtidbtblockiframedown(){
+  cambiapeliscula(lacosaobjamacenada);
+ }
+ function fbtidbtblockiframedown2(){
+  cambiapeliscula(lacosaobjamacenada);
+ }
 
 
 
