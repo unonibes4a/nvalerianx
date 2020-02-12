@@ -772,3 +772,24 @@ display: none;
 	align-items: center;
 	align-content: stretch;
   }
+
+  #iddivbtobcionnofuncioclik{
+
+
+
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 33%;
+    height: 33px;
+    z-index: 6;  
+    color: rgb(5, 18, 201);
+    
+    background-color: rgba(255, 255, 255, 0);
+
+font-size: 11px;
+text-align: center;
+
+display: none;
+
+  }

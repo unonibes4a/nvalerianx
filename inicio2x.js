@@ -1143,7 +1143,7 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
     
     // iframe le pasa la pelicula o el video elibro juego lo que sea
 
-
+    document.getElementById("iddivbtobcionnofuncioclik").style.display="none";
 
     if(document.getElementById("idvideomp4")){  
     document.getElementById("idvideomp4").src="";
@@ -1314,6 +1314,7 @@ document.getElementById("btmostrarenviavideonofunciona").style.display="none";
 
 if(cosajson.bollvaafullscreen){
   bollvaafullscreen=cosajson.bollvaafullscreen;
+  document.getElementById("iddivbtobcionnofuncioclik").style.display="none";
 if(cosajson.bollvaafullscreen=="no"){
 
 
@@ -1330,14 +1331,25 @@ if(cosajson.bollvaafullscreen=="no"){
 }
 
  // alert("if   "+bollvaafullscreen);
+ if(cosajson.ocultaridbtblockiframetopleft=="si"){
+  document.getElementById("idbtblockiframetopleft").style.display="none";
+ }else{
+
+ }
+ if(cosajson.ocultaridbtblockiframetopleft=="no"){
+  document.getElementById("idbtblockiframetopleft").style.display="block";
+  document.getElementById("idbtblockiframetopleft").style.display="none";
+ }else{
+
+ }
+
+
   
 }
 else{
  // bollvaafullscreen="no";
  //alert("else   "+bollvaafullscreen);
 }
-
-
 
 
 
