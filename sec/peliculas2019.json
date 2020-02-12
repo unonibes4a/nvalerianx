@@ -35,6 +35,7 @@
 
 
   "Shaftqq" : {
+    "ocultaridbtblockiframetopleft":"si",
     "presenta":"mp4",
      "vid":"1",
      "id" : "id11",
@@ -52,8 +53,9 @@
   
  
   "corperro" : {
+    "ocultaridbtblockiframetopleft":"si",
    "presenta":"iframe",
-    "vid":"1",
+
     "id" : "id11",
   "idname" : "corperro",
   "title":"Corgi un perro real (2019)",
@@ -65,6 +67,8 @@
   ,
 
   "Ma" : {
+
+    "ocultaridbtblockiframetopleft":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -79,6 +83,9 @@
 
 
   "lanch" : {
+
+
+    "ocultaridbtblockiframetopleft":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
