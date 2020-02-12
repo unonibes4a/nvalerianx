@@ -1314,6 +1314,49 @@ document.getElementById("btmostrarenviavideonofunciona").style.display="none";
 
 if(cosajson.bollvaafullscreen){
   bollvaafullscreen=cosajson.bollvaafullscreen;
+ // fcuandoentraalexistefulscren();
+  
+}
+else{
+  bollvaafullscreen="no";
+}
+if(cosajson.ocultaridbtblockiframetopleft){
+  elcasobloaqueoizuqwrdaarriba();
+  bollvaafullscreen="no";
+//document,getElementById("idbtblockiframetopleft").style.display="none";
+
+setTimeout(function(){
+  try {
+    document.getElementById("idbtblockiframedown").style.display="block";
+  
+  } catch (error) {
+    
+  }
+
+},20000);
+
+
+}
+else{
+
+}
+
+
+
+
+
+  
+  }
+
+
+  function elcasobloaqueoizuqwrdaarriba(){
+    document.getElementById("idbtblockiframetopleft").style.display="none";
+    document.getElementById("iddivbtobcionnofuncioclik").style.display="block";
+  }
+  
+
+function fcuandoentraalexistefulscren(){
+  bollvaafullscreen=cosajson.bollvaafullscreen;
   document.getElementById("iddivbtobcionnofuncioclik").style.display="none";
 if(cosajson.bollvaafullscreen=="no"){
 
@@ -1326,7 +1369,7 @@ if(cosajson.bollvaafullscreen=="no"){
       
     }
  
-  },20000)
+  },20000);
 
 }
 
@@ -1334,6 +1377,7 @@ if(cosajson.bollvaafullscreen=="no"){
  if(cosajson.ocultaridbtblockiframetopleft=="si"){
   document.getElementById("idbtblockiframetopleft").style.display="none";
   document.getElementById("iddivbtobcionnofuncioclik").style.display="block";
+
  }else{
 
  }
@@ -1344,22 +1388,7 @@ if(cosajson.bollvaafullscreen=="no"){
 
  }
 
-
-  
 }
-else{
- // bollvaafullscreen="no";
- //alert("else   "+bollvaafullscreen);
-}
-
-
-
-
-  
-  }
-  
-
-
 
 
 var interoacosaobjamacenada=0;
