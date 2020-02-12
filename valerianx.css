@@ -783,13 +783,40 @@ display: none;
     width: 33%;
     height: 33px;
     z-index: 6;  
-    color: rgb(5, 18, 201);
+   
     
     background-color: rgba(255, 255, 255, 0);
 
-font-size: 11px;
-text-align: center;
+
 
 display: none;
 
+  }
+
+
+
+
+
+  #idbtinno{
+      
+    position: absolute;
+    left:0%;
+    top: 3%;
+    width: 33px;
+    height: 33px;
+    background-color: #a08e0500;
+    border-radius: 50%;
+    border: 3px solid rgb(78, 77, 77);
+    text-align: center;
+    color: rgba(2, 48, 133, 0.808);
+    font-size: 11px;
+  }
+
+  #idh6vio{
+    position: absolute;
+    left:20%;
+    top: 5%;
+    font-size: 11px;
+    text-align: center;
+color: rgba(2, 48, 133, 0.808);
   }
