@@ -12,6 +12,28 @@
   
   ,
 
+  "LasaventurasdeErrolFlynn" : {
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "LasaventurasdeErrolFlynn",
+  "title":"Las aventuras de Errol Flynn",
+  "img" : "./img/adulto.png",
+  "pg" :"https://hqq.tv/player/embed_player.php?vid=ZEFUcm53R0VzRjJ5S216eTJrVm4yQT09&autoplay=yes"
+
+}
+
+
+
+
+
+,
+
+
+
+
   "Shaftqq" : {
     "presenta":"mp4",
      "vid":"1",
