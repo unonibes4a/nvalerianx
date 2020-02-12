@@ -1322,7 +1322,7 @@ if(cosajson.bollvaafullscreen=="no"){
       
     }
  
-  },25000)
+  },55000)
 
 }
 
