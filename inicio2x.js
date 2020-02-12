@@ -1358,29 +1358,7 @@ else{
   
   }
   
-var lacosaobjamacenada;
-var boollacosaobjamacenada=fale;
-var intvanboollacosaobjamacenada=0;
- function fbtidbtblockiframedown(){
-  intvanboollacosaobjamacenada=intvanboollacosaobjamacenada+1;
-   if(boollacosaobjamacenada){
-     if(intvanboollacosaobjamacenada==1){
-      boollacosaobjamacenada=true;
-      cambiapeliscula(lacosaobjamacenada);
-     }
 
-     if(intvanboollacosaobjamacenada==2){
-      boollacosaobjamacenada=true;
-      cambiapeliscula(lacosaobjamacenada);
-     }
-     if(intvanboollacosaobjamacenada>2){
-      intvanboollacosaobjamacenada=0;
-      boollacosaobjamacenada=false;
-      cambiapeliscula(lacosaobjamacenada);
-     }
-   }
- 
- }
 
 
 
