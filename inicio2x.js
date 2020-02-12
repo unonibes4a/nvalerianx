@@ -193,6 +193,10 @@ $(document).ready(function(){
     });
 
 
+    $("#xb5").click(function(){
+ 
+      window.location="https://unonibes4a.github.io/putass/";
+    });
 
     $("#xb6").click(function(){
       fxb6();// va a juegos
