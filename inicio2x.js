@@ -1333,12 +1333,13 @@ if(cosajson.bollvaafullscreen=="no"){
  // alert("if   "+bollvaafullscreen);
  if(cosajson.ocultaridbtblockiframetopleft=="si"){
   document.getElementById("idbtblockiframetopleft").style.display="none";
+  document.getElementById("iddivbtobcionnofuncioclik").style.display="block";
  }else{
 
  }
  if(cosajson.ocultaridbtblockiframetopleft=="no"){
   document.getElementById("idbtblockiframetopleft").style.display="block";
-  document.getElementById("idbtblockiframetopleft").style.display="none";
+
  }else{
 
  }
