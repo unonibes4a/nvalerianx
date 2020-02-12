@@ -152,17 +152,12 @@ $(document).ready(function(){
    
     cambiotanaboventana();  });
 
-
-    $("body").click(function(thiss){
-     
-     
-
-     escribe(thiss.tagName);
-    });
+    vid = document.getElementById("idvideofondo");
+    vid.volume = 0.02;
 
 
     $("#idbtblockiframedown").click(function(){
-     fbtidbtblockiframedown();
+      fbtidbtblockiframedown2();
     });
 
     $("#btconfiredad").click(function(){
@@ -211,8 +206,7 @@ $(document).ready(function(){
     traejsonpeliculas();
     terminoelvideov1();
   getvwvh();
-  vid = document.getElementById("idvideofondo");
-  vid.volume = 0.06;
+
   iniciadeverdad ("");
  
 setTimeout(function () {
@@ -387,8 +381,8 @@ setTimeout(function(){
 // fin   maneja  video v1.mp4
 function escribe(st){
 
-  document.getElementById("idyo").value=st;//"Valerianx";//vw+"  "+vh;
-alert(st);
+  document.getElementById("idyo").value="Valerianx";//vw+"  "+vh;
+
 }
 
    
@@ -1143,7 +1137,7 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
   var stsrc="";
   https://www.facebook.com/Ctermodinamica-1282370398566788/?modal=admin_todo_tour
   function cambiapeliscula(cosajson){
-    
+    interoacosaobjamacenada=0;
     
     lacosaobjamacenada=cosajson;
     
@@ -1326,12 +1320,12 @@ if(cosajson.bollvaafullscreen=="no"){
   setTimeout(function(){
     try {
       document.getElementById("idbtblockiframedown").style.display="block";
-      alert("idbtblockiframedown");
+    
     } catch (error) {
       
     }
  
-  },55000)
+  },20000)
 
 }
 
@@ -1353,12 +1347,47 @@ else{
   
 var lacosaobjamacenada;
 var boollacosaobjamacenada=fale;
+var intvanboollacosaobjamacenada=0;
  function fbtidbtblockiframedown(){
-  cambiapeliscula(lacosaobjamacenada);
+  intvanboollacosaobjamacenada=intvanboollacosaobjamacenada+1;
+   if(boollacosaobjamacenada){
+     if(intvanboollacosaobjamacenada==1){
+      boollacosaobjamacenada=true;
+      cambiapeliscula(lacosaobjamacenada);
+     }
+
+     if(intvanboollacosaobjamacenada==2){
+      boollacosaobjamacenada=true;
+      cambiapeliscula(lacosaobjamacenada);
+     }
+     if(intvanboollacosaobjamacenada>2){
+      intvanboollacosaobjamacenada=0;
+      boollacosaobjamacenada=false;
+      cambiapeliscula(lacosaobjamacenada);
+     }
+   }
+ 
  }
+
+
+
+var interoacosaobjamacenada=0;
  function fbtidbtblockiframedown2(){
-  cambiapeliscula(lacosaobjamacenada);
- }
+if(interoacosaobjamacenada==0){
+  document.getElementById("idbtblockiframedown").style.display="none";
+setTimeout(function (){
+
+  document.getElementById("idbtblockiframedown").style.display="block";
+},4000);
+
+}
+interoacosaobjamacenada=interoacosaobjamacenada+1;
+
+}
+
+ 
+
+
 
 
 
