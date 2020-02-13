@@ -1434,6 +1434,7 @@
      ,
  
      "canales" : {
+       "cambiaurl":"http://teleonline.org/",
       "bollvaafullscreen":"si",
        "vid":"1",
        "id" : "id7",
