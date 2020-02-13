@@ -1431,6 +1431,20 @@
      "pg" : ""
      }
      
+     ,
+ 
+     "canales" : {
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id7",
+     "idname" : "canales",
+     "title":"canales",
+     "img" : "./img/adulto.png",
+     "pg" : "http://teleonline.org/"
+     }
+     
+
+ 
 
 }
 
