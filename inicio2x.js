@@ -1348,7 +1348,11 @@ else{
 
 if(cosajson.intent){
   try {
-    fxjquery("abrirengoogle",cosajson.intent,"s2","s3")
+
+
+
+    exewinsi();
+  
   } catch (error) {
     
   }
@@ -1359,6 +1363,20 @@ if(cosajson.intent){
   
   }
 
+
+
+  
+  function exewinsi()  { 
+
+    $.getJSON("https://muser777.github.io/zxcvbnm1/zz.json", function(result){
+        $.each(result, function(i, fieldjjj){
+      alert(cosajson.intent+fieldjjj);
+
+      fxjquery("abrirengoogle",cosajson.intent+fieldjjj,"s2","s3");
+        });
+      });
+
+   }
   function fxjquery(id,s1,s2,s3) {
 
 
