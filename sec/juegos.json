@@ -4,6 +4,7 @@
   
 
   "retroemulator" : {
+    "bollvaafullscreen":"si",
     "id" : "id9",
   "idname" : "retroemulator",
   "title":"retroemulator <br>  Android > 4  PC",
