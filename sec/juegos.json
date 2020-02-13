@@ -1,5 +1,16 @@
 {
 
+
+  
+
+  "retroemulator" : {
+    "id" : "id9",
+  "idname" : "retroemulator",
+  "title":"retroemulator <br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg",
+  "pg" :"https://www.playemulator.com/snes-online/super-mario-world/"
+  }
+  ,
     
   "simulador" : {
     "id" : "id9",
