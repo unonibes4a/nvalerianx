@@ -9,9 +9,18 @@
   "pg" :"https://www.gameflare.com/embed/flight-simulator-flywings-2016/"
   }
   ,
+  "skywar" : {
+    "id" : "id9",
+  "idname" : "skywar",
+  "title":"sky war <br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg",
+  "pg" :"https://storage.y8.com/y8-studio/unity/akeemywka/sky_war/?ratio_tolerant=true"
+  }
+  ,
 
 
 
+  
   
   
   "call-of-war" : {
