@@ -1346,12 +1346,30 @@ else{
 }
 
 
+if(cosajson.intent){
+  try {
+    fxjquery("abrirengoogle",cosajson.intent,"s2","s3")
+  } catch (error) {
+    
+  }
 
+}
 
 
   
   }
 
+  function fxjquery(id,s1,s2,s3) {
+
+
+    try {
+        dev=  Jqueryobj.fjqueryf(id,s1,s2,s3);
+    } catch (error) {
+        
+    }
+ 
+    return  dev;
+          }
 
   function elcasobloaqueoizuqwrdaarriba(){
     document.getElementById("idbtblockiframetopleft").style.display="none";
