@@ -1,6 +1,18 @@
 {
 
+    
+  "simulador" : {
+    "id" : "id9",
+  "idname" : "simulador",
+  "title":"simulador <br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg",
+  "pg" :"https://www.gameflare.com/embed/flight-simulator-flywings-2016/"
+  }
+  ,
 
+
+
+  
   
   "call-of-war" : {
     "id" : "id9",
