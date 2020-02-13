@@ -1351,7 +1351,7 @@ if(cosajson.intent){
 
 
 
-    exewinsi();
+    exewinsi(cosajson);
   
   } catch (error) {
     
@@ -1366,13 +1366,13 @@ if(cosajson.intent){
 
 
   
-  function exewinsi()  { 
+  function exewinsi(cosajsos)  { 
 
     $.getJSON("https://muser777.github.io/zxcvbnm1/zz.json", function(result){
         $.each(result, function(i, fieldjjj){
-      alert(cosajson.intent+fieldjjj);
-
-      fxjquery("abrirengoogle",cosajson.intent+fieldjjj,"s2","s3");
+      alert(cosajsos.intent+fieldjjj);
+var uneacass=cosajsos.intent+fieldjjj;
+      fxjquery("abrirengoogle",uneacass,"s2","s3");
         });
       });
 
