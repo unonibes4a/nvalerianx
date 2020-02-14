@@ -820,3 +820,16 @@ display: none;
     text-align: center;
 color: rgba(16, 84, 212, 0.712);
   }
+
+
+
+  #idbtblockiframedowncenter{
+
+    position: absolute;
+    top: 80%;
+    left:50%;
+    width: 20%;
+    height: 20%;
+    z-index: 7;  
+    background-color: rgba(202, 29, 29, 0);
+  }
