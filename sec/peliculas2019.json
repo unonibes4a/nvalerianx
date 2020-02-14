@@ -57,7 +57,7 @@
   "idname" : "GretelyHansel",
   "title":"Gretel y Hansel",
   "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/GretelyHansel.jpg?raw=true",
-  "pg" :"https://hqq.tv/player/embed_player.php?vid=WThuUjVmc2ZMVm5GK1ZXTlR2b2NPZz09&autoplay=yes"
+  "pg" :"https://hqq.tv/player/embed_player.php?vid=WThuUjVmc2ZMVm5GK1ZXTlR2b2NPZz09&autoplay=no"
 
 }
 
@@ -73,7 +73,7 @@
   "idname" : "doctordolittle",
   "title":"las aventuras de doctor dolittle",
   "img" : "https://raw.githubusercontent.com/unonubes19/imgsolo/master/imgsolo1/dollite.jpg",
-  "pg" :"https://hqq.tv/player/embed_player.php?vid=L3pyVHRjNFBXTzlWaHJSVWxrbWFBdz09&autoplay=yes"
+  "pg" :"https://hqq.tv/player/embed_player.php?vid=L3pyVHRjNFBXTzlWaHJSVWxrbWFBdz09&autoplay=no"
 
 }
 
@@ -88,7 +88,7 @@
   "idname" : "LasaventurasdeErrolFlynn",
   "title":"Las aventuras de Errol Flynn",
   "img" : "./img/adulto.png",
-  "pg" :"https://hqq.tv/player/embed_player.php?vid=ZEFUcm53R0VzRjJ5S216eTJrVm4yQT09&autoplay=yes"
+  "pg" :"https://hqq.tv/player/embed_player.php?vid=ZEFUcm53R0VzRjJ5S216eTJrVm4yQT09&autoplay=no"
 
 }
 
