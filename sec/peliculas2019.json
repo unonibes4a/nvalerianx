@@ -18,6 +18,40 @@
   ,
 
 
+
+  "Constantine" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+ 
+    "id" : "id0",
+  "idname" : "Constantine",
+  "title":"Constantine",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/WitchesintheWoods.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|860|808|781|848|778|845|841|800|782|866|812|813|852|791|845|863|866|789|780|810|865|809|785|790|779|787|864|812|857|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+
+}
+  ,
+
+
+
+
+  "frozen2" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+ 
+    "id" : "id0",
+  "idname" : "frozen2",
+  "title":"frozen 2",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/frozen2.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|860|846|785|853|855|862|840|811|781|809|785|845|861|862|857|803|781|846|857|813|858|846|853|843|779|790|849|801|857|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+
+}
+  ,
+
   "WitchesintheWoods" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
