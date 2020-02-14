@@ -38,45 +38,6 @@
 
 
 
-  "masseriesplus" : {
-
-    "id":"id7",
-    "idname":"masseriesplus",
-    "title":"BUSCAR MÁS SERIES (2020)",
-    "pg":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQN46Wzwf1El3dqJ9PuOPswQNCP4hPW4D4HTLB5Ta36iGj5qD6E",
-    "t1" : {
-
-      "idbuscamassereis":"si",
-      "bollvaafullscreen":"si",
-      "id":"id0",
-      "idname":"t1",
-      "title":"ENTRAR A VER MÁS SERIES",
-      "v1" : {
-        "id" : "id0",
-        "idname" : "v1",
-        "img" : "",
-        "pg" : "https://pelisplus.me/series/"
-      }
-      
-
-    }
-    
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-,
-
   "LostinSpace2" : {
     "id":"id7",
     "idname":"LostinSpace2",
