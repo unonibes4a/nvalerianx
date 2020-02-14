@@ -16,22 +16,7 @@
 
   
 
-  ,
 
-
-  "OTRAVUELTADETUERCA" : {
-    "cd":"si",
-    "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
-"presenta":"iframe",
- 
-    "id" : "id0",
-  "idname" : "OTRAVUELTADETUERCA",
-  "title":"OTRA VUELTA DE TUERCA",
-  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/OTRAVUELTADETUERCA.jpg?raw=true",
-  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|780|808|817|861|852|861|852|810|857|861|858|791|864|861|798|787|866|847|849|861|859|808|797|801|779|866|809|797|857|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
-
-}
   ,
 
 
@@ -1628,24 +1613,39 @@
      "pg" : "http://teleonline.org/"
      }
      
-
      ,
 
 
-
-     "Constantine" : {
+     "OTRAVUELTADETUERCA" : {
        "cd":"si",
        "ocultaridbtblockiframetopleft":"si",
      "bollvaafullscreen":"no",
    "presenta":"iframe",
     
        "id" : "id0",
-     "idname" : "Constantine",
-     "title":"Constantine",
-     "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/cosntanine.jpg?raw=true",
-     "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|862|847|849|791|852|787|780|809|778|861|797|802|779|863|781|810|866|844|853|861|852|846|780|803|851|808|781|803|857|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+     "idname" : "OTRAVUELTADETUERCA",
+     "title":"OTRA VUELTA DE TUERCA",
+     "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/OTRAVUELTADETUERCA.jpg?raw=true",
+     "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|780|808|817|861|852|861|852|810|857|861|858|791|864|861|798|787|866|847|849|861|859|808|797|801|779|866|809|797|857|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
    
    }
+   ,
+
+
+
+   "Constantine" : {
+     "cd":"si",
+     "ocultaridbtblockiframetopleft":"si",
+   "bollvaafullscreen":"no",
+ "presenta":"iframe",
+  
+     "id" : "id0",
+   "idname" : "Constantine",
+   "title":"Constantine",
+   "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/cosntanine.jpg?raw=true",
+   "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|862|847|849|791|852|787|780|809|778|861|797|802|779|863|781|810|866|844|853|861|852|846|780|803|851|808|781|803|857|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+ 
+ }
 
 }
 
