@@ -10,6 +10,23 @@
   "pg" :"https://www.cine-calidad.com/" 
   }
   
+
+  
+  ,
+
+  "doctordolittle" : {
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "doctordolittle",
+  "title":"las aventuras de doctor dolittle",
+  "img" : "https://raw.githubusercontent.com/unonubes19/imgsolo/master/imgsolo1/dollite.jpg",
+  "pg" :"https://hqq.tv/player/embed_player.php?vid=L3pyVHRjNFBXTzlWaHJSVWxrbWFBdz09&autoplay=si"
+
+}
+
   ,
 
   "LasaventurasdeErrolFlynn" : {
