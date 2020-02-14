@@ -53,6 +53,20 @@
   ,
 
 
+  "PualesporlaEspalda" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+ 
+    "id" : "id0",
+  "idname" : "PualesporlaEspalda",
+  "title":"Puñales por la Espalda",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/puEspalda.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|852|808|780|810|862|846|817|786|866|846|813|786|778|787|853|850|850|808|853|813|857|860|789|800|861|788|864|809|865|803|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+
+}
+  ,
 
 
   "Espíascondisfraz" : {
