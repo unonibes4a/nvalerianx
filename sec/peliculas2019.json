@@ -10,8 +10,29 @@
   "pg" :"https://www.cine-calidad.com/" 
   }
   
- 
+
+
+
+
+  
   ,
+
+
+  "Espíascondisfraz" : {
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "Espíascondisfraz",
+  "title":"Espías con disfraz",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/Esp%C3%ADas%20con%20disfraz.jpg?raw=true",
+  "pg" :"https://hqq.tv/player/embed_player.php?vid=eXlibVdtWVpxUUpMQWZKaEtXWUJ6QT09&autoplay=no"
+
+}
+  ,
+
+
 
   "underwater" : {
     "ocultaridbtblockiframetopleft":"si",
