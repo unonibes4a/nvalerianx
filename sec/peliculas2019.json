@@ -11,7 +11,20 @@
   }
   
  
+  ,
 
+  "underwater" : {
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "underwater",
+  "title":"underwater",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/underwater.jpg?raw=true",
+  "pg" :"https://hqq.tv/player/embed_player.php?vid=SU9lK3l5eDJON0xxcDFaS0ZvanMwZz09&autoplay=yes"
+
+}
   ,
 
   "GretelyHansel" : {
