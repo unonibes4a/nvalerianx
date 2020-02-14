@@ -10,6 +10,22 @@
   "pg" :"https://www.cine-calidad.com/" 
   }
   
+ 
+
+  ,
+
+  "GretelyHansel" : {
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "GretelyHansel",
+  "title":"Gretel y Hansel",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/GretelyHansel.jpg?raw=true",
+  "pg" :"https://hqq.tv/player/embed_player.php?vid=WThuUjVmc2ZMVm5GK1ZXTlR2b2NPZz09&autoplay=yes"
+
+}
 
   
   ,
