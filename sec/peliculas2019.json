@@ -1884,9 +1884,38 @@
      "img" : "./img/adulto.png",
      "pg" : "http://teleonline.org/"
      }
+
+     ,
+     "educas" : {
+      
+     "bollvaafullscreen":"si",
+      "vid":"1",
+      "id" : "id7",
+    "idname" : "canales",
+    "title":"educas",
+    "img" : "./img/adulto.png",
+    "pg" : "https://educas1.github.io/cole/"
+    }
+
+
+     
      
      ,
-
+     "educas2" : {
+      "cambiaurl":"https://educas1.github.io/cole/",
+      "bollvaafullscreen":"si",
+       "vid":"1",
+       "id" : "id7",
+     "idname" : "canales",
+     "title":"educas2",
+     "img" : "./img/adulto.png",
+     "pg" : "https://educas1.github.io/cole/"
+     }
+ 
+ 
+      
+      
+      ,
 
      "OTRAVUELTADETUERCA" : {
        "cd":"si",
