@@ -20,6 +20,25 @@
   ,
 
 
+  "TheWitch" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+ 
+    "id" : "id0",
+  "idname" : "TheWitch",
+  "title":"The Witch",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/Witch.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|857|861|861|808|857|786|798|865|861|790|781|794|782|842|817|866|860|788|793|810|859|844|865|845|779|861|789|787|861|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+
+}
+  ,
+
+
+
+
+
   "frozen2" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
