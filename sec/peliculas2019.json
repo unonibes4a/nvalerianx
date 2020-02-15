@@ -19,7 +19,20 @@
 
   ,
 
+  "CometoDaddy" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+ 
+    "id" : "id0",
+  "idname" : "CometoDaddy",
+  "title":"Come to Daddy",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/CometoDaddy.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|858|846|808|809|866|846|844|801|865|810|789|847|855|866|809|778|782|847|785|789|858|811|794|812|862|810|794|842|781|803|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
 
+}
+  ,
 
   "Atodosloschicos2r" : {
     "cd":"si",
