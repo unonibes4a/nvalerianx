@@ -19,6 +19,22 @@
 
 
 
+  "matrixrecargadol" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+ 
+    "id" : "id0",
+  "idname" : "matrixrecargadol",
+  "title":"Matrix recargado",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/matrixrecargado.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|865|847|841|803|778|862|849|866|782|789|862|787|781|810|865|862|855|866|781|811|782|846|867|812|858|787|845|853|857|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+
+}
+
+  ,
+
 
   "ipman4" : {
     "cd":"si",
