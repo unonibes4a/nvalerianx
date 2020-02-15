@@ -1891,7 +1891,7 @@
      "bollvaafullscreen":"si",
       "vid":"1",
       "id" : "id7",
-    "idname" : "canales",
+    "idname" : "educas",
     "title":"educas",
     "img" : "./img/adulto.png",
     "pg" : "https://educas1.github.io/cole/"
@@ -1901,12 +1901,12 @@
      
      
      ,
-     "educas2" : {
+     "educas2xx" : {
       "cambiaurl":"https://educas1.github.io/cole/",
       "bollvaafullscreen":"si",
        "vid":"1",
        "id" : "id7",
-     "idname" : "canales",
+     "idname" : "educas2xx",
      "title":"educas2",
      "img" : "./img/adulto.png",
      "pg" : "https://educas1.github.io/cole/"
