@@ -205,9 +205,11 @@ $(document).ready(function(){
 
 
     $("#idcopartir").click(function(){
-      fxjquery("compartir",xurls,"s2","s3");
+      alert(123);
 
-   
+    alert(  fxjquery("compartir","https://www.youtube.com/watch?v=8Ubsy5VfXI8&t=34s "+" Descarga ya gratis "+"https://play.google.com/store/apps/details?id=com.esotam.Valerianx&hl=es_CO","s2","s3"));
+
+
       
     });
 
