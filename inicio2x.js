@@ -1384,7 +1384,7 @@ if(cosajson.librecargaurl){
     if(cosajson.librecargaurl=="si"){
       try {
  
-    fxjquery("librecargaurl","cosajson.pg","s2","s3")
+    fxjquery("librecargaurl",cosajson.pg,"s2","s3")
    
  
       
