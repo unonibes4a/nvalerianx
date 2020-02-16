@@ -833,3 +833,26 @@ color: rgba(16, 84, 212, 0.712);
     z-index: 7;  
     background-color: rgba(202, 29, 29, 0);
   }
+
+
+  #idcopartir{
+
+    position: absolute;
+
+
+    top: 86.0%;
+    left: 12%;
+    width: 30px;
+    height: 30px;
+
+    z-index: 8;  
+    background-color: #000000;
+  }
+
+  #compartirimg{
+    position: absolute;
+    top: 0%;
+    left:0%;
+    width: 100%;
+    height: 100%;
+  }
