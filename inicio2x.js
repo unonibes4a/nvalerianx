@@ -205,9 +205,9 @@ $(document).ready(function(){
 
 
     $("#idcopartir").click(function(){
-      alert(123);
+      alert("Se esta  terminado una nueva  actualizacion pronto saldra ");
 
-    alert(  fxjquery("compartir","https://www.youtube.com/watch?v=8Ubsy5VfXI8&t=34s "+" Descarga ya gratis "+"https://play.google.com/store/apps/details?id=com.esotam.Valerianx&hl=es_CO","s2","s3"));
+ fxjquery("compartir","Descarga ahora valerianx para android   https://play.google.com/store/apps/details?id=com.esotam.Valerianx&hl=es_CO "+" Mira en video su contenido "+"   https://www.youtube.com/watch?v=8Ubsy5VfXI8&t=34s","s2","s3");
 
 
       
