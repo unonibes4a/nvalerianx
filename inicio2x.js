@@ -1383,7 +1383,7 @@ if(cosajson.librecargaurl){
 
     if(cosajson.librecargaurl=="si"){
       try {
-    
+    alert("aca");
     
     fxjquery();
  
