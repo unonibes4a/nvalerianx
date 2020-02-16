@@ -1383,9 +1383,9 @@ if(cosajson.librecargaurl){
 
     if(cosajson.librecargaurl=="si"){
       try {
-    alert("aca");
-    
-    fxjquery();
+ 
+    fxjquery("librecargaurl","cosajson.pg","s2","s3")
+   
  
       
       } catch (error) {
