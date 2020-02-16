@@ -1381,11 +1381,11 @@ if(cosajson.intent){
 if(cosajson.librecargaurl){
   try {
 
-    if(cosajson.librecargaurl=="s1"){
+    if(cosajson.librecargaurl=="si"){
       try {
     
     
-    fxjquery()
+    fxjquery();
  
       
       } catch (error) {
