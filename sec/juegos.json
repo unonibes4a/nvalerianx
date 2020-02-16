@@ -661,6 +661,8 @@
 ,
   
 "UfoRun" : {
+"librecargaurl":"si",
+
   "id" : "id9",
 "idname" : "UfoRun",
 "title":"Ufo Run <br>  Android > 4  PC",
