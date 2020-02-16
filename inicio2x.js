@@ -1378,6 +1378,34 @@ if(cosajson.intent){
 
 }
 
+if(cosajson.librecargaurl){
+  try {
+
+    if(cosajson.librecargaurl=="s1"){
+      try {
+    
+    
+    fxjquery()
+ 
+      
+      } catch (error) {
+        
+      }
+    
+    }
+
+
+  
+  } catch (error) {
+    
+  }
+
+}
+
+
+
+
+
   
   }
 
