@@ -2316,12 +2316,19 @@ document.getElementById("ft").style.display="none";
 var quetresevacomourl="";
 
 function  sevacomourlenwebprincipal(urldondeva,scripqueenvio){
+try {
+  
 
-  fxjquery("sevacomourlperoantesaddototrowebsi","https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/Esp%C3%ADas%20con%20disfraz.jpg?raw=true","","");
+  fxjquery("sevacomourlperoantesaddototrowebsi","https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/Esp%C3%ADas%20con%20disfraz.jpg?raw=true","2","");
 
   quetresevacomourl= fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
 if("sevacomourl"==quetresevacomourl){
   window.location=urldondeva;
+}
+ 
+
+} catch (error) {
+  
 }
  
 
