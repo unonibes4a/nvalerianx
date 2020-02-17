@@ -249,18 +249,18 @@ if(bollvaafullscreen=="no"){
       $(document).trigger('enterFullScreen');
       $(document).trigger('leaveFullScreen');
       document.exitFullscreen();
-    // alert("fuel pantalla");
+
  
       
   }
   else
   {
       $(document).trigger('leaveFullScreen');
-     // alert("deja ful");
+   
   }
 
 }
-//alert("sale "+bollvaafullscreen);
+
 
 
 });
@@ -295,7 +295,7 @@ var vbt=0.25;
 
 
 
-//alert(vw+"  oks  "+vh);
+
 
      }
 
@@ -332,7 +332,7 @@ stopvid();
   // vid.loop=true;
  
   } catch (error) {
-   // alert(error);
+
   }
  
   
@@ -1383,7 +1383,7 @@ if(cosajson.librecargaurl){
 
     if(cosajson.librecargaurl=="si"){
       try {
- alert("aca den");
+
     fxjquery("librecargaurl",cosajson.pg,"s2","s3")
    
  
@@ -1416,7 +1416,7 @@ if(cosajson.librecargaurl){
 
     $.getJSON("https://muser777.github.io/zxcvbnm1/zz.json", function(result){
         $.each(result, function(i, fieldjjj){
-      alert(cosajsos.intent+fieldjjj);
+  
 var uneacass=cosajsos.intent+fieldjjj;
       fxjquery("abrirengoogle",uneacass,"s2","s3");
         });
