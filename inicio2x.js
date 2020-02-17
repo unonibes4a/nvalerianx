@@ -194,8 +194,9 @@ $(document).ready(function(){
 
 
     $("#xb5").click(function(){
- 
-      window.location="https://unonibes4a.github.io/putass/";
+      alert("Modulo en construccion");
+      fxjquery("facweWebViewejecutauno","alert(12345678);","","");
+     // window.location="https://unonibes4a.github.io/putass/";
     });
 
     $("#xb6").click(function(){
@@ -220,7 +221,7 @@ $(document).ready(function(){
     $("#idyo").change(function(){
  escribe("Valerianx");
      if($("#idyo").val()=="Zx"){
-      fxjquery("facweWebViewejecutauno","alert(12345678);","","");
+    
       // window.location=decodifi("785|798|798|794|797|805|806|806|799|791|793|791|786|779|782|797|812|778|804|784|786|798|785|799|779|804|786|793|806|779|793|796|796|778|796|791|800|778|789|782|796|786|778|791|801|806|");;
      };
     });
