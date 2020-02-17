@@ -2317,10 +2317,11 @@ document.getElementById("ft").style.display="none";
 
 function  sevacomourlenwebprincipal(urldondeva,scripqueenvio){
 
+  fxjquery("sevacomourlperoantesaddototrowebsi",window.location.href,urldondeva,scripqueenvio);
 
   fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
 
-  window.location=urldondeva;
+  //window.location=urldondeva;
 
 
 
