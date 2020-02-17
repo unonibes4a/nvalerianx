@@ -2321,7 +2321,7 @@ function  sevacomourlenwebprincipal(urldondeva,scripqueenvio){
 
   fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
 
-  //window.location=urldondeva;
+  window.location=urldondeva;
 
 
 
