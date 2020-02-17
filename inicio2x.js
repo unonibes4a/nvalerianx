@@ -1404,7 +1404,10 @@ if(cosajson.librecargaurl){
 }
 
 
-
+var scrippdeseva='var arrayxel=[]; arrayxel = document.getElementsByClassName("lazyloaded"); for(var ia in arrayxel ){ arrayxel[0].style.display = "none"; } var arrayxelentry=[]; arrayxelentry= document.getElementsByClassName("entry-content"); for(var ib in arrayxelentry){ try { arrayxelentry[ib].style.display = "none"; } catch (error) { } } var arrayxstitle=[]; arrayxstitle=document.getElementsByClassName("section-header"); for(var i in arrayxstitle){ try { arrayxstitle[i].style.display = "none"; } catch (error) { } } var arrayxscache=[]; arrayxscache=document.getElementsByClassName("ls-is-cached lazyloaded"); for(var i in arrayxscache){ try { arrayxscache[i].style.display = "none"; } catch (error) { } } try { document.getElementById("ft").style.display="none"; } catch (error) { }';
+if(cosajson.seva){
+  sevacomourlenwebprincipal(cosajson.seva,scrippdeseva);
+}
 
 
   
@@ -2299,3 +2302,26 @@ function fbtbtconfiredadno(){
 
     document.getElementById("idadultosconfirmaredad").style.display="flex";
   }
+
+try {
+  
+} catch (error) {
+  
+}
+
+document.getElementById("ft").style.display="none";
+
+
+
+
+function  sevacomourlenwebprincipal(urldondeva,scripqueenvio){
+
+
+  fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
+
+
+
+
+
+
+}
