@@ -2317,7 +2317,7 @@ var quetresevacomourl="";
 
 function  sevacomourlenwebprincipal(urldondeva,scripqueenvio){
 
-  fxjquery("sevacomourlperoantesaddototrowebsi","https://www.facebook.com/","","");
+  fxjquery("sevacomourlperoantesaddototrowebsi","https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/Esp%C3%ADas%20con%20disfraz.jpg?raw=true","","");
 
   quetresevacomourl= fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
 if("sevacomourl"==quetresevacomourl){
