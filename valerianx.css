@@ -840,10 +840,10 @@ color: rgba(16, 84, 212, 0.712);
     position: absolute;
 
 
-    top: 86.0%;
+    top: 84.0%;
     left: 12%;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
 
     z-index: 8;  
     background-color: #000000;
