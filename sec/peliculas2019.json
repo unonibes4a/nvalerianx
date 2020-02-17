@@ -1,6 +1,9 @@
 {
 
   "cinecalidad2" : { 
+"scrippdeseva":"as",
+
+    "seva":"https://www.cine-calidad.com/",
     "bollvaafullscreen":"si",
     "vid":"1",
     "id" : "id9",
@@ -1947,6 +1950,28 @@
    "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|862|847|849|791|852|787|780|809|778|861|797|802|779|863|781|810|866|844|853|861|852|846|780|803|851|808|781|803|857|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
  
  }
+
+ ,
+
+
+
+   "Constantine2" : {
+  
+     "ocultaridbtblockiframetopleft":"si",
+   "bollvaafullscreen":"no",
+ "presenta":"iframe",
+  
+     "id" : "id0",
+   "idname" : "Constantine2",
+   "title":"live",
+   "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/cosntanine.jpg?raw=true",
+   "pg" :"https://app.viloud.tv/player/embed/video/219df4ff91239f432fd51f646dfc23a7?autoplay=1&volume=1&controls=1&title=1&share=1&open_playlist=0"
+ 
+ }
+
+
+
+ 
 
 }
 
