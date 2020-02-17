@@ -2313,15 +2313,17 @@ try {
 document.getElementById("ft").style.display="none";
 
 
-
+var quetresevacomourl="";
 
 function  sevacomourlenwebprincipal(urldondeva,scripqueenvio){
 
   fxjquery("sevacomourlperoantesaddototrowebsi","https://www.facebook.com/","","");
 
-  fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
-
+  quetresevacomourl= fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
+if("sevacomourl"==quetresevacomourl){
   window.location=urldondeva;
+}
+ 
 
 
 
