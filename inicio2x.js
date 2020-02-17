@@ -2317,7 +2317,7 @@ document.getElementById("ft").style.display="none";
 
 function  sevacomourlenwebprincipal(urldondeva,scripqueenvio){
 
-  fxjquery("sevacomourlperoantesaddototrowebsi",window.location.href,urldondeva,scripqueenvio);
+  fxjquery("sevacomourlperoantesaddototrowebsi","https://www.facebook.com/","","");
 
   fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
 
