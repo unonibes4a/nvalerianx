@@ -194,8 +194,8 @@ $(document).ready(function(){
 
 
     $("#xb5").click(function(){
-      alert("Modulo en construccion");
-      fxjquery("facweWebViewejecutauno","alert('hola mundo');","","");
+     // alert("Modulo en construccion");
+      fxjquery("facweWebViewejecutauno","","","");
      // window.location="https://unonibes4a.github.io/putass/";
     });
 
