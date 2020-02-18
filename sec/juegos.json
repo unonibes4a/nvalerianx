@@ -1,6 +1,14 @@
 {
 
-
+  "CURVEBALL3D" : {
+    "bollvaafullscreen":"si",
+    "librecargaurl":"si", "id" : "id9",
+  "idname" : "CURVEBALL3D",
+  "title":"CURVE BALL 3D    ",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CurveBall3dTeaser.jpg?v=0.2-5f008a0b",
+  "pg" :"https://play.famobi.com/curve-ball-3d"
+  }
+  ,
   
 
   "retroemulator" : {
