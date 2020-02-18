@@ -409,7 +409,7 @@ setTimeout(function(){
 // fin   maneja  video v1.mp4
 function escribe(st){
 
-  document.getElementById("idyo").value=st"Valerianx";//"Valerianx";//vw+"  "+vh;
+  document.getElementById("idyo").value=st;//"Valerianx";//"Valerianx";//vw+"  "+vh;
 
 }
 
