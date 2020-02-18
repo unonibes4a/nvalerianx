@@ -1387,6 +1387,8 @@ if(cosajson.librecargaurl){
   try {
 
     if(cosajson.librecargaurl=="si"){
+
+      console.log(cosajson.pg);
       alert("Estamos en construccion de  este modulo");
       try {
 /*
@@ -1437,6 +1439,8 @@ var uneacass=cosajsos.intent+fieldjjj;
       });
 
    }
+
+   var  dev="";
   function fxjquery(id,s1,s2,s3) {
 
 
