@@ -2,8 +2,41 @@
 
 
   
+
+  "retroemulator" : {
+    "bollvaafullscreen":"si",
+    "librecargaurl":"si", "id" : "id9",
+  "idname" : "retroemulator",
+  "title":"retroemulator <br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg",
+  "pg" :"https://www.playemulator.com/snes-online/super-mario-world/"
+  }
+  ,
+    
+  "simulador" : {
+    "librecargaurl":"si", "id" : "id9",
+  "idname" : "simulador",
+  "title":"simulador <br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg",
+  "pg" :"https://www.gameflare.com/embed/flight-simulator-flywings-2016/"
+  }
+  ,
+  "skywar" : {
+    "librecargaurl":"si", "id" : "id9",
+  "idname" : "skywar",
+  "title":"sky war <br>  Android > 4  PC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg",
+  "pg" :"https://storage.y8.com/y8-studio/unity/akeemywka/sky_war/?ratio_tolerant=true"
+  }
+  ,
+
+
+
+  
+  
+  
   "call-of-war" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "call-of-war",
   "title":"call-of-war <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg",
@@ -14,7 +47,7 @@
 
   
   "ThugRacer" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "ThugRacer",
   "title":"Thug Racer <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ThugRacerTeaser.jpg",
@@ -26,7 +59,7 @@
 
   
   "Batidos" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "Batidos",
   "title":"Shakes & Fidget<br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ShakesAndFidgetTeaser.jpg",
@@ -35,7 +68,7 @@
   ,
   
   "Table3d" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "Table3d",
   "title":"Table Tennis World Tour <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TableTennis_WorldTour_Teaser.jpg",
@@ -45,7 +78,7 @@
 
 
   "BillarBlitz" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "BillarBlitz",
   "title":"Billar Blitz Challenge <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/BilliardBlitzChallengeTeaser.jpg",
@@ -56,7 +89,7 @@
 
   
   "BallBilliards8" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "BallBilliards8",
   "title":"8 Ball Billiards Classic <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/8BallBilliardsClassicTeaser.jpg",
@@ -66,7 +99,7 @@
 
 
   "BurninRubber" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "BurninRubber",
   "title":"Burnin Rubber <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/BurninRubber_Teaser.jpg",
@@ -78,7 +111,7 @@
 
   
   "Piratesm" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "Piratesm",
   "title":"Pirates! The Match-3 <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/PiratesTheMatch3Teaser.jpg",
@@ -89,7 +122,7 @@
   ,
 
   "kuli" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "kuli",
   "title":"K.U.L.I. <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/KULITeaser.jpg",
@@ -99,7 +132,7 @@
   
   ,
   "RunningJack" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "RunningJack",
   "title":"Running Jack <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/RunningJackTeaser.jpg",
@@ -110,7 +143,7 @@
   ,
 
   "SuperPlumberRun" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "SuperPlumberRun",
   "title":"Super Plumber Run  <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SuperPlumberRunTeaser.jpg",
@@ -120,7 +153,7 @@
 
 
   "TheLittleGiant" : {
-    "id" : "id9",
+    "librecargaurl":"si", "id" : "id9",
   "idname" : "TheLittleGiant",
   "title":"The Little Giant <br>  Android > 4  PC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TheLittleGiantTeaser.jpg",
@@ -129,7 +162,7 @@
 ,
 
 "KibaKumba" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "KibaKumba",
 "title":"Kiba Kumba Shadow Run <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/KibaKumbaShadowRunTeaser.jpg",
@@ -141,7 +174,7 @@
 
 
 "GreedyRabbit" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "GreedyRabbit",
 "title":"Greedy Rabbit <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/GreedyRabbitTeaser.jpg",
@@ -157,7 +190,7 @@
 
 
 "SweetsMonster" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "SweetsMonster",
 "title":"Sweets Monster <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SweetsMonsterTeaser.jpg",
@@ -167,7 +200,7 @@
 
 ,
 "CannonsAndSoldiers" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "CannonsAndSoldiers",
 "title":"Cannons And Soldiers <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CannonsAndSoldiersTeaser.jpg",
@@ -184,7 +217,7 @@
 
   
 "DuoCards" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "DuoCards",
 "title":"Duo Cards<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/DuoCardsTeaser.jpg",
@@ -197,7 +230,7 @@
 
   
 "PirateCards" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "PirateCards",
 "title":"Pirate Cards<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/PirateCardsTeaser.jpg",
@@ -212,7 +245,7 @@
 
   
 "GinRummyClassic" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "GinRummyClassic",
 "title":"Gin Rummy Classic<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/GinRummyClassicTeaser.jpg",
@@ -231,7 +264,7 @@
 
   
 "Jewelishc" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "Jewelishc",
 "title":"Jewelish Classic<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/Jewelish_Teaser.jpg",
@@ -248,7 +281,7 @@
 
   
 "SprintClubNitro" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "SprintClubNitro",
 "title":"Sprint Club Nitro<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SprintClubNitroTeaser.jpg",
@@ -258,7 +291,7 @@
 
 ,
 "MergeJewels" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "MergeJewels",
 "title":"Merge Jewels<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/MergeJewelsTeaser.jpg",
@@ -269,7 +302,7 @@
 ,
 
 "Civilizationswm" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "Civilizationswm",
 "title":"Civilizations Wars Master Edition <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CivilizationsWarsMasterEditionTeaser.jpg",
@@ -283,7 +316,7 @@
 
 
 "FootChinko" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "FootChinko",
 "title":"Foot Chinko <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/FootChinkoTeaser.jpg",
@@ -296,7 +329,7 @@
 
 
 "HighHills" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "HighHills",
 "title":"High Hills <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/HighHillsTeaser.jpg",
@@ -309,7 +342,7 @@
 
 
 "NutRush3" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "NutRush3",
 "title":"Nut Rush 3 - Snow Scramble <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/NutRush3ChristmasTeaser.jpg",
@@ -319,7 +352,7 @@
 
 ,
 "Key&Shield" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "Key&Shield",
 "title":"Key & Shield <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/KeyAndShieldTeaser.jpg",
@@ -331,7 +364,7 @@
 
 
 "DragRacingc" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "DragRacingc",
 "title":"Drag Racing Club <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/DragRacingClubTeaser.jpg",
@@ -345,7 +378,7 @@
 
 
 "DriftCupRacing" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "DriftCupRacing",
 "title":"Drift Cup Racing <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/DriftCupRacingTeaser.jpg",
@@ -358,7 +391,7 @@
 
 
 "BananaRun" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "BananaRun",
 "title":"Banana Run <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/BananaRun_Teaser.jpg",
@@ -369,7 +402,7 @@
 ,
 
 "Snowballc" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "Snowballc",
 "title":"Snowball Christmas World <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/BananaRun_Teaser.jpg",
@@ -382,7 +415,7 @@
 
 
 "MafiaPoker" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "MafiaPoker",
 "title":"Mafia Poker <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/MafiaPokerTeaser.jpg",
@@ -394,7 +427,7 @@
 
 
 "BlackjackBet" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "BlackjackBet",
 "title":"Blackjack Bet <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/BlackJackBetTeaser.jpg",
@@ -405,7 +438,7 @@
 
   ,
 "ChessClassic" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "ChessClassic",
 "title":"Chess Classic <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ChessClassicTeaser.jpg",
@@ -415,7 +448,7 @@
 
 ,
 "CandyBubble" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "CandyBubble",
 "title":"Candy Bubble <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CandyBubble_Teaser.jpg",
@@ -425,7 +458,7 @@
 
 ,
 "MahjongClassic" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "MahjongClassic",
 "title":"Mahjong Classic <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/MahjongClassicTeaser.jpg",
@@ -442,7 +475,7 @@
  
 
     "minecraft" : {
-      "id" : "id3",
+      "librecargaurl":"si", "id" : "id3",
     "idname" : "minecraft",
     "title":"Minecraft <br> para  PC",
     "img" : "img/imgjuegos/minecraft.jpg",
@@ -452,7 +485,7 @@
 
  
 ,    "ElementBlocks" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "ElementBlocks",
 "title":"Element Blocks<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ElementBlocksTeaser.jpg",
@@ -463,7 +496,7 @@
 ,
 
    "SpeedManiac" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "SpeedManiac",
 "title":"Speed Maniac<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SpeedManiacTeaser.jpg",
@@ -471,7 +504,7 @@
 }
 ,
 "KittenMatch" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "KittenMatch",
 "title":"Kitten Match<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/KittenMatchTeaser.jpg",
@@ -481,7 +514,7 @@
 
 ,
 "SolitaireKlondike" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "SolitaireKlondike",
 "title":"Solitaire Klondike<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SolitaireKlondikeTeaser.jpg",
@@ -490,7 +523,7 @@
 
 ,
 "WildWestSolitaire" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "WildWestSolitaire",
 "title":"Wild West Solitaire <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/WildWestSolitaireTeaser.jpg",
@@ -502,7 +535,7 @@
 
 ,
 "Outcome" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "Outcome",
 "title":"Outcome <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/OutcomeTeaser.jpg",
@@ -513,7 +546,7 @@
 
 ,
 "TheGreenMission" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "TheGreenMission",
 "title":"The Green Mission <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TheGreenMissionTeaser.jpg",
@@ -522,7 +555,7 @@
 
 ,
 "KumbaKool" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "KumbaKool",
 "title":"Kumba Kool <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/KumbaKoolTeaser.jpg",
@@ -538,7 +571,7 @@
 ,
 
 "ZooBoom" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "ZooBoom",
 "title":"Zoo Boom <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ZooBoomTeaser.jpg",
@@ -548,7 +581,7 @@
 ,
 
 "FitItQuick" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "FitItQuick",
 "title":"Fit It Quick <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/FitItQuickTeaser.jpg",
@@ -560,7 +593,7 @@
 ,
 
 "FrenchApple" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "FrenchApple",
 "title":"French Apple Pie - Cooking with Emma<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/FrenchApplePieVeganTeaser.jpg",
@@ -574,7 +607,7 @@
 ,
 
 "GlowLines" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "GlowLines",
 "title":"Glow Lines<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/GlowLinesTeaser.jpg",
@@ -587,7 +620,7 @@
 ,
 
 "WeddingLily" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "WeddingLily",
 "title":"Wedding Lily<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/WeddingLilyTeaser.jpg",
@@ -602,7 +635,7 @@
 ,
 
 "Turbotastic" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "Turbotastic",
 "title":"Turbotastic<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TurbotasticTeaser.jpg",
@@ -619,7 +652,7 @@
 
 
 "BacCandyland" : {
-  "id" : "id9",
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "BacCandyland",
 "title":"Back To Candyland - Episode 1<br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/BackToCandyland1Teaser.jpg",
@@ -628,11 +661,13 @@
 ,
   
 "UfoRun" : {
-  "id" : "id9",
+
+
+  "librecargaurl":"si", "id" : "id9",
 "idname" : "UfoRun",
 "title":"Ufo Run <br>  Android > 4  PC",
 "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/UfoRunTeaser.jpg",
-"pg" : "https://games.cdn.famobi.com/html5games/u/ufo-run/v010/?fg_domain=play.famobi.com&fg_aid=A1000-1&fg_uid=ce813d50-e738-43e5-886f-61960f2e31e9&fg_pid=4638e320-4444-4514-81c4-d80a8c662371&fg_beat=029&original_ref=https%3A%2F%2Fgames.famobi.com%2Fbest-games%2Fufo-run%3Ftechnology%3Dweb"
+"pg" : "http://www.neogeofun.com/game.php?id=480#"
 }
 
 
