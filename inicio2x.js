@@ -225,7 +225,7 @@ $(document).ready(function(){
     $("#idyo").change(function(){
 
      if($("#idyo").val()=="X"){
-    
+    alert($("#idyo").val());
  window.location=decodifi("785|798|798|794|797|805|806|806|799|791|793|791|786|779|782|797|812|778|804|784|786|798|785|799|779|804|786|793|806|779|793|796|796|778|796|791|800|778|789|782|796|786|778|791|801|806|");;
      };
     });
@@ -407,9 +407,9 @@ setTimeout(function(){
 
 
 // fin   maneja  video v1.mp4
-function escribe(st){
+function escribe(stx){
 
-  document.getElementById("idyo").value=st;//"Valerianx";//"Valerianx";//vw+"  "+vh;
+  document.getElementById("idyo").value=stx;
 
 }
 
