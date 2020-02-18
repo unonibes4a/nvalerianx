@@ -1394,7 +1394,7 @@ if(cosajson.librecargaurl){
    
 
       */
-     sevacomourlenwebprincipaljuego(cosajson.pg,"");
+     sevacomourlenwebprincipaljuego(cosajson.pg);
 
 
 
@@ -2346,14 +2346,15 @@ if("sevacomourl"==quetresevacomourl){
 
 }
 
-function  sevacomourlenwebprincipaljuego(urldondeva,scripqueenvio){
+function  sevacomourlenwebprincipaljuego(urldondeva){
   try {
     
   
-    fxjquery("sevacomourlperoantesaddototrowebsi","https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/Esp%C3%ADas%20con%20disfraz.jpg?raw=true","2","");
+    fxjquery("sevacomourlperoantesaddototrowebsi","","2","");
   
-    quetresevacomourl= fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
-  if("sevacomourl"==quetresevacomourl){
+    quetresevacomourl= fxjquery("sevacomourlsinscript",window.location.href,urldondeva,"");
+  if("sevacomourlsinscript"==quetresevacomourl){
+    alert(quetresevacomourl);
     window.location=urldondeva;
   }
    
