@@ -1387,12 +1387,17 @@ if(cosajson.librecargaurl){
   try {
 
     if(cosajson.librecargaurl=="si"){
+      alert("Estamos en construccion de  este modulo");
       try {
-
-    fxjquery("librecargaurl",cosajson.pg,"s2","s3")
+/*
+    fxjquery("librecargaurl",cosajson.pg,"s2","s3");
    
- 
-      
+
+      */
+     sevacomourlenwebprincipaljuego(cosajson.pg,"");
+
+
+
       } catch (error) {
         
       }
@@ -2340,3 +2345,25 @@ if("sevacomourl"==quetresevacomourl){
 
 
 }
+
+function  sevacomourlenwebprincipaljuego(urldondeva,scripqueenvio){
+  try {
+    
+  
+    fxjquery("sevacomourlperoantesaddototrowebsi","https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/Esp%C3%ADas%20con%20disfraz.jpg?raw=true","2","");
+  
+    quetresevacomourl= fxjquery("sevacomourl",window.location.href,urldondeva,scripqueenvio);
+  if("sevacomourl"==quetresevacomourl){
+    window.location=urldondeva;
+  }
+   
+  
+  } catch (error) {
+    
+  }
+   
+  
+  
+  
+  
+  }
