@@ -155,6 +155,10 @@ $(document).ready(function(){
     vid = document.getElementById("idvideofondo");
     vid.volume = 0.02;
 
+    fxjquery("lawebdepropaganda","https://unonibes4a.github.io/propagandaotraweb/","","")
+
+
+
 
     $("#idbtblockiframedown").click(function(){
       fbtidbtblockiframedown2();
