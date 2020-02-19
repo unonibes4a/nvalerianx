@@ -1988,6 +1988,22 @@
 }
 
 
+,
+
+"castr" : {
+
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "https://castr.io/",
+"idname" : "castr",
+"title":"transmite live",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/doom.jpg?raw=true",
+"pg" :"https://player.castr.io/live_3193d840536011ea97fc7f9eb6bd43ed"
+
+}
+
 
 
 
