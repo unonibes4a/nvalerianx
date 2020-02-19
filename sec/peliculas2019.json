@@ -1972,6 +1972,30 @@
 
 
 
+
+
+,
+ "Doom2" : {
+
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "Doom2",
+"title":"Doom",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/doom.jpg?raw=true",
+"pg" :"https://vidoza.net/embed-bqo1in6bq7qo.html"
+
+}
+
+
+
+
+
+
+
+
  
 
 }
