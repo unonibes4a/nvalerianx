@@ -268,9 +268,6 @@ if(bollvaafullscreen=="no"){
 
 
 });
-alert("hay una nueva  actualizacion");
-fxjquery("abrirengoogle","https://drive.google.com/open?id=1koP7pznZNINurwLzoA4TQKlCCBU615jE","s2","s3");
-
 
 
 
