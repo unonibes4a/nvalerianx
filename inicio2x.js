@@ -119,7 +119,7 @@ boolnoesios=false;
 
 
 function cambiotanaboventana(){
- // alert("tamaño de la ventana    "+ vw +"   "+vh);
+
  fenquedispositivoestoy();
  
   
@@ -198,7 +198,7 @@ $(document).ready(function(){
 
 
     $("#xb5").click(function(){
-     // alert("Modulo en construccion");
+
       fxjquery("facweWebViewejecutauno","","","");
      // window.location="https://unonibes4a.github.io/putass/";
     });
@@ -210,7 +210,7 @@ $(document).ready(function(){
 
 
     $("#idcopartir").click(function(){
-      alert("Se esta  terminado una nueva  actualizacion pronto saldra ");
+ 
 
  fxjquery("compartir","Descarga ahora valerianx para android   https://play.google.com/store/apps/details?id=com.esotam.Valerianx&hl=es_CO "+" Mira en video su contenido "+"   https://www.youtube.com/watch?v=8Ubsy5VfXI8&t=34s","s2","s3");
 
@@ -224,7 +224,7 @@ $(document).ready(function(){
     $("#idyo").change(function(){
 
      if($("#idyo").val()=="X"){
-    alert($("#idyo").val());
+
  window.location=decodifi("785|798|798|794|797|805|806|806|799|791|793|791|786|779|782|797|812|778|804|784|786|798|785|799|779|804|786|793|806|779|793|796|796|778|796|791|800|778|789|782|796|786|778|791|801|806|");;
      };
     });
@@ -316,7 +316,7 @@ function playvid2noinial () {
       // vid.loop=true;
      
       } catch (error) {
-       // alert(error);
+   
       }
      
       
@@ -1386,8 +1386,8 @@ if(cosajson.librecargaurl){
 
     if(cosajson.librecargaurl=="si"){
 
-      console.log(cosajson.pg);
-      alert("Estamos en construccion de  este modulo");
+    
+   
       try {
 /*
     fxjquery("librecargaurl",cosajson.pg,"s2","s3");
@@ -1475,7 +1475,7 @@ if(cosajson.bollvaafullscreen=="no"){
 
 }
 
- // alert("if   "+bollvaafullscreen);
+
  if(cosajson.ocultaridbtblockiframetopleft=="si"){
   document.getElementById("idbtblockiframetopleft").style.display="none";
   document.getElementById("iddivbtobcionnofuncioclik").style.display="block";
@@ -2356,7 +2356,7 @@ function  sevacomourlenwebprincipaljuego(urldondeva){
   
     quetresevacomourl= fxjquery("sevacomourlsinscript",window.location.href,urldondeva,"");
   if("sevacomourlsinscript"==quetresevacomourl){
-    alert(quetresevacomourl);
+
     window.location=urldondeva;
   }
    
