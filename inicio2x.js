@@ -2369,7 +2369,7 @@ function  sevacomourlenwebprincipaljuego(urldondeva){
     
   
     //fxjquery("sevacomourlperoantesaddototrowebsi","","2","");
-  alert("urldondeva");
+
     quetresevacomourl= fxjquery("librecargasoloestapaginaurl",urldondeva,"","");
   if("librecargasoloestapaginaurl"==quetresevacomourl){
 
