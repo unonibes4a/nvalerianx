@@ -3,9 +3,8 @@
   "cinecalidad2" : { 
 
 
-    "seva":"seva",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
     "vid":"1",
     "id" : "id9",
