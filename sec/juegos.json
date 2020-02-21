@@ -13,13 +13,16 @@
 }
   ,
 
-  "CURVEBALL3Dtv" : {
-    "intent":"abrirengoogle",
+  "Chess3d" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
     
-  "idname" : "CURVEBALL3Dtv",
-  "title":"CURVE BALL 3D    ",
-  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CurveBall3dTeaser.jpg?v=0.2-5f008a0b",
-  "pg" :"https://play.famobi.com/curve-ball-3d"
+  "idname" : "Chess3d",
+  "title":"3D Chess ",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/3dChessTeaser.jpg",
+  "pg" :"https://play.famobi.com/3d-chess"
   }
   ,
 
