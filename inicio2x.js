@@ -2368,10 +2368,10 @@ function  sevacomourlenwebprincipaljuego(urldondeva){
   try {
     
   
-    fxjquery("sevacomourlperoantesaddototrowebsi","","2","");
-  
-    quetresevacomourl= fxjquery("sevacomourlsinscript",window.location.href,urldondeva,"");
-  if("sevacomourlsinscript"==quetresevacomourl){
+    //fxjquery("sevacomourlperoantesaddototrowebsi","","2","");
+  alert("urldondeva");
+    quetresevacomourl= fxjquery("librecargasoloestapaginaurl",urldondeva,"","");
+  if("librecargasoloestapaginaurl"==quetresevacomourl){
 
     window.location=urldondeva;
   }
