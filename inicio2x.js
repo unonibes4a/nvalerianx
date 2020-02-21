@@ -1423,7 +1423,7 @@ if(cosajson.intent){
    
     fxjquery("abrirengoogle",cosajson.pg,"s2","s3");
   }
-
+alert("abrir en google");
   
 }
 
