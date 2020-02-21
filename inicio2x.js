@@ -109,7 +109,7 @@ if(boolnoesios||boolnoandroid){
 
 }
 else{
-  window.location.reload();
+  //window.location.reload();
 }
 
 boolnoandroid=false;
@@ -230,7 +230,7 @@ $(document).ready(function(){
 
      if($("#idyo").val()=="clase"){
 
-      window.location=decodifi("https://meet.jit.si/salamatematicas");;
+      window.location=decodifi("https://meet.jit.si/salamatematicas");
           };
 
 
