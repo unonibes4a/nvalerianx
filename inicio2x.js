@@ -1418,9 +1418,17 @@ if(cosajson.seva){
   sevacomourlenwebprincipal(cosajson.seva,scrippdeseva);
   
 }
-
+if(cosajson.intent){
+  if(cosajson.intent=="abrirengoogle"){
+   
+    fxjquery("abrirengoogle",cosajson.pg,"s2","s3");
+  }
 
   
+}
+
+
+
   }
 
 
