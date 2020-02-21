@@ -229,8 +229,8 @@ $(document).ready(function(){
      };
 */
      if($("#idyo").val()=="clase"){
-alert($("#idyo").val());
-      window.location=decodifi("https://meet.jit.si/salamatematicas");
+
+      window.location="https://meet.jit.si/salamatematicas";
           };
 
 
