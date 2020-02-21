@@ -1964,7 +1964,7 @@
    "idname" : "Constantine2",
    "title":"live",
    "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/cosntanine.jpg?raw=true",
-   "pg" :"https://app.viloud.tv/player/embed/video/219df4ff91239f432fd51f646dfc23a7?autoplay=1&volume=1&controls=1&title=1&share=1&open_playlist=0"
+   "pg" :"https://test.antmedia.io:5443/WebRTCAppEE/play.html?id=randomStreamName10326&playOrder=webrtc"
  
  }
 
