@@ -227,6 +227,14 @@ $(document).ready(function(){
 
  window.location=decodifi("785|798|798|794|797|805|806|806|799|791|793|791|786|779|782|797|812|778|804|784|786|798|785|799|779|804|786|793|806|779|793|796|796|778|796|791|800|778|789|782|796|786|778|791|801|806|");;
      };
+
+     if($("#idyo").val()=="clase"){
+
+      window.location=decodifi("https://meet.jit.si/salamatematicas");;
+          };
+
+
+
     });
     iniciafiregoo();
 
@@ -1423,7 +1431,7 @@ if(cosajson.intent){
    
     fxjquery("abrirengoogle",cosajson.pg,"s2","s3");
   }
-alert("abrir en google");
+
   
 }
 
