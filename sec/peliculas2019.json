@@ -3,7 +3,10 @@
   "cinecalidad2" : { 
 
 
-    "bollvaafullscreen":"si",
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
     "vid":"1",
     "id" : "id9",
   "idname" : "cinecalidad2",
@@ -1955,7 +1958,7 @@
 
 
    "Constantine2" : {
-  "seva":"seva",
+  
      "ocultaridbtblockiframetopleft":"si",
    "bollvaafullscreen":"no",
  "presenta":"iframe",
