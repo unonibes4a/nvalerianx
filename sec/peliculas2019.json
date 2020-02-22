@@ -18,6 +18,24 @@
 ,
 
 
+"DragonQuest" : {
+  "cd":"si",
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "DragonQuest",
+"title":"Dragon Quest Your Story",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/Dragon%20Quest%20Your%20Story.jpg?raw=true",
+"pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|853|811|793|867|782|843|864|809|781|862|862|866|781|810|794|856|782|843|865|844|855|863|841|789|853|791|780|808|781|803|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+
+}
+
+
+
+
+,
 "Sonic" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
