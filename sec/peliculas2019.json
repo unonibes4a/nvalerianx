@@ -2051,6 +2051,22 @@
 
 
 
+,
+
+
+"standb" : {
+ 
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "standb",
+"title":"El stand de los besos HD",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/sonic.jpg?raw=true",
+"pg" :"https://vidcloud.ru/embed/5dbca63a53900/The.kissing.booth"
+
+}
 
 
 
