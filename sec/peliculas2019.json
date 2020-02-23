@@ -22,6 +22,42 @@
 
 
 
+  ,
+
+
+  "Avengers2" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+  "presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "Avengers2",
+  "title":"Avengers: era de Ultrón",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/avenger2.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|781|788|845|814|781|844|801|847|859|803|784|812|865|866|785|843|852|808|862|848|779|803|845|855|781|844|861|809|781|803|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+  
+  }
+  
+  ,
+  
+  
+  "Avengersgame" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+  "presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "Avengersgame",
+  "title":"Aavenger end game",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/avenger%20end%20game.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|864|862|785|794|861|844|785|845|781|847|785|797|782|866|862|808|865|860|864|813|864|790|861|808|781|843|849|812|865|803|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+  
+  }
+  
+  
+
 
 
 
@@ -2128,42 +2164,6 @@
 "title":"El stand de los besos HD",
 "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/sonic.jpg?raw=true",
 "pg" :"https://vidcloud.ru/embed/5dbca63a53900/The.kissing.booth"
-
-}
-
-
-
-,
-
-
-"Avengers2" : {
-  "cd":"si",
-  "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
-"presenta":"iframe",
-
-  "id" : "id0",
-"idname" : "Avengers2",
-"title":"Avengers: era de Ultrón",
-"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/avenger2.jpg?raw=true",
-"pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|781|788|845|814|781|844|801|847|859|803|784|812|865|866|785|843|852|808|862|848|779|803|845|855|781|844|861|809|781|803|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
-
-}
-
-,
-
-
-"Avengersgame" : {
-  "cd":"si",
-  "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
-"presenta":"iframe",
-
-  "id" : "id0",
-"idname" : "Avengersgame",
-"title":"Aavenger end game",
-"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/avenger%20end%20game.jpg?raw=true",
-"pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|864|862|785|794|861|844|785|845|781|847|785|797|782|866|862|808|865|860|864|813|864|790|861|808|781|843|849|812|865|803|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
 
 }
 
