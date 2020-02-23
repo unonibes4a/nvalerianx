@@ -359,7 +359,19 @@
   }
   
 
+  ,
 
+  "MYFREEFARM2" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "MYFREEFARM2",
+  "title":"MY FREE FARM 2",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/MyFreeFarm2Teaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/my-free-farm-2"
+  }
+  
 
 
 
