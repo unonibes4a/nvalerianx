@@ -159,8 +159,21 @@
 "presenta":"iframe",
   "idname" : "COLORPIXELARTCLASSIC",
   "title":"COLOR PIXEL ART CLASSIC",
-  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ArcheryWorldTourTeaser.jpg?v=0.2-1416fb27",
-  "pg" :"https://play.famobi.com/archery-world-tour"
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ColorPixelArtClassicTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/color-pixel-art-classic"
+  }
+  
+  ,
+
+  "GINRUMMYPLUS" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "GINRUMMYPLUS",
+  "title":"GIN RUMMY PLUS",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/GinRummyPlusTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/gin-rummy-plus"
   }
   
 
