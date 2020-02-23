@@ -95,6 +95,18 @@
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/3dFreeKickTeaser.jpg?v=0.2-1416fb27",
   "pg" :"https://play.famobi.com/3d-free-kick"
   }
+  ,
+
+  "BALLBILLIARDSCLASSIC" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "BALLBILLIARDSCLASSIC",
+  "title":"8 BALL BILLIARDS CLASSIC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/8BallBilliardsClassicTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/8-ball-billiards-classic"
+  }
   
 
 
