@@ -144,8 +144,21 @@
     "ocultaridbtblockiframetopleft":"si",
   "bollvaafullscreen":"no",
 "presenta":"iframe",
-  "idname" : "TOTEMIACURSEDMARBLES",
-  "title":"ARCHERYWORLDTOUR",
+  "idname" : "ARCHERYWORLDTOUR",
+  "title":"ARCHERY WORLD TOUR",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ArcheryWorldTourTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/archery-world-tour"
+  }
+  
+  ,
+
+  "COLORPIXELARTCLASSIC" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "COLORPIXELARTCLASSIC",
+  "title":"COLOR PIXEL ART CLASSIC",
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ArcheryWorldTourTeaser.jpg?v=0.2-1416fb27",
   "pg" :"https://play.famobi.com/archery-world-tour"
   }
