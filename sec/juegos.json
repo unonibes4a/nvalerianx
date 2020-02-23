@@ -177,6 +177,20 @@
   }
   
 
+  ,
+
+  "TABLETENNISWORLDTOUR" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "TABLETENNISWORLDTOUR",
+  "title":"TABLE TENNIS WORLD TOUR",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TableTennis_WorldTour_Teaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/table-tennis-world-tour"
+  }
+  
+
 
 
 
