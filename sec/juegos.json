@@ -372,9 +372,33 @@
   "pg" :"https://play.famobi.com/my-free-farm-2"
   }
   
+  ,
 
+  "HIGHHILLS" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "HIGHHILLS",
+  "title":"HIGH HILLS",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/HighHillsTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/high-hills"
+  }
+  
 
+  ,
 
+  "MAZE" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "MAZE",
+  "title":"MAZE",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/MazeTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/maze"
+  }
+  
 
 }
 
