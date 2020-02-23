@@ -191,6 +191,33 @@
   }
   
 
+  ,
+
+  "SOLITAIREKLONDIKE" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "SOLITAIREKLONDIKE",
+  "title":"SOLITAIRE KLONDIKE",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SolitaireKlondikeTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/solitaire-klondike"
+  }
+  
+
+  ,
+
+  "ONETCONNECTCLASSIC" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "ONETCONNECTCLASSIC",
+  "title":"ONE TCONNECT CLASSIC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/OnetConnectClassicTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/onet-connect-classic"
+  }
+  
 
 
 
