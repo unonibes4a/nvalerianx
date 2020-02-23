@@ -430,19 +430,7 @@
 
   ,
 
-  "CALLOFWAR" : {
-    "seva":"seva",
-    "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
-"presenta":"iframe",
-  "idname" : "CALLOFWAR",
-  "title":"CALL OF WAR",
-  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg?v=0.2-1416fb27",
-  "pg" :"https://play.famobi.com/call-of-war"
-  }
-
-
-  ,
+  
 
   "RACERIGHT" : {
     "seva":"seva",
