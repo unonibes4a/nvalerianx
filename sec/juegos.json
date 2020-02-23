@@ -24,20 +24,21 @@
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/3dChessTeaser.jpg",
   "pg" :"https://play.famobi.com/3d-chess"
   }
+  
+
   ,
 
-
-
+  "PIRATECARDS" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "PIRATECARDS",
+  "title":"PIRATE CARDS",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/PirateCardsTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/pirate-cards"
+  }
   
-"UfoRun" : {
-
-
-  "librecargaurl":"si", "id" : "id9",
-"idname" : "UfoRun",
-"title":"Ufo Run <br>  Android > 4  PC",
-"img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/UfoRunTeaser.jpg",
-"pg" : "https://html5games.com/"
-}
 
 
 
