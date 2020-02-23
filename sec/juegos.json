@@ -1,5 +1,21 @@
 {
 
+
+
+  "THELITTLEGIANT" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "THELITTLEGIANT",
+  "title":"THE LITTLE GIANT",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TheLittleGiantTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/the-little-giant"
+  }
+
+,
+
+
   "CURVEBALL3D" : {
 
     "seva":"seva",
@@ -398,6 +414,52 @@
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/MazeTeaser.jpg?v=0.2-1416fb27",
   "pg" :"https://play.famobi.com/maze"
   }
+
+  ,
+
+  "FORGEEMPIRES" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "FORGEEMPIRES",
+  "title":"FORGE OF EMPIRES",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ForgeOfEmpires_Teaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/foe"
+  }
+
+  ,
+
+  "CALLOFWAR" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "CALLOFWAR",
+  "title":"CALL OF WAR",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CallOfWarTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/call-of-war"
+  }
+
+
+  ,
+
+  "RACERIGHT" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "RACERIGHT",
+  "title":"RACE RIGHT",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/RaceRightTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/race-right"
+  }
+
+
+
+ 
+
+
   
 
 }
