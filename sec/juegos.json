@@ -345,7 +345,20 @@
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/WiggleTeaser.jpg?v=0.2-1416fb27",
   "pg" :"https://play.famobi.com/wiggle"
   }
+  ,
+
+  "MOTOX3M" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "MOTOX3M",
+  "title":"MOTO X3M",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/MotoX3mTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/moto-x3m"
+  }
   
+
 
 
 
