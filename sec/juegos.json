@@ -270,18 +270,7 @@
   "pg" :"https://play.famobi.com/crossover-21"
   }
   
-  ,
 
-  "TOWECRASH3D" : {
-    "seva":"seva",
-    "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
-"presenta":"iframe",
-  "idname" : "TOWECRASH3D",
-  "title":"TOWER CRASH 3D",
-  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TowerCrash3dTeaser.jpg?v=0.2-1416fb27",
-  "pg" :"https://play.famobi.com/tower-crash-3d"
-  }
   ,
 
   "SUSHIROLL" : {
@@ -308,6 +297,31 @@
   "pg" :"https://play.famobi.com/blocks-puzzle-zoo"
   }
   
+
+
+
+
+
+  ,
+
+  "ONETWORLDO" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "ONETWORLDO",
+  "title":"ONET WORLD",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/OnetWorldTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/onet-world"
+  }
+  
+
+
+
+
+
+
+
 
 
 }
