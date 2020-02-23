@@ -473,9 +473,19 @@
   "pg" :"https://play.famobi.com/chess-classic"
   }
 
+  ,
 
+  "PaperMinecraft" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "PaperMinecraft",
+  "title":"Paper Minecraft",
+  "img" : "",
+  "pg" :"https://www.crazygames.com/gameframe/paper-minecraft?v1"
+  }
 
-  
 
 }
 
