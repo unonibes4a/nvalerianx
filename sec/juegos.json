@@ -83,7 +83,19 @@
   "pg" :"https://play.famobi.com/element-blocks"
   }
   
+  ,
 
+  "3DFREEKICK" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "3DFREEKICK",
+  "title":"3D FREE KICK",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/3dFreeKickTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/3d-free-kick"
+  }
+  
 
 
 }
