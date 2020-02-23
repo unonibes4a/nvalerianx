@@ -29,6 +29,21 @@
 }
   ,
 
+  "SWOOOP" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "SWOOOP",
+  "title":"SWOOOP",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SWOOOPTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/swooop"
+  }
+
+
+
+ ,
+
   "Chess3d" : {
     "seva":"seva",
     "ocultaridbtblockiframetopleft":"si",
@@ -445,7 +460,19 @@
 
 
 
- 
+ ,
+
+  "CHESSCLASSIC" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "CHESSCLASSIC",
+  "title":"CHESS CLASSIC",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/ChessClassicTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/chess-classic"
+  }
+
 
 
   
