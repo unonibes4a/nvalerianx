@@ -121,7 +121,19 @@
   "pg" :"https://play.famobi.com/bubble-woods"
   }
   
+  ,
 
+  "TOTEMIACURSEDMARBLES" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "TOTEMIACURSEDMARBLES",
+  "title":"TOTEMIA: CURSED MARBLES",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TotemiaCursedMarblesTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/totemia-cursed-marbles"
+  }
+  
 
 }
 
