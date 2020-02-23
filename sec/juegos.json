@@ -1,32 +1,7 @@
 {
 
 
-  "SPECT" : {
-    "seva":"seva",
-    "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
-"presenta":"iframe",
-  "idname" : "SPECT",
-  "title":"SPECT",
-  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SpectTeaser.jpg?v=0.2-1416fb27",
-  "pg" :"https://play.famobi.com/spect"
-  }
 
-  ,
-
-
-  "THELITTLEGIANT" : {
-    "seva":"seva",
-    "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
-"presenta":"iframe",
-  "idname" : "THELITTLEGIANT",
-  "title":"THE LITTLE GIANT",
-  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/TheLittleGiantTeaser.jpg?v=0.2-1416fb27",
-  "pg" :"https://play.famobi.com/the-little-giant"
-  }
-
-,
 
 
   "CURVEBALL3D" : {
@@ -40,19 +15,7 @@
   "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/CurveBall3dTeaser.jpg?v=0.2-5f008a0b",
   "pg" :"https://play.famobi.com/curve-ball-3d"
 }
-  ,
-
-  "SWOOOP" : {
-    "seva":"seva",
-    "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
-"presenta":"iframe",
-  "idname" : "SWOOOP",
-  "title":"SWOOOP",
-  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SWOOOPTeaser.jpg?v=0.2-1416fb27",
-  "pg" :"https://play.famobi.com/swooop"
-  }
-
+  
 
 
  ,
