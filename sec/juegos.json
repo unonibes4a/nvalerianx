@@ -1,6 +1,19 @@
 {
 
 
+  "SPECT" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "SPECT",
+  "title":"SPECT",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/SpectTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/spect"
+  }
+
+  ,
+
 
   "THELITTLEGIANT" : {
     "seva":"seva",
