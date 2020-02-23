@@ -219,6 +219,58 @@
   }
   
 
+  ,
+
+  "JEWELISHBLITZ" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "JEWELISHBLITZ",
+  "title":"JEWELISH BLITZ",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/JewelishBlitzTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/jewelish-blitz"
+  }
+  ,
+
+  "MONKEYBOUNCE" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "MONKEYBOUNCE",
+  "title":"MONKEY BOUNCE",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/MonkeyBounceTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/monkey-bounce"
+  }
+  
+  ,
+
+  "DOMINOFRENZY" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "DOMINOFRENZY",
+  "title":"DOMINO FRENZY",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/DominoFrenzyTeaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/domino-frenzy"
+  }
+  
+  ,
+
+  "CROSSOVER" : {
+    "seva":"seva",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+"presenta":"iframe",
+  "idname" : "CROSSOVER",
+  "title":"CROSSOVER 21",
+  "img" : "https://img.cdn.famobi.com/portal/html5games/images/tmp/Crossover21Teaser.jpg?v=0.2-1416fb27",
+  "pg" :"https://play.famobi.com/crossover-21"
+  }
+  
+
 
 
 
