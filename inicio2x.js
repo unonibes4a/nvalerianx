@@ -156,9 +156,14 @@ $(document).ready(function(){
     vid.volume = 0.02;
 
     fxjquery("lawebdepropaganda","https://unonibes4a.github.io/propagandaotraweb/","","")
+    $("#idpreguntacomofunciona").click(function(){
+    
+      
 
+     document.getElementById("idcomousarosaltarpaso").style.display="block";
+    });
 
-
+    
 
     $("#idbtblockiframedown").click(function(){
       fbtidbtblockiframedown2();
@@ -428,7 +433,11 @@ function escribe(stx){
 
 
 function animacontrolfinal(){
-
+  $("#idpreguntacomofunciona").animate({"top":"+="+String(vh*0.81)},4000,function(){
+    $("#idpreguntacomofunciona").animate({"left":"-="+String(vw*0.62)},4000,function(){
+    
+    });
+  });
 getvwvh();
   $("#xb1").animate({"left":"+="+String(vw*-0.46)},2000,function(){});
   $("#xb2").animate({"left":"+="+String(vw*-0.36)},2000,function(){});
@@ -439,7 +448,11 @@ getvwvh();
 }
 
 function animacontroliniciL(){
+
 getvwvh();
+
+
+
   $("#xb1").animate({"left":"+="+String(vw*0.46)},2000,function(){});
   $("#xb2").animate({"left":"+="+String(vw*0.36)},2000,function(){});
   $("#xb3").animate({"left":"+="+String(vw*0.46)},2000,function(){});
