@@ -1462,7 +1462,7 @@ var scrippdeseva='var arrayxel=[]; arrayxel = document.getElementsByClassName("l
 if(cosajson.seva){
  
 if(cosajson.netflixscrip){
-alert("Netflix");
+varnetflixscripvar='setTimeout(function(){try { document.getElementsByClassName("logo")[0].style.display="none"; document.getElementById("footer-post").style.display="none"; } catch (error) { } },2000);';
   sevacomourlenwebprincipal(cosajson.pg,varnetflixscripvar);
 }
 else{
