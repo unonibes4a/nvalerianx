@@ -1464,8 +1464,9 @@ var scrippdeseva='var arrayxel=[]; arrayxel = document.getElementsByClassName("l
 if(cosajson.seva){
  
 if(cosajson.netflixscrip){
-varnetflixscripvar='setTimeout(function(){try { document.getElementsByClassName("logo")[0].style.display="none"; document.getElementById("footer-post").style.display="none"; } catch (error) { } },2000);';
-  sevacomourlenwebprincipal(cosajson.pg,varnetflixscripvar);
+varnetflixscripvar='try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varr.jpg?raw=true"; document.getElementsByTagName("img")[1].src="https://github.com/unonubes19/imgsolo/blob/master/varr.jpg?raw=true"; document.getElementById("mCSB_1").style.display="none"; document.getElementsByClassName("widget")[0].style.display="none"; } catch (error) { }';
+
+sevacomourlenwebprincipal(cosajson.pg,varnetflixscripvar);
 }
 else{
   sevacomourlenwebprincipal(cosajson.pg,scrippdeseva);
