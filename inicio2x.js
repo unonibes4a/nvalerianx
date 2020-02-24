@@ -1464,10 +1464,8 @@ var scrippdeseva='var arrayxel=[]; arrayxel = document.getElementsByClassName("l
 if(cosajson.seva){
  
 if(cosajson.netflixscrip){
-varnetflixscripvar='try { document.getElementById("logo_contenedor").style.display="none"; document.getElementsByTagName("footer")[0].style.display="none"; } catch (error) { }';
-
-
-sevacomourlenwebprincipal(cosajson.pg,varnetflixscripvar);
+varnetflixscripvar='setTimeout(function(){try { document.getElementsByClassName("logo")[0].style.display="none"; document.getElementById("footer-post").style.display="none"; } catch (error) { } },2000);';
+  sevacomourlenwebprincipal(cosajson.pg,varnetflixscripvar);
 }
 else{
   sevacomourlenwebprincipal(cosajson.pg,scrippdeseva);
