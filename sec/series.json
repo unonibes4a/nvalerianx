@@ -36,7 +36,7 @@
 
 
 "NETFLIX" : {
-"netflixscrip":"si",
+
   "id":"id7",
   "idname":"NETFLIX",
   "title":"NETFLIX",
@@ -48,6 +48,8 @@
     "idname":"t1",
     "title":"ENTRAR A VER MÁS SERIES",
     "v1" : {
+      "netflixscrip":"si",
+      "seva":"seva",
       "ocultacentroarriba":"si",
       "presenta":"iframe",
           "bollvaafullscreen":"si",
