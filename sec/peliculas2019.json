@@ -24,6 +24,22 @@
 
   ,
 
+
+  "Piratas2" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+  "presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "Piratas2",
+  "title":"Piratas del Caribe: En el fin del mundo",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/PIRATAS%20%20MALDICI%C3%93N%20DE%20LA%20PERLA%20NEGRA.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|781|844|785|845|779|790|781|790|866|866|794|846|781|847|789|811|850|811|857|867|857|809|794|848|782|790|789|811|861|860|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+  
+  }
+  
+  ,
   "Piratas1" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
