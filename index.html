@@ -56,15 +56,17 @@ document.getElementById("idmenjsajeantesdeactuar").style.display="none";
 
 }
 function   playVidvalerianuso() { 
+  vidusarval.currentTime = 0;
   vidusarval.play();
-  vidusarval.onended = function(e) {
-  /*Do things here!*/
-  pauseplayVidvalerianuso();
-  document.getElementById("idcomousarosaltarpaso").style.display="none";
-}; 
+
 } 
 
-
+vidusarval.onended = function(e) {
+  /*Do things here!*/
+  //pauseplayVidvalerianuso();
+  vidusarval.currentTime = 0;
+  document.getElementById("idcomousarosaltarpaso").style.display="none";
+}; 
 function pauseplayVidvalerianuso() { 
   vidusarval.pause(); 
 } 
