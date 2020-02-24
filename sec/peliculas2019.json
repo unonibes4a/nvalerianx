@@ -23,6 +23,23 @@
 
 
   ,
+
+  "Piratas1" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+  "presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "Piratas1",
+  "title":"Piratas del Caribe. La maldición de la Perla Negra",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/PIRATAS%20%20MALDICI%C3%93N%20DE%20LA%20PERLA%20NEGRA.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|865|861|849|845|865|862|789|791|780|810|858|812|779|809|853|844|852|862|848|801|852|789|794|841|778|811|849|814|781|803|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+  
+  }
+  
+  ,
+
   "ChinaSalesman" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
