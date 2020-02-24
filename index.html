@@ -25,7 +25,7 @@
 <div onscroll="qwert();" style="overflow:scroll;" id="idtodoelmundo">
 
 
-    <video id="idvideofondo" >
+    <video controlsList="nodownload" id="idvideofondo" >
         <source src="v1.mp4" type="video/mp4">
    
         Your browser does not support HTML5 video.
@@ -40,8 +40,9 @@
     <div id="ididvdivideeste"></div>
     <button  onclick="fsaltarpasovalerianuso();" id="idbtoncomosusarya2">Saltar Paso</button>
   </div>
-  <video id="idvideousarvalerianx" >
-    <source src="https://unonubes19.github.io/imgsolo/videousovalerianx.mp4" type="video/mp4">
+    <source controlsList="nodownload" src="https://unonubes19.github.io/imgsolo/videousovalerianx.mp4" type="video/mp4">
+      <video  controls   id="idvideousarvalerianx" >
+    <source  src="https://unonubes19.github.io/imgsolo/videousovalerianx.mp4" type="video/mp4">
 
     Your browser does not support HTML5 video.
   </video>
@@ -53,11 +54,13 @@ function fcomofunciona(){
 vidusarval = document.getElementById("idvideousarvalerianx"); 
 document.getElementById("idmenjsajeantesdeactuar").style.display="none";
   playVidvalerianuso();
+  vidusarval.play();
+  alert(22222);
 
 }
 function   playVidvalerianuso() { 
   vidusarval.currentTime = 0;
-  vidusarval.play();
+ // vidusarval.play();
 
 } 
 
