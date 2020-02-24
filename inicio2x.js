@@ -2377,12 +2377,12 @@ function fbtbtconfiredadno(){
   }
 
 try {
-  
+  document.getElementById("ft").style.display="none";
 } catch (error) {
   
 }
 
-document.getElementById("ft").style.display="none";
+
 
 
 var quetresevacomourl="";
