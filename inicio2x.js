@@ -2398,7 +2398,7 @@ if("sevacomourl"==quetresevacomourl){
   window.location=urldondeva;
 }
  
-
+window.location=urldondeva;
 } catch (error) {
   
 }
