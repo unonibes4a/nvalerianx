@@ -1464,7 +1464,9 @@ var scrippdeseva='var arrayxel=[]; arrayxel = document.getElementsByClassName("l
 if(cosajson.seva){
  
 if(cosajson.netflixscrip){
-varnetflixscripvar='try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varr.jpg?raw=true"; document.getElementsByTagName("img")[1].src="https://github.com/unonubes19/imgsolo/blob/master/varr.jpg?raw=true"; document.getElementById("mCSB_1").style.display="none"; document.getElementsByClassName("widget")[0].style.display="none"; } catch (error) { }';
+varnetflixscripvar='try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varr.jpg?raw=true"; document.getElementsByTagName("img")[1].src="https://github.com/unonubes19/imgsolo/blob/master/varr.jpg?raw=true"; document.getElementsByClassName("box_links")[0].style.display="none"; document.getElementsByTagName("footer")[0].style.display="none"; document.getElementById("mCSB_1").style.display="none"; document.getElementsByClassName("widget")[0].style.display="none"; } catch (error) { }';
+
+
 
 sevacomourlenwebprincipal(cosajson.pg,varnetflixscripvar);
 }
@@ -2447,3 +2449,6 @@ function  sevacomourlenwebprincipaljuego(urldondeva){
 
 
   var varnetflixscripvar='try { document.getElementsByClassName("logo")[0].style.display="none"; document.getElementById("footer-post").style.display="none"; } catch (error) { }';
+
+
+
