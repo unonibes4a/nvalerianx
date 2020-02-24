@@ -160,7 +160,9 @@ $(document).ready(function(){
     
       
 
-     document.getElementById("idcomousarosaltarpaso").style.display="block";
+     document.getElementById("idcomousarosaltarpaso").style.display="flex";
+     document.getElementById("idmenjsajeantesdeactuar").style.display="flex";
+     
     });
 
     
