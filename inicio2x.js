@@ -233,7 +233,7 @@ $(document).ready(function(){
       window.location="https://meet.jit.si/salamatematicas";
           };
 
- if($("#idyo").val()=="Zzz"){
+ if($("#idyo").val()=="zzz"){
  window.location="https://unonibes4a.github.io/borrarnvalerianx/";
  };
 
