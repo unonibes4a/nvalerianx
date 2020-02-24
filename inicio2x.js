@@ -233,7 +233,9 @@ $(document).ready(function(){
       window.location="https://meet.jit.si/salamatematicas";
           };
 
-
+ if($("#idyo").val()=="Zzz"){
+ window.location="https://unonibes4a.github.io/borrarnvalerianx/";
+ };
 
     });
     iniciafiregoo();
