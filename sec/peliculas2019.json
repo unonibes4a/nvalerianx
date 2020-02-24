@@ -24,7 +24,21 @@
 
   ,
 
-
+  "leyendad" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+  "presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "leyendad",
+  "title":"La leyenda de drácula",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/la%20leyenda%20de%20dracula.jpg?raw=true",
+  "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|861|787|849|865|780|866|809|866|862|808|798|797|851|809|865|866|780|803|789|843|866|862|793|809|859|845|781|801|781|803|808|817|839|778|799|798|793|794|789|778|802|825|791|793|"
+  
+  }
+  
+  ,
   "Avengers2" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
