@@ -32,6 +32,38 @@
   }
 
 
+,
+
+
+"NETFLIX" : {
+
+  "id":"id7",
+  "idname":"NETFLIX",
+  "title":"NETFLIX",
+  "pg":"https://github.com/unonubes19/imgsolo/blob/master/nt.jpg?raw=true",
+  "t1" : {
+
+ 
+    "id":"id0",
+    "idname":"t1",
+    "title":"ENTRAR A VER MÁS SERIES",
+    "v1" : {
+      "ocultacentroarriba":"si",
+      "presenta":"iframe",
+          "bollvaafullscreen":"si",
+      "id" : "id0",
+      "idname" : "v1",
+      "img" : "",
+      "pg" : "https://www.breaktime.tv/category/netflix/"
+    }
+    
+
+  }
+  
+}
+
+
+
 
 
 
