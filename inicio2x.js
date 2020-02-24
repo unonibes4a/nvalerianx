@@ -430,14 +430,20 @@ function escribe(stx){
 
 
 
-
+var bolunasolavespreguntacomofunciona=true;
 
 function animacontrolfinal(){
+if(bolunasolavespreguntacomofunciona){
+  bolunasolavespreguntacomofunciona=false;
+
   $("#idpreguntacomofunciona").animate({"top":"+="+String(vh*0.81)},4000,function(){
     $("#idpreguntacomofunciona").animate({"left":"-="+String(vw*0.62)},4000,function(){
     
     });
   });
+}
+
+ 
 getvwvh();
   $("#xb1").animate({"left":"+="+String(vw*-0.46)},2000,function(){});
   $("#xb2").animate({"left":"+="+String(vw*-0.36)},2000,function(){});
