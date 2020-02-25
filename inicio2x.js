@@ -247,7 +247,7 @@ $(document).ready(function(){
 
  if($("#idyo").val()=="anime"){
 
-var estesxripseva='document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/anime.jpg?raw=true"; document.getElementsByClassName("mobi")[0].style.display="none"; document.getElementsByTagName("strong")[0].innerText="Valerianx"; document.getElementsByClassName("adstop")[0].style.display="none"; document.getElementsByClassName("Footer")[0].style.display="none"; document.getElementsByTagName("H1")[0].innerText=" Valerianx";';
+var estesxripseva='setTimeout(function(){try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/anime.jpg?raw=true"; document.getElementsByClassName("mobi")[0].style.display="none"; document.getElementsByTagName("strong")[0].innerText="Valerianx"; document.getElementsByClassName("adstop")[0].style.display="none"; document.getElementsByClassName("Footer")[0].style.display="none"; document.getElementsByTagName("H1")[0].innerText=" Valerianx"; document.getElementById("_ylyom3a").style.display="none"; } catch (error) { } },2000);';
 sevaconscrip("https://www7.animeflv.cc/",estesxripseva);
 
 
