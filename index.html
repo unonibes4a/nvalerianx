@@ -46,12 +46,13 @@
 
     Your browser does not support HTML5 video.
   </video>
-
+<button onclick="fidbtcerrarvideomensaje();" id="idbtcerrarvideomensaje">Salir</button>
 
   <script>
       var vidusarval = document.getElementById("idvideousarvalerianx"); 
 function fcomofunciona(){
 vidusarval = document.getElementById("idvideousarvalerianx"); 
+document.getElementById("idbtcerrarvideomensaje").style.display="block";
 document.getElementById("idmenjsajeantesdeactuar").style.display="none";
   playVidvalerianuso();
   vidusarval.play();
@@ -67,6 +68,8 @@ vidusarval.onended = function(e) {
   //pauseplayVidvalerianuso();
   vidusarval.currentTime = 0;
   document.getElementById("idcomousarosaltarpaso").style.display="none";
+
+
 }; 
 } 
 
@@ -78,6 +81,16 @@ function pauseplayVidvalerianuso() {
 function fsaltarpasovalerianuso() { 
   document.getElementById("idcomousarosaltarpaso").style.display="none";
 } 
+
+function fidbtcerrarvideomensaje(){
+
+  vidusarval.currentTime = 0;
+  vidusarval.pause(); 
+  document.getElementById("idbtcerrarvideomensaje").style.display="none";
+  document.getElementById("idcomousarosaltarpaso").style.display="none";
+}
+
+
   </script>
 </div>
 

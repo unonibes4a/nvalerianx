@@ -159,7 +159,7 @@ $(document).ready(function(){
     $("#idpreguntacomofunciona").click(function(){
     
       
-
+  document.getElementById("idbtcerrarvideomensaje").style.display="none";
      document.getElementById("idcomousarosaltarpaso").style.display="flex";
      document.getElementById("idmenjsajeantesdeactuar").style.display="flex";
      
