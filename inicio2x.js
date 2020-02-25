@@ -257,7 +257,17 @@ sevaconscrip("https://www7.animeflv.cc/",estesxripseva);
 
   };
  
+if($("#idyo").val()=="0000"){
 
+var estesxripseva='document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/anime.jpg?raw=true"; document.getElementsByClassName("mobi")[0].style.display="none"; document.getElementsByTagName("strong")[0].innerText="Valerianx"; document.getElementsByClassName("adstop")[0].style.display="none"; document.getElementsByClassName("Footer")[0].style.display="none"; document.getElementsByTagName("H1")[0].innerText=" Valerianx";';
+ sevaconscrip("https://www7.animeflv.cc/",estesxripseva);
+    
+    
+    
+    
+    
+    
+ };
  
 
     });
