@@ -963,3 +963,21 @@ color: rgba(16, 84, 212, 0.712);
     color: #ffffff;
 font-size: 11px;
   }
+
+
+  #idbtcerrarvideomensaje{
+
+    position: absolute;
+
+
+    bottom: 0px;
+   right:  7px;
+    width: 120px;
+    height:60px;
+
+    z-index: 0;  
+    background-color: #00000041;
+    color: #ffffff;
+font-size: 11px;
+z-index: 12;
+  }
