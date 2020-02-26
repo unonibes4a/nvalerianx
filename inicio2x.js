@@ -283,7 +283,13 @@ if($("#idyo").val()=="0000"){
    };
    
 
- 
+   if($("#idyo").val()=="Va"){
+
+    var estesxripseva='try { document.getElementById("WIX_ADS").style.display="none"; document.getElementById("comp-ipe3h1yj3").style.display="none"; } catch (error) { }';
+    
+    sevaconscrip("https://unonubes3.wixsite.com/valerianx/",estesxripseva);
+        
+     };
 
 
     });
