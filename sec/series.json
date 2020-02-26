@@ -2831,7 +2831,35 @@
 
 
 
+,
 
+
+"NETFLIX2" : {
+
+  "id":"id7",
+  "idname":"NETFLIX2",
+  "title":"okkkk",
+  "pg":"",
+  "t1" : {
+
+ 
+    "id":"id0",
+    "idname":"t1",
+    "title":"ENTRAR A VER MÁS SERIES",
+    "v1" : {
+      "ocultacentroarriba":"si",
+      "presenta":"iframe",
+          "bollvaafullscreen":"si",
+      "id" : "id0",
+      "idname" : "v1",
+      "img" : "",
+      "pg" : "https://megalatino.net/mega-serie/"
+    }
+    
+
+  }
+  
+}
 
 
 
