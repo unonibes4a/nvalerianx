@@ -219,7 +219,7 @@ $(document).ready(function(){
     $("#idcopartir").click(function(){
  
 
- fxjquery("compartir","Descarga ahora valerianx para android   https://play.google.com/store/apps/details?id=com.esotam.Valerianx&hl=es_CO "+" Mira en video su contenido "+"   https://www.youtube.com/watch?v=8Ubsy5VfXI8&t=34s","s2","s3");
+ fxjquery("compartir","Descarga ahora valerianx para android   https://play.google.com/store/apps/details?id=com.esotam.Valerianx&hl=es_CO "+" Mira en video su contenido "+"   https://www.youtube.com/watch?v=mYlv28ZyDuY","s2","s3");
 
  
       
