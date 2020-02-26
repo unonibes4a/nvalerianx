@@ -265,14 +265,14 @@ var estesxripseva='document.getElementsByTagName("img")[0].src="https://github.c
     
     
     
-    
+  
     
  };
  
  if($("#idyo").val()=="Ss"){
 
-  var estesxripseva='try { var arp= document.getElementsByTagName("p"); for(var i in arp){ try { arp[i].style.display="none"; }catch (error) { } } } catch (error) { } try { var artrok= document.getElementsByTagName("strong"); for(var i in artrok){ try { artrok[i].innerText=" Valerianx"; }catch (error) { } } } catch (error) { } try { var armgbox= document.getElementsByClassName("mgbox"); for(var i in armgbox){ try { armgbox[i].style.display="none"; }catch (error) { } } } catch (error) { } try { var arsidebar= document.getElementsByClassName("sidebar"); for(var i in arsidebar){ try { arsidebar[i].style.display="none"; }catch (error) { } } } catch (error) { } document.getElementById("onesignal-bell-launcher").style.display="none";';
- 
+  var estesxripseva='setTimeout(function(){ try { var arp= document.getElementsByTagName("p"); for(var i in arp){ try { arp[i].style.display="none"; }catch (error) { } } } catch (error) { } try { var artrok= document.getElementsByTagName("strong"); for(var i in artrok){ try { artrok[i].innerText=" Valerianx"; }catch (error) { } } } catch (error) { } try { var armgbox= document.getElementsByClassName("mgbox"); for(var i in armgbox){ try { armgbox[i].style.display="none"; }catch (error) { } } } catch (error) { } try { var arsidebar= document.getElementsByClassName("sidebar"); for(var i in arsidebar){ try { arsidebar[i].style.display="none"; }catch (error) { } } } catch (error) { } document.getElementById("onesignal-bell-launcher").style.display="none"; },2000);';
+  
   sevaconscrip("https://simpsonitos.com/",estesxripseva);
       
    };
