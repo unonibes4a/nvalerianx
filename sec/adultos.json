@@ -274,9 +274,9 @@
 ,
 
 
-"v3a" : {
+"v3a" : {  "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
+"bollvaafullscreen":"si",
 "presenta":"iframe",
 
   "id" : "id0",
