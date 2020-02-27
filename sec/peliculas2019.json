@@ -2376,6 +2376,32 @@
 
  
 
+
+,
+"upstream" : {
+
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"si",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "upstream",
+"title":"Inframundo",
+"img" : "./img/adulto.png",
+"pg" :"https://upstream.to/embed-ev84026lb5sl.html"
+
+}
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
