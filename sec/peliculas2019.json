@@ -30,7 +30,21 @@
 "pg" :"785|798|798|794|797|805|806|806|815|818|799|794|804|791|782|798|806|782|790|779|782|781|818|803|778|779|785|789|811|799|796|810|809|810|791|804|785|798|790|789|"
 
 }
+,
 
+"Soyelc" : {
+  "cd":"si",
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "Soyelc",
+"title":"Soy el número cuatro",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/soy%20el%20cuarto.jpg?raw=true",
+"pg" :"785|798|798|794|797|805|806|806|815|818|799|794|804|791|782|798|806|782|790|779|782|781|818|798|808|814|797|867|810|781|779|867|811|814|794|804|785|798|790|789|"
+
+}
 ,
 
 "LosVengadores" : {
