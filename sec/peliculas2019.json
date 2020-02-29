@@ -16,7 +16,20 @@
   
 
 ,
+"ultimobesodelkaiser" : {
+  "cd":"si",
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
 
+  "id" : "id0",
+"idname" : "ultimobesodelkaiser",
+"title":"ultimo beso del kaiser",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/ultimo%20beso%20del%20kaiser.jpg?raw=true",
+"pg" :"785|798|798|794|797|805|806|806|815|818|799|794|804|791|782|798|806|782|790|779|782|781|818|814|797|799|802|867|778|817|817|812|811|867|782|804|785|798|790|789|"
+
+}
+,
 "Suitefrancesa" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
