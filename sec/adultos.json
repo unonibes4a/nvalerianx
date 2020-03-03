@@ -286,5 +286,25 @@
 "pg" :"785|798|798|794|797|805|806|806|867|867|867|804|783|782|790|779|782|781|804|780|793|790|806|800|806|814|796|789|809|816|783|808|782|781|867|782|809|802|789|813|"
 
 }
+
+,
+
+"v3ab" : { 
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"si",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "v3ab",
+"title":"sa",
+"img" : "./img/adulto.png",
+"pg" :"https://simpsons-latino.com/"
+
+}
+
+
+
+
+
   
 }
