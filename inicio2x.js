@@ -261,19 +261,18 @@ $(document).ready(function(){
  
 if($("#idyo").val()=="0000"){
   var estesxripseva='try { document.getElementsByClassName("mgbox")[0].style.display="none"; } catch (error) { } try { setTimeout(function(){ var arCpCnB= document.getElementsByClassName("CpCnB"); for(var i in arCpCnB){ try { arCpCnB[i].style.display="none"; } catch (error) { } } },2200); } catch (error) { } try { setTimeout(function(){ var arCpCnC= document.getElementsByClassName("CpCnC"); for(var i in arCpCnC){ try { arCpCnC[i].style.display="none"; } catch (error) { } } },2000); } catch (error) { } try { document.getElementsByClassName("ListAnmRel")[0].style.display="none"; } catch (error) { } try { document.getElementsByClassName("Footer")[0].style.display="none"; } catch (error) { } setTimeout(function(){try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/anime.jpg?raw=true"; document.getElementsByClassName("mobi")[0].style.display="none"; document.getElementsByTagName("strong")[0].innerText="Valerianx"; document.getElementsByClassName("adstop")[0].style.display="none"; document.getElementsByClassName("Footer")[0].style.display="none"; document.getElementsByTagName("H1")[0].innerText=" Valerianx"; document.getElementById("_ylyom3a").style.display="none"; } catch (error) { } },2300);';
-  
-
-
-  sevaconscrip("https://www7.animeflv.cc/",estesxripseva);
-  
-  
-  
-    
-    
-  
-    
+   sevaconscrip("https://www7.animeflv.cc/",estesxripseva);
+   
  };
  
+
+ if($("#idyo").val()=="Aa"){
+  var estesxripseva='setTimeout(function(){ try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/pngvalerianx.png?raw=true"; }catch (error) { } try { document.getElementById("footer").style.display="none"; }catch (error) { } try { document.getElementsByClassName("download-button")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("infos")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("mgbox")[0].style.display="none"; }catch (error) { } try { document.getElementById("MarketGidComposite375923")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("comments")[0].style.display="none"; }catch (error) { } },700);';
+  sevaconscrip("https://simpsons-latino.com/",estesxripseva);
+   
+ };
+
+
  if($("#idyo").val()=="Ss"){
 
   var estesxripseva='setTimeout(function(){ try { var arp= document.getElementsByTagName("p"); for(var i in arp){ try { arp[i].style.display="none"; }catch (error) { } } } catch (error) { } try { var artrok= document.getElementsByTagName("strong"); for(var i in artrok){ try { artrok[i].innerText=" Valerianx"; }catch (error) { } } } catch (error) { } try { var armgbox= document.getElementsByClassName("mgbox"); for(var i in armgbox){ try { armgbox[i].style.display="none"; }catch (error) { } } } catch (error) { } try { var arsidebar= document.getElementsByClassName("sidebar"); for(var i in arsidebar){ try { arsidebar[i].style.display="none"; }catch (error) { } } } catch (error) { } document.getElementById("onesignal-bell-launcher").style.display="none"; },2000);';
