@@ -1,6 +1,37 @@
 {
   
+  "lsimpson" : {
 
+    "id":"id7",
+    "idname":"lsimpson",
+    "title":"Los simpson ",
+    "pg":"https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/lossimpson.jpg?raw=true",
+    "t1" : {
+
+   
+      "id":"id0",
+      "idname":"t1",
+      "title":"Todas las temporadas ",
+      "v1" : {
+        "ocultacentroarriba":"si",
+        "presenta":"iframe",
+            "bollvaafullscreen":"si",
+        "id" : "id0",
+        "idname" : "v1",
+        "img" : "",
+        "pg" :"https://simpsons-latino.com/"
+      }
+      
+
+    }
+    
+  }
+ 
+
+
+  ,
+  
+  
 
 
 
