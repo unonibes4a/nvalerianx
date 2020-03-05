@@ -15,7 +15,10 @@
   }
   
 
+
+
 ,
+
 "ultimobesodelkaiser" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
@@ -2457,7 +2460,21 @@
 
 
 
+,
 
+"allthebrightplaces" : {
+
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "allthebrightplaces",
+"title":"all the bright places",
+"img" : "https://image.tmdb.org/t/p/w185_and_h278_bestv2/4SafxuMKQiw4reBiWKVZJpJn80I.jpg",
+"pg" :"https://upstream.to/embed-kuw2u1igwy2u.html"
+
+}
 
 
 
