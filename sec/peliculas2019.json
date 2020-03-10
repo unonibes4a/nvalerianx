@@ -36,6 +36,23 @@
   
 ,
 
+
+"focus" : {
+
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "focus",
+"title":"focus",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/focus.jpg?raw=true",
+"pg" :"https://www.fembed.com/v/djdenbxjlew45k-"
+
+}
+
+,
+
 "LosVengadores" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
