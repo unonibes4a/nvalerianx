@@ -266,6 +266,14 @@ if($("#idyo").val()=="0000"){
  };
  
 
+ if($("#idyo").val()=="bab"){
+  var estesxripseva='var acsdfrew=0;';
+   sevaconscrip("https://unonubes19.github.io/juegobabilon/",estesxripseva);
+   
+ };
+ 
+
+
  if($("#idyo").val()=="Aa"){
   var estesxripseva='setTimeout(function(){ try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/pngvalerianx.png?raw=true"; }catch (error) { } try { document.getElementById("footer").style.display="none"; }catch (error) { } try { document.getElementsByClassName("download-button")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("infos")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("mgbox")[0].style.display="none"; }catch (error) { } try { document.getElementById("MarketGidComposite375923")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("comments")[0].style.display="none"; }catch (error) { } },700);';
   sevaconscrip("https://simpsons-latino.com/",estesxripseva);
