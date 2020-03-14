@@ -94,6 +94,7 @@
 }
 
 
+
 ,
 
 "Estamierdamesupera" : {
@@ -1125,44 +1126,11 @@
 
 
 
-,
+
 
 
   
-  "BlackMirror" : {
-    "id":"id7",
-    "idname":"BlackMirror",
-    "title":"Black Mirror",
-    "pg":"img/series/BlackMirror.jpg",
-    "t5" : {
 
-      "id":"id0",
-      "idname":"t5",
-      "title":"Temporada 5",
-      "v1" : {
-        "id" : "id0",
-        "idname" : "v1",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1koJ6z1J0pTL3MyN_D-u0Dkga6DfjaRTu/preview?authuser=0"
-      },
-      "v2" : {
-        "id" : "id1",
-        "idname" : "v2",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1-e7v5d5Q6Mmi1WBRE2uTSU-Q3kgm840g/preview?authuser=0"
-      },
-      "v3" : {
-        "id" : "id2",
-        "idname" : "v3",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1L2FEnWJuftK7tWD1RGE_Wk6OmDZQICvG/preview?authuser=0"
-      }
-      
-     
-
-    }
-    
-  }
 
 ,
 
@@ -2971,6 +2939,83 @@
   
 }
 
+,
+"LunaNeraTemporada" : {
+  "id":"id7",
+  "idname":"LunaNeraTemporada",
+  "title":"Luna Nera Temporada",
+  "pg":"https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/LunaNeraTemporada.jpg?raw=true",
+  "t1" : {
+
+    "id":"id0",
+    "idname":"t1",
+    "title":"Temporada 1",
+    "v1" : {
+      "cd":"si",
+      "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"no",
+    "presenta":"iframe",
+      "id" : "id0",
+      "idname" : "v1",
+      "img" : "",
+      "pg" : "785|798|798|794|797|805|806|806|867|867|867|804|783|782|790|779|782|781|804|780|793|790|806|800|806|791|787|811|803|809|779|810|818|809|801|811|803|795|790|788|"
+    },
+    "v2" : {
+      "cd":"si",
+      "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"no",
+    "presenta":"iframe",
+      "id" : "id0",
+      "idname" : "v2",
+      "img" : "",
+      "pg" :"785|798|798|794|797|805|806|806|867|867|867|804|783|782|790|779|782|781|804|780|793|790|806|800|806|811|815|790|788|782|785|790|787|784|816|816|818|818|810|811|"
+    },
+     "v3" : {
+       "cd":"si",
+       "ocultaridbtblockiframetopleft":"si",
+     "bollvaafullscreen":"no",
+     "presenta":"iframe",
+       "id" : "id0",
+       "idname" : "v3",
+       "img" : "",
+       "pg" :"785|798|798|794|797|805|806|806|867|867|867|804|783|782|790|779|782|781|804|780|793|790|806|800|806|812|781|788|801|802|783|803|787|782|815|815|816|794|816|808|"
+      }
+      ,
+      "v4" : {
+        "cd":"si",
+        "ocultaridbtblockiframetopleft":"si",
+      "bollvaafullscreen":"no",
+      "presenta":"iframe",
+        "id" : "id0",
+        "idname" : "v4",
+        "img" : "",
+        "pg" : "785|798|798|794|797|805|806|806|867|867|867|804|783|782|790|779|782|781|804|780|793|790|806|800|806|789|787|788|809|796|779|791|781|811|794|787|812|795|809|809|"
+      }  
+       ,
+       "v5" : {
+         "cd":"si",
+         "ocultaridbtblockiframetopleft":"si",
+       "bollvaafullscreen":"no",
+       "presenta":"iframe",
+         "id" : "id0",
+         "idname" : "v5",
+         "img" : "",
+         "pg" : "785|798|798|794|797|805|806|806|867|867|867|804|783|782|790|779|782|781|804|780|793|790|806|800|806|796|815|808|813|810|785|782|790|803|812|788|803|790|813|809|"
+        }    
+        ,
+        "v6" : {
+          "cd":"si",
+          "ocultaridbtblockiframetopleft":"si",
+        "bollvaafullscreen":"no",
+        "presenta":"iframe",
+          "id" : "id0",
+          "idname" : "v6",
+          "img" : "",
+          "pg" : "785|798|798|794|797|805|806|806|867|867|867|804|783|782|790|779|782|781|804|780|793|790|806|800|806|796|815|808|813|810|785|782|790|803|812|788|803|790|813|809|"
+        } 
+  }
+  
+}
 
 
 
