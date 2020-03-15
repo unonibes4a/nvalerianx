@@ -950,95 +950,6 @@
     
   }
 
-,
-
-
-
-
-
-  "LaOrden" : {
-    "id":"id7",
-    "idname":"LaOrden",
-    "title":"La Orden (2019)",
-    "pg":"https://image.tmdb.org/t/p/w154/yMPjmuSd5Fac8YMNOwofGALQWjR.jpg",
-    "t1" : {
-
-      "id":"id0",
-      "idname":"t1",
-      "title":"Temporada 1",
-      "v1" : {
-        "id" : "id0",
-        "idname" : "v1",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1654gxL_czEACzGh6lwZdEJnPmztm5Ptv/preview"
-      },
-      "v2" : {
-        "id" : "id1",
-        "idname" : "v2",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/15bN2JxlwxoMAGX4uB3gfV22OaGWVJ2ya/preview"
-      },
-      "v3" : {
-        "id" : "id2",
-        "idname" : "v3",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1RHQJt1vZy0Dz0K3JXuuHDb1d3G5xlBIi/preview"
-      }
-      ,
-      "v4" : {
-        "id" : "id2",
-        "idname" : "v4",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1AnIk_HY6N6ae9LSLWI79gUOV5sFIWQ4s/preview"
-      }
-      
-      ,
-      "v5" : {
-        "id" : "id2",
-        "idname" : "v5",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1s3WFVGFooHxt8vmsPZzTiU_nyevEz2zE/preview?authuser=0"
-      }
-      ,
-      "v6" : {
-        "id" : "id2",
-        "idname" : "v6",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1m0jwq2YgRWXuEclnUwz81hE2t610viIN/preview?authuser=0"
-      }
-      ,
-      "v7" : {
-        "id" : "id2",
-        "idname" : "v7",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1Skqdim1uT92odXjDTGK_jbA8S3K15oR5/preview?authuser=0"
-      }
-      ,
-      "v8" : {
-        "id" : "id2",
-        "idname" : "v8",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1xSNVwkajGTVdN1eXDI6CljHkkLqwjB-c/preview?authuser=0"
-      }
-         ,
-      "v9" : {
-        "id" : "id2",
-        "idname" : "v9",
-        "img" : "",
-        "pg" : "https://my.mail.ru/video/embed/9147716681856974855"
-      }
-      ,
-      "v10" : {
-        "id" : "id2",
-        "idname" : "v10",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1yL6yx3eC4vQGjZcVQLbegzJ0Gr2XEihh/preview?authuser=0"
-      }
-
-    }
-    
-  }
-
 
 
 
@@ -1121,106 +1032,7 @@
 
 
 
-
-
-
-
-
-
-
-
   
-
-
-,
-
-
-
-"TheSociety" : {
-  "id":"id7",
-  "idname":"TheSociety",
-  "title":"The Society",
-  "pg":"https://static.pelisplus.co/serie/cover/original/637cd25606f13dc2dd696ba0af5a6344.jpg",
-  "t1" : {
-
-    "id":"id0",
-    "idname":"t1",
-    "title":"Temporada 1",
-    "v1" : {
-      "id" : "id0",
-      "idname" : "v1",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/1b9mAmUgQLQnCqBkJuYMEW0MczGBz2CsB/preview?authuser=0"
-    },
-    "v2" : {
-      "id" : "id1",
-      "idname" : "v2",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/1Hws61l44KhkqafLMo863pPJYKJDzDBzr/preview?authuser=0"
-    },
-    "v3" : {
-      "id" : "id2",
-      "idname" : "v3",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/1td6Gv6Jv4KWnhac4ATAIc5BYsdzhbq6a/preview?authuser=0"
-    }
-    ,
-    "v4" : {
-      "id" : "id2",
-      "idname" : "v4",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/12QOvypgV-7-J-6ydzHpDQIxfjaWQmFCs/preview?authuser=0"
-    }
-    
-    ,
-    "v5" : {
-      "id" : "id2",
-      "idname" : "v5",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/1vnYZw9ItYpXcKXEuUmrsSlqe54JOTw2I/preview?authuser=0"
-    }
-    ,
-    "v6" : {
-      "id" : "id2",
-      "idname" : "v6",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/1hcaMOsnwYJa_OHJTURyQ4SwPqTJif7jq/preview?authuser=0"
-    }
-    ,
-    "v7" : {
-      "id" : "id2",
-      "idname" : "v7",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/1eQ_hIQqlLyVvos8DD1CfATPbAzeJw0Km/preview?authuser=0"
-    }
-    ,
-    "v8" : {
-      "id" : "id2",
-      "idname" : "v8",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/1TEQqM0bJwwuywp_bwfyuxCxvJdOE7cVN/preview?authuser=0"
-    }
-    ,
-    "v9" : {
-      "id" : "id2",
-      "idname" : "v9",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/1W1mi8dcVw_emzl65wRS_DcSiXi5Q_VSt/preview?authuser=0"
-    }
-    ,
-    
-    "v10" : {
-      "id" : "id2",
-      "idname" : "v10",
-      "img" : "",
-      "pg" : "https://drive.google.com/file/d/1IsEoNzKwd7qcoLjm12GnasUM363iZV0s/preview?authuser=0"
-    }
-    
-
-  }
-  
-}
-
 
 
 
@@ -2359,111 +2171,9 @@
 
     }
     
-  },
-  "Ultraman" : {
-    "id":"id6",
-    "idname":"Ultraman",
-    "title":"Ultraman",
-    "pg":"https://static.pelisplus.co/serie/cover/original/8f46dc14081b872006a3e92d4ef6a11f.jpg",
-    "t1" : {
-
-      "id":"id0",
-      "idname":"t1",
-      "title":"Temporada 1",
-      "v1" : {
-        "id" : "id0",
-        "idname" : "v1",
-        "img" : "",
-        "pg" : "https://stream194.uqload.com/3rfkzujderw2q4drdip7hnf2avym5akkjygdaid6jogyvsv5fu5eavlgl2dq/v.mp4"
-      },
-      "v2" : {
-        "id" : "id1",
-        "idname" : "v2",
-        "img" : "",
-        "pg" : "https://stream141.uqload.com/3rfkqureerw2q4drdip7hmvpd45ubfux62y66kwsbusscf2mjnngw2t3uhzq/v.mp4"
-      },
-      "v3" : {
-        "id" : "id2",
-        "idname" : "v3",
-        "img" : "",
-        "pg" : "https://stream246.uqload.com/3rfktvjderw2q4drdip7hkfmcfcjdesu7qznwje22nsdrkldklilpzjhzwva/v.mp4"
-      },
-      "v4" : {
-        "id" : "id3",
-        "idname" : "v4",
-        "img" : "",
-        "pg" : "https://stream158.uqload.com/3rfkqubeerw2q4drdip7hjhvamamcj2rjoavuzsjiuzu3nr5jnqhbv4ae4jq/v.mp4"
-      },
-      "v5" : {
-        "id" : "id4",
-        "idname" : "v5",
-        "img" : "",
-        "pg" : "https://stream141.uqload.com/3rfk4xreerw2q4drdip7hl7tay5sfa6bw3ifdzej5hgbcpue5fsqgcfyl72a/v.mp4"
-      }
-
-      ,
-      "v6" : {
-        "id" : "id5",
-        "idname" : "v6",
-        "img" : "",
-        "pg" : "https://stream134.uqload.com/3rfkx5rderw2q4drdip7h5ptacboyekqk3dvd43pyzvvyxz7ffmihh5ixyva/v.mp4"
-      }
-      ,
-      "v7" : {
-        "id" : "id6",
-        "idname" : "v7",
-        "img" : "",
-        "pg" : "https://stream162.uqload.com/3rfkuwzeerw2q4drdip7hk5qb4m2y5mikftyzoskjylivndouscetfb3wroa/v.mp4"
-      }
-
-      ,
-      "v8" : {
-        "id" : "id7",
-        "idname" : "v8",
-        "img" : "",
-        "pg" : "https://stream162.uqload.com/3rfktwbderw2q4drdip7h47qax6573etcvxh7nar44yonhxwvxglm64tpdqa/v.mp4"
-      }
-      ,
-      "v9" : {
-        "id" : "id8",
-        "idname" : "v9",
-        "img" : "",
-        "pg" : "https://stream162.uqload.com/3rfkmujeerw2q4drdip7hlnna3yngczcbjesg74phwkinblyxx77jw4hl2fa/v.mp4"
-      }
-      ,
-      "v10" : {
-        "id" : "id9",
-        "idname" : "v10",
-        "img" : "",
-        "pg" : "https://stream134.uqload.com/3rfkt5bderw2q4drdip7hlxyki2eyoe2lmqoj5svrtgvhmvxw65apm4ohihq/v.mp4"
-      }
-      ,
-      "v11" : {
-        "id" : "id10",
-        "idname" : "v11",
-        "img" : "",
-        "pg" : "https://stream134.uqload.com/3rfk3tbderw2q4drdip7hlptlrboguhzvqm57duxsvcc22x7azepxycvywca/v.mp4"
-      }
-
-      ,
-      "v12" : {
-        "id" : "id11",
-        "idname" : "v12",
-        "img" : "",
-        "pg" : "https://stream162.uqload.com/3rfknsjderw2q4drdip7hpvidu26wnogeyni4xjm3sn462djfyi3i36xxweq/v.mp4"
-      }
-      ,
-      "v13" : {
-        "id" : "id12",
-        "idname" : "v13",
-        "img" : "",
-        "pg" : "https://stream81.uqload.com/3rfkvrrderw2q4drdip7h5nvdco5ckbml6p3ux6cidr2n26nwnx2qor35zbq/v.mp4"
-      }
-     
-
-    }
-    
-  },
+  }
+  
+  ,
   "BlackSummer" : {
     "id":"id7",
     "idname":"BlackSummer",
@@ -2537,116 +2247,11 @@
 
 
   
-  
-
-
-  ,
-
-
-
-
-  "SexEducation" : {
-    "id":"id7",
-    "idname":"SexEducation",
-    "title":"Sex Education (2019)",
-    "pg":"https://image.tmdb.org/t/p/w154/h4l0hILb6Fr1vwoKwv9XOk4Fx5.jpg",
-    "t1" : {
-
-      "id":"id0",
-      "idname":"t1",
-      "title":"Temporada 1",
-      "v1" : {
-        "id" : "id0",
-        "idname" : "v1",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/12rERqI_i_zXqfYW0Fk4mPJlybpUGUXHs/preview"
-      },
-      "v2" : {
-        "id" : "id1",
-        "idname" : "v2",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1pM64crsY_NRjUi4y1wU0bp-HtaX0BfVk/preview"
-      },
-      "v3" : {
-        "id" : "id2",
-        "idname" : "v3",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1W79qyXKyNFYWvKKvfGw368U-Wf0REWsX/preview"
-      }
-      ,
-      "v4" : {
-        "id" : "id2",
-        "idname" : "v4",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1_LT6gLfXGEzCNvRJFcH_3HLpaGLBLbZQ/preview"
-      }
-      
-      ,
-      "v5" : {
-        "id" : "id2",
-        "idname" : "v5",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1X8I4DPg7rStXvwHwA-OBvp7yb2B7NxRe/preview"
-      }
-      ,
-      "v6" : {
-        "id" : "id2",
-        "idname" : "v6",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1NaMQA7W3wrp5S94TVIBaYCmMnt26f7fd/preview"
-      }
-      ,
-      "v7" : {
-        "id" : "id2",
-        "idname" : "v7",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1_9eT0qU6J4lEG9Ihevrla8nAuWVq37X6/preview"
-      }
-      ,
-      "v8" : {
-        "id" : "id2",
-        "idname" : "v8",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1O8jy9oRwJgOb-cqx3cEvjAXRzcj5naZD/preview"
-      }
-      
-
-    }
-    
-  }
-
 
 
 ,
 
 
-"NETFLIX2" : {
-
-  "id":"id7",
-  "idname":"NETFLIX2",
-  "title":"okkkk",
-  "pg":"",
-  "t1" : {
-
- 
-    "id":"id0",
-    "idname":"t1",
-    "title":"ENTRAR A VER MÁS SERIES",
-    "v1" : {
-      "ocultacentroarriba":"si",
-      "presenta":"iframe",
-          "bollvaafullscreen":"si",
-      "id" : "id0",
-      "idname" : "v1",
-      "img" : "",
-      "pg" : "https://megalatino.net/mega-serie/"
-    }
-    
-
-  }
-  
-}
-,
 
 
 "attackontitan" : {
@@ -2951,14 +2556,14 @@
     "idname":"t1",
     "title":"Temporada 1",
     "v1" : {
-      "cd":"si",
+    
       "ocultaridbtblockiframetopleft":"si",
     "bollvaafullscreen":"no",
     "presenta":"iframe",
       "id" : "id0",
       "idname" : "v1",
       "img" : "",
-      "pg" : "785|798|798|794|797|805|806|806|867|867|867|804|783|782|790|779|782|781|804|780|793|790|806|800|806|791|787|811|803|809|779|810|818|809|801|811|803|795|790|788|"
+      "pg" :"https://www.fembed.com/v/4dkxyfzje778p80" 
     },
     "v2" : {
       "cd":"si",
