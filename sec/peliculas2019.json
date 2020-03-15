@@ -34,22 +34,7 @@
     
   
   
-,
 
-
-"focus" : {
-
-  "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
-"presenta":"iframe",
-
-  "id" : "id0",
-"idname" : "focus",
-"title":"focus",
-"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/focus.jpg?raw=true",
-"pg" :"https://www.fembed.com/v/djdenbxjlew45k-"
-
-}
 
 ,
 
@@ -2032,17 +2017,7 @@
    }
  
  
-   ,
- 
- 
-   "Nosotros" : {
-     "vid":"1",
-     "id" : "id11",
-   "idname" : "Nosotros",
-   "title":"Nosotros (2019)",
-   "img" : "https://image.tmdb.org/t/p/w185/kUEbVMrs80nWXtTA8tKd8jRwnIn.jpg",
-   "pg" : "https://drive.google.com/file/d/10VuEj3N1bzKfKjNEioUb67dC3K8tzJ1y/preview"
-   }
+  
  
  
    ,
@@ -2509,7 +2484,22 @@
 
 }
 
+,
 
+
+"focus" : {
+
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "focus",
+"title":"focus",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/focus.jpg?raw=true",
+"pg" :"https://www.fembed.com/v/djdenbxjlew45k-"
+
+}
 
 
 
