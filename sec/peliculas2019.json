@@ -55,21 +55,6 @@
 
 }
 
-  ,
-  "Focus" : {
-    "cd":"si",
-    "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
-  "presenta":"iframe",
-  
-    "id" : "id0",
-  "idname" : "Focus",
-  "title":"Focus",
-  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/focus.jpg?raw=true",
-  "pg" :"806|806|793|788|804|796|799|806|800|786|781|782|793|782|790|779|782|781|806|809|814|812|811|817|812|816|811|812|813|817|814|816|"
-  
-  }
-  
     ,
 
   "PecadoOriginal" : {
@@ -1171,6 +1156,21 @@
 
 
 
+  
+  ,
+  "Focus" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+  "presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "Focus",
+  "title":"Focus",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/focus.jpg?raw=true",
+  "pg" :"806|806|793|788|804|796|799|806|800|786|781|782|793|782|790|779|782|781|806|809|814|812|811|817|812|816|811|812|813|817|814|816|"
+  
+  }
   
 
 
