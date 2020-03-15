@@ -87,6 +87,20 @@
 "pg" :"785|798|798|794|797|805|806|806|815|818|799|794|804|791|782|798|806|782|790|779|782|781|818|786|815|816|790|796|788|808|789|778|793|810|782|804|785|798|790|789|"
 
 }
+,
+"Focus" : {
+  "cd":"si",
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "Focus",
+"title":"Focus",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/focus.jpg?raw=true",
+"pg" :"785|798|798|794|797|805|806|806|867|778|778|867|804|798|800|806|867|778|798|780|785|868|800|786|781|782|793|804|794|785|794|826|800|825|848|849|808|803|815|849|856|793|799|817|855|793|"
+
+}
 
   ,
 
@@ -1157,21 +1171,7 @@
 
 
   
-  ,
-  "Focus" : {
-    "cd":"si",
-    "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
-  "presenta":"iframe",
-  
-    "id" : "id0",
-  "idname" : "Focus",
-  "title":"Focus",
-  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/focus.jpg?raw=true",
-  "pg" :"806|806|793|788|804|796|799|806|800|786|781|782|793|782|790|779|782|781|806|809|814|812|811|817|812|816|811|812|813|817|814|816|"
-  
-  }
-  
+ 
 
 
 
