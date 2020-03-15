@@ -1347,8 +1347,7 @@ else{
       document.getElementById("idbtblockiframetop").style.display="none";
       document.getElementById("idblockokru").style.display="none";
       document.getElementById("idblockokrucentro").style.display="none";
-      document.getElementById("idbtblockiframedown").style.display="none";
-
+     
  
  
 
@@ -1381,7 +1380,7 @@ if(cosajson.presenta=="mp4"){
   document.getElementById("idbtblockiframetop").style.display="none";
   document.getElementById("idblockokru").style.display="none";
   document.getElementById("idblockokrucentro").style.display="none";
-  document.getElementById("idbtblockiframedown").style.display="none";
+  //document.getElementById("idbtblockiframedown").style.display="none";
 
 
   
@@ -1392,7 +1391,7 @@ try {
   document.getElementById("idbtblockiframetop").style.display="none";
 document.getElementById("idblockokru").style.display="none";
 document.getElementById("idblockokrucentro").style.display="none";
-document.getElementById("idbtblockiframedown").style.display="none";
+//document.getElementById("idbtblockiframedown").style.display="none";
 } catch (error) {
   
 }
@@ -1439,7 +1438,7 @@ if(cosajson.ocultaridbtblockiframetopleft){
 
 setTimeout(function(){
   try {
-    document.getElementById("idbtblockiframedown").style.display="block";
+   // document.getElementById("idbtblockiframedown").style.display="block";
   
   } catch (error) {
     
@@ -1495,6 +1494,8 @@ if(cosajson.librecargaurl){
   } catch (error) {
     
   }
+
+
 
 }
 
@@ -1570,7 +1571,7 @@ if(cosajson.bollvaafullscreen=="no"){
 
   setTimeout(function(){
     try {
-      document.getElementById("idbtblockiframedown").style.display="block";
+     // document.getElementById("idbtblockiframedown").style.display="block";
     
     } catch (error) {
       
@@ -1601,10 +1602,10 @@ if(cosajson.bollvaafullscreen=="no"){
 var interoacosaobjamacenada=0;
  function fbtidbtblockiframedown2(){
 if(interoacosaobjamacenada==0){
-  document.getElementById("idbtblockiframedown").style.display="none";
+ // document.getElementById("idbtblockiframedown").style.display="none";
 setTimeout(function (){
 
-  document.getElementById("idbtblockiframedown").style.display="block";
+//  document.getElementById("idbtblockiframedown").style.display="block";
 },4000);
 
 }
@@ -1799,7 +1800,7 @@ function deboocultatdeliframe (expressionx){
  document.getElementById("idbtblockiframetop").style.display="none";
  document.getElementById("idblockokru").style.display="none";
  document.getElementById("idblockokrucentro").style.display="none";
- document.getElementById("idbtblockiframedown").style.display="none";
+ //document.getElementById("idbtblockiframedown").style.display="none";
  
 
 }
@@ -1813,7 +1814,7 @@ function paraiframeconjuego (){
     document.getElementById("idbtblockiframetop").style.display="none";
     document.getElementById("idblockokru").style.display="none";
     document.getElementById("idblockokrucentro").style.display="none";
-    document.getElementById("idbtblockiframedown").style.display="none";
+   // document.getElementById("idbtblockiframedown").style.display="none";
 
 
 
@@ -1837,7 +1838,7 @@ if( document.getElementById("idvisorpelis")){
 document.getElementById("idbtblockiframetop").style.display="block";
 document.getElementById("idblockokru").style.display="block";
 document.getElementById("idblockokrucentro").style.display="block";
-document.getElementById("idbtblockiframedown").style.display="block";
+//document.getElementById("idbtblockiframedown").style.display="block";
 
 
 
@@ -1963,7 +1964,7 @@ document.getElementById("idblockokrucentro").style.top=String(vh)*0.01+"px";
 document.getElementById("idbtblockiframetop").style.display="none";
 document.getElementById("idblockokru").style.display="none";
 document.getElementById("idblockokrucentro").style.display="none";
-document.getElementById("idbtblockiframedown").style.display="none";
+//document.getElementById("idbtblockiframedown").style.display="none";
 
 
 }
@@ -1978,7 +1979,7 @@ function paraiframeconpdf (){
     document.getElementById("idbtblockiframetop").style.display="block";
     document.getElementById("idblockokru").style.display="none";
     document.getElementById("idblockokrucentro").style.display="none";
-    document.getElementById("idbtblockiframedown").style.display="none";
+    //document.getElementById("idbtblockiframedown").style.display="none";
   
   }
 

@@ -248,14 +248,14 @@ background-color: rgba(0, 0, 0, 0.425);
 }
 
 #idbtblockiframedown{
-
+display: none;
     position: absolute;
     top: 80%;
     left:80%;
     width: 20%;
     height: 20%;
     z-index: 6;  
-    background-color: rgba(180, 13, 13, 0);
+    background-color: rgba(219, 6, 6, 0);
 }
 
 
