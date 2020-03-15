@@ -38,6 +38,25 @@
 
 ,
 
+
+
+
+"PecadoOriginal" : {
+  "cd":"si",
+  "ocultaridbtblockiframetopleft":"si",
+"bollvaafullscreen":"no",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "PecadoOriginal",
+"title":"Pecado Original",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/pecadoo.jpg?raw=true",
+"pg" :"806|806|793|788|804|796|799|806|800|786|781|782|793|782|790|779|782|781|806|809|813|813|813|811|815|809|816|813|812|812|812|816|"
+
+}
+
+  ,
+
 "LosVengadores" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
