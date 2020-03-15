@@ -41,21 +41,53 @@
 
 
 
-"PecadoOriginal" : {
+"gladiador" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
 "bollvaafullscreen":"no",
 "presenta":"iframe",
 
   "id" : "id0",
-"idname" : "PecadoOriginal",
-"title":"Pecado Original",
-"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/pecadoo.jpg?raw=true",
-"pg" :"806|806|793|788|804|796|799|806|800|786|781|782|793|782|790|779|782|781|806|809|813|813|813|811|815|809|816|813|812|812|812|816|"
+"idname" : "gladiador",
+"title":"gladiador",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/gladiador.jpg?raw=true",
+"pg" :"806|806|793|788|804|796|799|806|800|786|781|782|793|782|790|779|782|781|806|809|813|813|813|810|809|817|816|815|814|812|814|812|"
 
 }
 
   ,
+  "Focus" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+  "presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "Focus",
+  "title":"Focus",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/focus.jpg?raw=true",
+  "pg" :"806|806|793|788|804|796|799|806|800|786|781|782|793|782|790|779|782|781|806|809|814|812|811|817|812|816|811|812|813|817|814|816|"
+  
+  }
+  
+    ,
+
+  "PecadoOriginal" : {
+    "cd":"si",
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"no",
+  "presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "PecadoOriginal",
+  "title":"Pecado Original",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/pecadoo.jpg?raw=true",
+  "pg" :"806|806|793|788|804|796|799|806|800|786|781|782|793|782|790|779|782|781|806|809|813|813|813|811|815|809|816|813|812|812|812|816|"
+  
+  }
+  
+    ,
+
 
 "LosVengadores" : {
   "cd":"si",
