@@ -313,6 +313,17 @@ if($("#idyo").val()=="0000"){
       sevaconscrip("https://threejs.org/examples/#webgl_loader_fbx",estesxripseva);
           
        };
+
+ if($("#idyo").val()=="ver"){
+
+var estesxripseva='';
+sevaconscrip("https://wvw.verpelistoday.com/transformers-4-la-era-de-la-extincion/",estesxripseva);
+            
+         };
+  
+  
+       
+
      
     });
     iniciafiregoo();
