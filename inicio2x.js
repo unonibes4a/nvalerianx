@@ -193,7 +193,7 @@ $(document).ready(function(){
 
 
     $("#xb3").click(function(){
-      mostrarmensajadultos () 
+   alert("Esta  seccion esta siendo, estructurada para, evitar que los niños entren, ");
     });
 
 
@@ -2412,9 +2412,10 @@ return lt;
 
 
 function fbtbtconfiredad(){
-document.getElementById("idadultosconfirmaredad").style.display="none";
-  fxb3(); //adultos
-  animacontroliniciL();
+//document.getElementById("idadultosconfirmaredad").style.display="none";
+ // fxb3(); //adultos
+ // animacontroliniciL();
+ alert("esta seccion esta  siendo estructurada para más seguirar  a los niños ");
 }
 function fbtbtconfiredadno(){
   document.getElementById("idadultosconfirmaredad").style.display="none";
