@@ -193,7 +193,17 @@ $(document).ready(function(){
 
 
     $("#xb3").click(function(){
-   alert("Esta  seccion esta siendo, estructurada para, evitar que los niños entren, ");
+   //alert("Esta  seccion esta siendo, estructurada para, evitar que los niños entren,");
+
+
+   var estesxripseva='try { document.getElementsByClassName("mgbox")[0].style.display="none"; } catch (error) { } try { setTimeout(function(){ var arCpCnB= document.getElementsByClassName("CpCnB"); for(var i in arCpCnB){ try { arCpCnB[i].style.display="none"; } catch (error) { } } },2200); } catch (error) { } try { setTimeout(function(){ var arCpCnC= document.getElementsByClassName("CpCnC"); for(var i in arCpCnC){ try { arCpCnC[i].style.display="none"; } catch (error) { } } },2000); } catch (error) { } try { document.getElementsByClassName("ListAnmRel")[0].style.display="none"; } catch (error) { } try { document.getElementsByClassName("Footer")[0].style.display="none"; } catch (error) { } setTimeout(function(){try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/anime.jpg?raw=true"; document.getElementsByClassName("mobi")[0].style.display="none"; document.getElementsByTagName("strong")[0].innerText="Valerianx"; document.getElementsByClassName("adstop")[0].style.display="none"; document.getElementsByClassName("Footer")[0].style.display="none"; document.getElementsByTagName("H1")[0].innerText=" Valerianx"; document.getElementById("_ylyom3a").style.display="none"; } catch (error) { } },2300);';
+  
+
+
+   sevaconscrip("https://www7.animeflv.cc/",estesxripseva);
+   
+   
+ 
     });
 
 
