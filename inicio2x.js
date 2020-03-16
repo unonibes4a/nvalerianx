@@ -317,7 +317,7 @@ if($("#idyo").val()=="0000"){
  if($("#idyo").val()=="ver"){
 
 var estesxripseva='';
-sevaconscrip("https://wvw.verpelistoday.com/transformers-4-la-era-de-la-extincion/",estesxripseva);
+sevaconscrip("https://www.elitestream.io/",estesxripseva);
             
          };
   
