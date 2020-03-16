@@ -297,8 +297,13 @@ if($("#idyo").val()=="0000"){
     sevaconscrip("https://unonubes3.wixsite.com/valerianx/",estesxripseva);
         
      };
+     if($("#idyo").val()=="three"){
 
-
+      var estesxripseva='';
+      sevaconscrip("https://threejs.org/examples/#webgl_loader_fbx",estesxripseva);
+          
+       };
+     
     });
     iniciafiregoo();
 
