@@ -873,7 +873,7 @@
 
   "doctordolittle" : {
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+    "bollvaafullscreen":"si",
 "presenta":"iframe",
   
     "id" : "id0",
@@ -888,7 +888,8 @@
 
   "LasaventurasdeErrolFlynn" : {
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+    "bollvaafullscreen":"si",
+
 "presenta":"iframe",
   
     "id" : "id0",
@@ -910,6 +911,7 @@
 
   "Shaftqq" : {
     "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"mp4",
      "vid":"1",
      "id" : "id11",
@@ -928,6 +930,7 @@
  
   "corperro" : {
     "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
    "presenta":"iframe",
 
     "id" : "id11",
@@ -943,6 +946,7 @@
   "Ma" : {
 
     "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -957,9 +961,9 @@
 
 
   "lanch" : {
-
-
     "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
+
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -973,6 +977,9 @@
    ,
   
   "pgeminis" : {
+
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -988,6 +995,9 @@
 
   
   "Nysalida" : {
+
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -1002,6 +1012,8 @@
 
 
   "jkhd" : {
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -1016,6 +1028,8 @@
 
    
   "contrai" : {
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -1028,7 +1042,8 @@
  
    ,
   
-  "ppersia" : {
+  "ppersia" : {"ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -1043,6 +1058,8 @@
  
 
   "infiernot" : {
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -1057,6 +1074,9 @@
 
 
   "HOBBSANDSHAWx" : {
+
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
      "vid":"1",
      "id" : "id11",
@@ -1070,6 +1090,8 @@
    ,
  
   "Jumanji2" : {
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
     "vid":"1",
     "id" : "id11",
@@ -1083,6 +1105,8 @@
   ,
 
   "adastrax" : {
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
     "vid":"1",
     "id" : "id11",
@@ -1097,6 +1121,8 @@
 
   
   "Malefica2x" : {
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "vid":"1",
     "id" : "id11",
   "idname" : "Malefica2x",
@@ -1109,7 +1135,8 @@
   ,
 
 
-  "dinoking" : {
+  "dinoking" : {   "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
     "vid":"1",
     "id" : "id11",
   "idname" : "dinoking",
@@ -1121,7 +1148,8 @@
 
   ,
 
-  "zombieland2" : {
+  "zombieland2" : {   "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"no",
     "presenta":"iframe",
     "vid":"1",
     "id" : "id11",
@@ -1134,7 +1162,8 @@
 
   ,
   
-  "lachr" : {
+  "lachr" : {   "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"no",
     "presenta":"iframe",
     "vid":"1",
     "id" : "id11",
@@ -1156,6 +1185,8 @@
   
 
   "KICKASS2" : {
+    "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"no",
     "presenta":"iframe",
     "vid":"1",
     "id" : "id11",
