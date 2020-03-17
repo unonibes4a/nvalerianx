@@ -1215,10 +1215,24 @@
   "pg" :""
   
   }
+,
+  "elitep2" : {
+    "sevaurl":"https://serieslan.com/",
+    
+      "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"no",
+    "presenta":"iframe",
+    
+      "id" : "id0",
+    "idname" : "elitep2",
+    "title":"Más y más222",
+    "img" : "https://github.com/unonubes19/imgsolo/blob/master/pelimasymaselite.jpg?raw=true",
+    "pg" :""
+    
+    }
+  
 
- 
-
-
+  
 
 }
 
