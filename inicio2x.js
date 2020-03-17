@@ -2531,7 +2531,11 @@ sevaconscrip("https://www.elitestream.io/",estesxripseva);
 function selecioneurl(sturl){
 if(sturl=="https://www.elitestream.io/"){
   var estesxripseva='try { document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("a")[0].href="https://unonibes4a.github.io/nvalerianx/"; }catch (error) { } try { document.getElementsByClassName("mensaje")[0].style.display="none"; }catch (error) { } try { document.getElementById("back-footer").style.display="none"; }catch (error) { } setTimeout(function(){ try { try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { } document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } },2000); try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { }';
-sevaconscrip(sturl,estesxripseva);
+//sevaconscrip(sturl,estesxripseva);
+
+sevacomourlenwebprincipal(sturl,estesxripseva);
+
+
 
 }
 
