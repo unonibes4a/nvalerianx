@@ -92,7 +92,39 @@
   }
   
 }
+,
 
+
+"NETFLIX2" : {
+
+  "id":"id7",
+  "idname":"NETFLIX2",
+  "title":"Más y más series",
+  "pg":"https://github.com/unonubes19/imgsolo/blob/master/seriesss.jpg?raw=true",
+  "t1" : {
+
+ 
+    "id":"id0",
+    "idname":"t1",
+    "title":"ENTRAR A VER MÁS SERIES",
+    "v1" : {
+      "sevaurl":"https://pelisplus.me/",
+      
+        "ocultaridbtblockiframetopleft":"si",
+      "bollvaafullscreen":"si",
+      "presenta":"iframe",
+      
+        "id" : "id0",
+      "idname" : "elitep2",
+      "title":"Más y Más Películas",
+      "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
+      "pg" :""
+      
+      }
+
+  }
+  
+}
 
 
 ,
