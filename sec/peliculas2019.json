@@ -1217,11 +1217,11 @@
   }
 ,
   "elitep2" : {
-    "sevaurl":"https://peliculaonlinehd.com/",
+    "sevaurl":"http://www.adnstream.com/",
     
       "ocultaridbtblockiframetopleft":"si",
     "bollvaafullscreen":"no",
-    "presenta":"iframe",
+    "presenta":"https://peliculaonlinehd.com/",
     
       "id" : "id0",
     "idname" : "elitep2",
