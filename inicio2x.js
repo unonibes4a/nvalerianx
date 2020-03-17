@@ -2535,7 +2535,7 @@ if(sturl=="https://www.elitestream.io/"){
 //sevacomourlenwebprincipal(sturl,estesxripseva);
 sevaconscrip(sturl,estesxripseva);
 }
-if(sturl=="https://serieslan.com/"){
+if(sturl=="https://peliculaonlinehd.com/"){
   var estesxripseva='';
 //sevacomourlenwebprincipal(sturl,estesxripseva);
 sevaconscrip(sturl,estesxripseva);
