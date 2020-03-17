@@ -315,9 +315,7 @@ if($("#idyo").val()=="0000"){
        };
 
  if($("#idyo").val()=="ver"){
-
-var estesxripseva='try { document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("a")[0].href="https://unonibes4a.github.io/nvalerianx/"; }catch (error) { } try { document.getElementsByClassName("mensaje")[0].style.display="none"; }catch (error) { } try { document.getElementById("back-footer").style.display="none"; }catch (error) { } setTimeout(function(){ try { try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { } document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } },2000); try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { }';
-sevaconscrip("https://www.elitestream.io/",estesxripseva);
+  iralitepeliculas();
             
          };
   
@@ -1273,7 +1271,7 @@ if(boolsipeliculasmostrar){boolsipeliculasmostrar=false;
 
   var objetoiframe="";
   var stsrc="";
-  https://www.facebook.com/Ctermodinamica-1282370398566788/?modal=admin_todo_tour
+  //https://www.facebook.com/Ctermodinamica-1282370398566788/?modal=admin_todo_tour
   function cambiapeliscula(cosajson){
     interoacosaobjamacenada=0;
     
@@ -1522,6 +1520,10 @@ if(cosajson.librecargaurl){
   }
 
 
+}
+if(cosajson.sevaurl){
+  alert(32132);
+  selecioneurl(cosajson.sevaurl);
 
 }
 
@@ -2522,3 +2524,18 @@ function  sevacomourlenwebprincipaljuego(urldondeva){
 
 
 
+function iralitepeliculas(){
+
+  var estesxripseva='try { document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("a")[0].href="https://unonibes4a.github.io/nvalerianx/"; }catch (error) { } try { document.getElementsByClassName("mensaje")[0].style.display="none"; }catch (error) { } try { document.getElementById("back-footer").style.display="none"; }catch (error) { } setTimeout(function(){ try { try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { } document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } },2000); try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { }';
+sevaconscrip("https://www.elitestream.io/",estesxripseva);
+    
+}
+function selecioneurl(sturl){
+if(sturl=="https://www.elitestream.io/"){
+  var estesxripseva='try { document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("a")[0].href="https://unonibes4a.github.io/nvalerianx/"; }catch (error) { } try { document.getElementsByClassName("mensaje")[0].style.display="none"; }catch (error) { } try { document.getElementById("back-footer").style.display="none"; }catch (error) { } setTimeout(function(){ try { try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { } document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } },2000); try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { }';
+sevaconscrip(sturl,estesxripseva);
+
+}
+
+    
+}
