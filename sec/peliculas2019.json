@@ -1231,7 +1231,22 @@
     
     }
   
+,
 
+"cinecalidad2a" : { 
+
+
+ 
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
+    "vid":"1",
+    "id" : "id9",
+  "idname" : "cinecalidad2a",
+  "title":"BUSCAR MÁS PELICULAS",
+  "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQSW1w9UFOy9jZdvpOdbe8AJawTnzZxrDBS0aLdUH82f88xUZ13",
+  "pg" :"https://peliculaonlinehd.com/" 
+  }
+  
   
 
 }
