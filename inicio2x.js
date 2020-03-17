@@ -2543,7 +2543,7 @@ sevaconscrip(sturl,estesxripseva);
   
 }
 if(sturl=="https://peliculaonlinehd.com/"){
-  var estesxripseva='';
+  var estesxripseva='setTimeout(function(){ try { document.getElementsByClassName("sheader")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("single_tabs")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("box_links")[0].style.display="none"; }catch (error) { } try { document.getElementsByTagName("img")[1].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementById("player-option-trailer").style.display="none"; }catch (error) { } try { document.getElementsByClassName("dt_social_single")[0].style.display="none"; }catch (error) { } },1000);';
 //sevacomourlenwebprincipal(sturl,estesxripseva);
 sevaconscrip(sturl,estesxripseva);
   
