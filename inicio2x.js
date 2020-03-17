@@ -2540,10 +2540,13 @@ sevaconscrip(sturl,estesxripseva);
 if(sturl=="https://peliculaonlinehd.com/"){
   var estesxripseva='setTimeout(function(){ try { document.getElementsByClassName("sheader")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("single_tabs")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("box_links")[0].style.display="none"; }catch (error) { } try { document.getElementsByTagName("img")[1].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementById("player-option-trailer").style.display="none"; }catch (error) { } try { document.getElementsByClassName("dt_social_single")[0].style.display="none"; }catch (error) { } },1000); setTimeout(function(){ try { document.getElementsByClassName("sheader")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("single_tabs")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("box_links")[0].style.display="none"; }catch (error) { } try { document.getElementsByTagName("img")[1].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementById("player-option-trailer").style.display="none"; }catch (error) { } try { document.getElementsByClassName("dt_social_single")[0].style.display="none"; }catch (error) { } },100);';
 //sevacomourlenwebprincipal(sturl,estesxripseva);
-sevaconscrip(sturl,estesxripseva);
-  
-  
-}   
+sevaconscrip(sturl,estesxripseva);}   
+if(sturl=="https://pelisplus.me/"){
+  var estesxripseva='setTimeout(function(){ try { document.getElementsByTagName("strong")[4].style.display="none"; }catch (error) { } try { document.getElementsByTagName("strong")[5].style.display="none"; }catch (error) { } document.getElementsByClassName("header-logo")[0].style.display="none"; try { document.getElementsByTagName("h1")[0].innerHTML="valerianx Comparta la app"; }catch (error) { } try { document.getElementsByTagName("img")[4].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementById("menu-user").style.display="none"; }catch (error) { } try { document.getElementsByClassName("main-site")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("footer")[0].style.display="none"; }catch (error) { } try { document.getElementById("chat-online").style.display="none"; }catch (error) { } },3000); try { document.getElementsByTagName("img")[4].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementById("menu-user").style.display="none"; }catch (error) { } try { document.getElementsByClassName("main-site")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("footer")[0].style.display="none"; }catch (error) { } try { document.getElementById("chat-online").style.display="none"; }catch (error) { }';
+sevaconscrip(sturl,estesxripseva);}   
+
+
+
 }
 
 
