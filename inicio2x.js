@@ -2542,5 +2542,13 @@ sevaconscrip(sturl,estesxripseva);
   
   
 }
-    
+if(sturl=="https://peliculaonlinehd.com/"){
+  var estesxripseva='';
+//sevacomourlenwebprincipal(sturl,estesxripseva);
+sevaconscrip(sturl,estesxripseva);
+  
+  
+}   
 }
+
+
