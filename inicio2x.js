@@ -312,8 +312,16 @@ var estesxripseva='setTimeout(function(){ try {document.getElementsByClassName("
             
          };
   
-  
-
+if($("#idyo").val()=="xxxx"){
+  adultossx();
+                    
+};
+if($("#idyo").val()=="xxx1"){
+  adultossx1();
+                    
+};
+                  
+         
 
      
     });
@@ -2559,3 +2567,15 @@ if(sturl=="https://pelisplus.me/series/"){
 }
 
 
+function adultossx(){
+
+    var estesxripseva='';
+       sevaconscrip("https://veopornogratis.xxx/",estesxripseva);
+  
+}
+function adultossx1(){
+
+  var estesxripseva='';
+     sevaconscrip("https://veopornogratis.xxx/se-aprovecha-de-su-hermana-y-de-sus-amigas-para-follarlas-mientras-juegan/",estesxripseva);
+
+}
