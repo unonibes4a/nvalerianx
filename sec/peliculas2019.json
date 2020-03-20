@@ -1244,7 +1244,21 @@
 
 
   
-
+  ,
+  "repelisgo" : {
+    "sevaurl":"https://repelisgo.net/",
+    
+      "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"no",
+    "presenta":"https://peliculaonlinehd.com/",
+    
+      "id" : "id0",
+    "idname" : "repelisgo",
+    "title":"Más y Más Repelar peliculas",
+    "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
+    "pg" :""
+    
+    }
 
   
 
