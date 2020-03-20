@@ -33,21 +33,7 @@
     }
     
   
-    ,
-    "elitep2" : {
-      "sevaurl":"https://peliculaonlinehd.com/",
-      
-        "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
-      "presenta":"https://peliculaonlinehd.com/",
-      
-        "id" : "id0",
-      "idname" : "elitep2",
-      "title":"Más y Más Películas",
-      "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
-      "pg" :""
-      
-      }
+ 
     
       ,
       "repelisgo" : {
@@ -1242,23 +1228,21 @@
 
 ,
 
-"cinecalidad2re" : { 
 
-
- 
-  "bollvaafullscreen":"si",
-"presenta":"iframe",
-    "vid":"1",
-    "id" : "id9",
-  "idname" : "cinecalidad2re",
-  "title":"BUSCAR MÁS PELICULAS",
-  "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQSW1w9UFOy9jZdvpOdbe8AJawTnzZxrDBS0aLdUH82f88xUZ13",
-  "pg" :"https://repelisgo.net/" 
-  }
-  
-
-
-  
+  "elitep2" : {
+    "sevaurl":"https://peliculaonlinehd.com/",
+    
+      "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"no",
+    "presenta":"https://peliculaonlinehd.com/",
+    
+      "id" : "id0",
+    "idname" : "elitep2",
+    "title":"Más y Más Películas",
+    "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
+    "pg" :""
+    
+    }
 
   
 
