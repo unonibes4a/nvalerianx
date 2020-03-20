@@ -2546,6 +2546,15 @@ if(sturl=="https://pelisplus.me/series/"){
   sevaconscrip(sturl,estesxripseva);}   
 
 
+  if(sturl=="https://repelisgo.net/"){
+    var estesxripseva='setTimeout(function(){ try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("img")[1].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByClassName("_1LZOJ")[1].style.display="none"; }catch (error) { } try { document.getElementsByClassName("_1Rq1P")[0].style.display="none"; }catch (error) { } try { document.getElementsByTagName("footer")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("_2kl_J")[0].style.display="none"; }catch (error) { } try { document.getElementById("_unm79yq_2928753").style.display="none"; }catch (error) { } try { document.getElementsByClassName("_3jLeQ")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("duxJT")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("_1ohMF")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("_1ohMF")[0].style.display="none"; }catch (error) { } },2000); try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("img")[1].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByClassName("_1LZOJ")[1].style.display="none"; }catch (error) { } try { document.getElementsByClassName("_1Rq1P")[0].style.display="none"; }catch (error) { } try { document.getElementsByTagName("footer")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("_2kl_J")[0].style.display="none"; }catch (error) { } try { document.getElementById("_unm79yq_2928753").style.display="none"; }catch (error) { } try { document.getElementsByClassName("_3jLeQ")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("duxJT")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("_1ohMF")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("_1ohMF")[0].style.display="none"; }catch (error) { }';
+    sevaconscrip(sturl,estesxripseva);}   
+  
+  
+  
+
+
+  
 
 }
 
