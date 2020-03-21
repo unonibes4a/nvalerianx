@@ -2559,9 +2559,12 @@ if(sturl=="https://pelisplus.me/series/"){
     sevaconscrip(sturl,estesxripseva);}   
   
     if(sturl=="https://www.repeliss.tv/"){
+
+    alert(123);
     var estesxripseva='';
     
-    sevaconscrip(sturl,estesxripseva);}   
+    sevaconscrip(sturl,estesxripseva);
+  }   
   
   
   
