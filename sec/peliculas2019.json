@@ -14,21 +14,7 @@
   "pg" :"https://www.cine-calidad.com/" 
   }
   
-   ,
-    "repelisst" : {
-      "ocultacentroarriba":"si",
- 
-      "bollvaafullscreen":"si",
-    "presenta":"iframe",
-        "vid":"1",
-        "id" : "id9",
-      "idname" : "maspelicilass",
- 
-      "title":"Más y todo peliculas ",
-      "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
-      "pg" :"https://www.repeliss.tv/"
-      
-      }
+  
 
   ,
 
@@ -1259,7 +1245,21 @@
     }
 
  
-  
+    ,
+    "repelisst" : {
+      "ocultacentroarriba":"si",
+ 
+      "bollvaafullscreen":"si",
+    "presenta":"iframe",
+        "vid":"1",
+        "id" : "id9",
+      "idname" : "maspelicilass",
+ 
+      "title":"Más y todo peliculas ",
+      "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
+      "pg" :"https://www.repeliss.tv/"
+      
+      }
 
 }
 
