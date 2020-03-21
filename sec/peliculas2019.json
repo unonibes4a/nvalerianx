@@ -1303,6 +1303,27 @@
     "pg" :"https://www.pelispedia.biz/serie/"
     
     }
+    ,
+
+    "PecadoOriginal212" : {
+      "ocultaridbtblockiframetopleft":"si",
+   
+       "bollvaafullscreen":"si",
+    "presenta":"iframe",
+        "vid":"1",
+        "id" : "id9",
+      "idname" : "PecadoOriginal212",
+
+    "title":"mass",
+
+    "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/pecadoo.jpg?raw=true",
+    "pg" :"https://poseidonhd.me/tvshows/vampiros/"
+    
+    }
+
+
+
+    
    
 }
 
