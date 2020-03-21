@@ -2557,7 +2557,15 @@ if(sturl=="https://pelisplus.me/series/"){
   if(sturl=="https://repelisgo.net/"){
     var estesxripseva='setTimeout(function(){ try { document.getElementById("buttons").style.display="none"; }catch (error) { } },500); try { document.getElementById("buttons").style.display="none"; }catch (error) { } try { document.getElementsByClassName("resizer")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByTagName("img")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } },500);';
     sevaconscrip(sturl,estesxripseva);}   
+  
+    if(sturl=="https://pelisplushd.net/"){
 
+
+    var estesxripseva='';
+    
+    sevaconscrip(sturl,estesxripseva);
+  }   
+  
   
   
 
