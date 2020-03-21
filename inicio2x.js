@@ -2574,10 +2574,10 @@ if(sturl=="https://pelisplus.me/series/"){
     sevaconscrip(sturl,estesxripseva);
   }   
     
-  if(sturl=="https://pelisgratis.live/the-banker/"){
+  if(sturl=="https://pelisgratis.live"){
 
 
-    var estesxripseva='';
+    var estesxripseva='try { document.getElementsByTagName("img")[4].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("footer")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("right")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("left")[0].style.display="none"; }catch (error) { } try { document.getElementById("layout").style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementById("conversation").style.display="none"; }catch (error) { } },1200);';
     
     sevaconscrip(sturl,estesxripseva);
   }   
