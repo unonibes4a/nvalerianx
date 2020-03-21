@@ -2566,7 +2566,14 @@ if(sturl=="https://pelisplus.me/series/"){
     sevaconscrip(sturl,estesxripseva);
   }   
   
-  
+  if(sturl=="https://www.pelispedia.biz/serie/"){
+
+
+    var estesxripseva='';
+    
+    sevaconscrip(sturl,estesxripseva);
+  }   
+    
   
 
 
