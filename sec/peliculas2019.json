@@ -1249,20 +1249,18 @@
     "repelisst" : {
       "sevaurl":"https://www.repeliss.tv/",
         
-      "ocultacentroarriba":"si",
- 
-      "bollvaafullscreen":"si",
-    "presenta":"iframe",
-        "vid":"1",
-        "id" : "id9",
-      "idname" : "maspelicilass",
- 
-      "title":"Más y todo peliculas ",
+        
+      "ocultaridbtblockiframetopleft":"si",
+      "bollvaafullscreen":"no",
+      "presenta":"https://peliculaonlinehd.com/",
+      
+        "id" : "id0",
+      "idname" : "repelisgo",
+      "title":"Más y Más Repelar tvvv peliculas",
       "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
       "pg" :""
       
       }
-
 }
 
 
