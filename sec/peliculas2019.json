@@ -1287,13 +1287,15 @@
     ,
 
     "PecadoOriginal2" : {
+
+ "sevaurl":"https://www.pelispedia.biz/serie/",
+        
       "ocultacentroarriba":"si",
        "bollvaafullscreen":"si",
     "presenta":"iframe",
         "vid":"1",
         "id" : "id9",
       "idname" : "PecadoOriginal2",
-      "ocultaridbtblockiframetopleft":"si",
 
     "title":"mass",
 
