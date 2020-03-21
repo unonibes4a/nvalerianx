@@ -1284,7 +1284,23 @@
     
     }
 
- 
+    ,
+
+    "PecadoOriginal2" : {
+      "ocultacentroarriba":"si",
+       "bollvaafullscreen":"si",
+    "presenta":"iframe",
+        "vid":"1",
+        "id" : "id9",
+      "idname" : "maspelicilass",
+      "ocultaridbtblockiframetopleft":"si",
+
+    
+
+    "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/pecadoo.jpg?raw=true",
+    "pg" :"https://www.pelispedia.biz/serie/"
+    
+    }
    
 }
 
