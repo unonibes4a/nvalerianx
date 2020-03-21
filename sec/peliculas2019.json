@@ -66,7 +66,20 @@
         
         }
     
-
+        ,
+        "coroavt" : {
+         
+          "ocultaridbtblockiframetopleft":"si",
+        "bollvaafullscreen":"s1",
+        "presenta":"iframe",
+        
+          "id" : "id0",
+        "idname" : "coroavt",
+        "title":"Virus",
+        "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/virius.jpg?raw=true",
+        "pg" :"https://ok.ru/videoembed/1651226970736"
+        
+        }
 ,
 "SoyLeyenda" : {
 
@@ -81,12 +94,24 @@
 "pg" :"https://gdriveplayer.us/embed2.php?link=ocKr6xzVT7FKwc6TjqsB9w%252FTkcQyKsFU%252Fg%252BVwT5jgc1Jt8XgL%252BDtw7XFm8GRZ6Hk%252BxDC0bFgzNqw2DFIpz73NwuVZk68Q6LE7g%252BeblZJN7J6gisDRBdnRZv3kzldazLVjrV%252Fwdy8SzR9vCVl7aXiPUJaKhND0Lyfvk4JkoWfZmTrbR8AMDEqdjdgg%252BYTmSeV0SeE9kejW5tLDV%252FUs%252FxU%252FCb%252FC7TZk8rUlGY3g5nG%252FC8cnz8PL2UTn1%252F5sAnVoAPDoXzUajs8FWm%252FQ5gMrmC6h8&button=no"
 
 }
+,
+"oruprejui" : {
 
+  "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
+
+  "id" : "id0",
+"idname" : "oruprejui",
+"title":"Orgullo y Prejuicio",
+"img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/OrgulloPrejuicio.jpg?raw=true",
+"pg" :"https://ok.ru/videoembed/1651244075632"
+}
   ,
 "gladiador" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
+"bollvaafullscreen":"s1",
 "presenta":"iframe",
 
   "id" : "id0",
