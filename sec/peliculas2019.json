@@ -1247,6 +1247,8 @@
  
     ,
     "repelisst" : {
+      "sevaurl":"https://www.repeliss.tv/",
+        
       "ocultacentroarriba":"si",
  
       "bollvaafullscreen":"si",
@@ -1257,7 +1259,7 @@
  
       "title":"Más y todo peliculas ",
       "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
-      "pg" :"https://www.repeliss.tv/"
+      "pg" :""
       
       }
 
