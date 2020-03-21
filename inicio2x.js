@@ -2561,7 +2561,7 @@ if(sturl=="https://pelisplus.me/series/"){
     if(sturl=="https://pelisplushd.net/"){
 
 
-    var estesxripseva='';
+    var estesxripseva='setTimeout(function(){ try { document.getElementsByClassName("footer")[0].style.display="none"; }catch (error) { } },1500); try { document.getElementsByClassName("footer")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },1700); try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },800); try { document.getElementsByClassName("nav-logo")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },2800); try { document.getElementsByClassName("m-v-30")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },1200); try { document.getElementById("comentarios").style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },1900); try { document.getElementsByClassName("alert-danger")[0].style.display="none"; }catch (error) { }';
     
     sevaconscrip(sturl,estesxripseva);
   }   
