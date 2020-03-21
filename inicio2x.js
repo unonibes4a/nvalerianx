@@ -2574,9 +2574,15 @@ if(sturl=="https://pelisplus.me/series/"){
     sevaconscrip(sturl,estesxripseva);
   }   
     
+  if(sturl=="https://pelisgratis.live/the-banker/"){
+
+
+    var estesxripseva='';
+    
+    sevaconscrip(sturl,estesxripseva);
+  }   
+    
   
-
-
   
 
 }
