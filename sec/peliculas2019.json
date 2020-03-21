@@ -1320,8 +1320,25 @@
     
     }
 
+    ,
 
+    "Peclisonline" : {
+      "ocultaridbtblockiframetopleft":"si",
+   
+       "bollvaafullscreen":"si",
+    "presenta":"iframe",
+        "vid":"1",
+        "id" : "id9",
+      "idname" : "Peclisonline",
 
+    "title":"mass",
+
+    "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/pecadoo.jpg?raw=true",
+    "pg" :"https://ver-pelis-online.tv/"
+    
+    }
+
+    
     
    
 }
