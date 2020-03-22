@@ -64,8 +64,23 @@
         "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
         "pg" :""
         
-        }
+        },
     
+  "milagrc7" : {
+  
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
+ 
+    "id" : "id0",
+  "idname" : "milagrc7",
+  "title":"Milagro en la celda 7",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/milagro%20en%20la%20celda%207.jpg?raw=true",
+  "pg" :"https://ok.ru/videoembed/846711753350"
+
+}
+
+  
         ,
         "coroavt" : {
          
