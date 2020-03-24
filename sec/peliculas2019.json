@@ -1356,6 +1356,7 @@
     ,
 
     "Peclisonline2" : {
+      "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
    
        "bollvaafullscreen":"si",
@@ -1366,8 +1367,8 @@
 
     "title":"mass 22222",
 
-    "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/pecadoo.jpg?raw=true",
-    "pg" :"https://hqq.tv/player/embed_player.php?vid=VEJMWUJnamY4b3lIYXFEMUphQXEvZz09&autoplay=si"
+    "img" : "",
+    "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|862|844|849|852|866|861|849|791|778|790|864|812|779|811|789|848|864|863|845|844|852|861|794|785|857|863|844|800|865|803|808|817|839|778|799|798|793|794|789|778|802|825|797|786|"
     
     }
 
