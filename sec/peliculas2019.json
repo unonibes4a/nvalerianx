@@ -19,7 +19,7 @@
       
       
     "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+    "bollvaafullscreen":"si",
     "presenta":"https://peliculaonlinehd.com/",
     
       "id" : "id0",
@@ -55,7 +55,7 @@
         "sevaurl":"https://repelisgo.net/",
         
           "ocultaridbtblockiframetopleft":"si",
-        "bollvaafullscreen":"no",
+        "bollvaafullscreen":"si",
         "presenta":"https://peliculaonlinehd.com/",
         
           "id" : "id0",
@@ -232,7 +232,7 @@
   "Venon" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -252,7 +252,7 @@
   "UltimoDeseo" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -270,7 +270,7 @@
   "Piratas4" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -291,7 +291,7 @@
   "Piratas3" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -312,7 +312,7 @@
   "Piratas2" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -327,7 +327,7 @@
   "Piratas1" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -343,7 +343,7 @@
   "ChinaSalesman" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -360,7 +360,7 @@
   "vfw" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -376,7 +376,7 @@
   "leyendad" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -391,7 +391,7 @@
   "Avengers2" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -408,7 +408,7 @@
   "Avengersgame" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
   "presenta":"iframe",
   
     "id" : "id0",
@@ -432,7 +432,7 @@
 "sdeseo" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
+"bollvaafullscreen":"si",
 "presenta":"iframe",
 
   "id" : "id0",
@@ -449,7 +449,7 @@
 "Aquaman" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
+"bollvaafullscreen":"si",
 "presenta":"iframe",
 
   "id" : "id0",
@@ -465,7 +465,7 @@
 "DragonQuest" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
+"bollvaafullscreen":"si",
 "presenta":"iframe",
 
   "id" : "id0",
@@ -483,7 +483,7 @@
 "Sonic" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
+"bollvaafullscreen":"si",
 "presenta":"iframe",
 
   "id" : "id0",
@@ -502,7 +502,7 @@
 "Isio" : {
   "cd":"si",
   "ocultaridbtblockiframetopleft":"si",
-"bollvaafullscreen":"no",
+"bollvaafullscreen":"si",
 "presenta":"iframe",
 
   "id" : "id0",
@@ -522,7 +522,7 @@
   "Doom" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -541,7 +541,7 @@
   "IronMan3" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -564,7 +564,7 @@
   "AssassinsCreed" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -586,7 +586,7 @@
   "batmanversussuperman" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -610,7 +610,7 @@
   "matrix" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -626,7 +626,7 @@
   "matrixrecargadol" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -649,7 +649,7 @@
   "matrixrevolutions" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -666,7 +666,7 @@
   "ipman4" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -689,7 +689,7 @@
   "Doctorss" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -707,7 +707,7 @@
   "HORSEGIRL" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -729,7 +729,7 @@
   "timmyfailure" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -745,7 +745,7 @@
   "CometoDaddy" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -760,7 +760,7 @@
   "Atodosloschicos2r" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -774,7 +774,7 @@
   "Constantine1" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -791,7 +791,7 @@
   "TheWitch" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -810,7 +810,7 @@
   "frozen2" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -825,7 +825,7 @@
   "WitchesintheWoods" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -845,7 +845,7 @@
   "Manhattansinsalid" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -859,7 +859,7 @@
 
   "Terminatordestinooculto" : {
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
   
     "id" : "id0",
@@ -878,7 +878,7 @@
   "Buscandoasara" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -894,7 +894,7 @@
   "PualesporlaEspalda" : {
     "cd":"si",
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
  
     "id" : "id0",
@@ -909,7 +909,7 @@
 
   "Espíascondisfraz" : {
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
   
     "id" : "id0",
@@ -925,7 +925,7 @@
 
   "underwater" : {
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
   
     "id" : "id0",
@@ -939,7 +939,7 @@
 
   "GretelyHansel" : {
     "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"no",
+  "bollvaafullscreen":"si",
 "presenta":"iframe",
   
     "id" : "id0",
@@ -1231,7 +1231,7 @@
   ,
 
   "zombieland2" : {   "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
     "vid":"1",
     "id" : "id11",
@@ -1245,7 +1245,7 @@
   ,
   
   "lachr" : {   "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
     "vid":"1",
     "id" : "id11",
@@ -1268,7 +1268,7 @@
 
   "KICKASS2" : {
     "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+    "bollvaafullscreen":"si",
     "presenta":"iframe",
     "vid":"1",
     "id" : "id11",
@@ -1288,7 +1288,7 @@
     "sevaurl":"https://pelisgratis.live",
     
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+    "bollvaafullscreen":"si",
     "presenta":"https://peliculaonlinehd.com/",
     
       "id" : "id0",
