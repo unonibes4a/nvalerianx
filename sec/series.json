@@ -130,6 +130,96 @@
 
 
 ,
+"Estamierdamesupera" : {
+  "id":"id7",
+  "idname":"Estamierdamesupera",
+  "title":"Esta mierda me supera",
+  "pg":"https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/Esta%20mierda%20me%20supera.jpg?raw=true",
+  "t1" : {
+
+    "id":"id0",
+    "idname":"t1",
+    "title":"Temporada 1",
+    "v1" : {
+      "cd":"si",
+      "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
+    "presenta":"iframe",
+      "id" : "id0",
+      "idname" : "v1",
+      "img" : "",
+      "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|865|790|781|797|858|842|817|787|862|866|849|785|862|862|793|803|862|787|849|844|853|866|867|801|858|789|789|802|861|860|808|817|839|778|799|798|793|794|789|778|802|825|797|786|" 
+    },
+    "v2" : {
+      "cd":"si",
+      "ocultaridbtblockiframetopleft":"si",
+       "bollvaafullscreen":"si",
+    "presenta":"iframe",
+      "id" : "id0",
+      "idname" : "v2",
+      "img" : "",
+      "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|859|847|845|860|850|808|813|866|781|846|858|793|778|844|789|794|779|789|858|791|778|790|798|794|866|866|809|791|857|860|808|817|839|778|799|798|793|794|789|778|802|825|797|786|"
+    },
+     "v3" : {
+       "cd":"si",
+       "ocultaridbtblockiframetopleft":"si",
+        "bollvaafullscreen":"si",
+     "presenta":"iframe",
+       "id" : "id0",
+       "idname" : "v3",
+       "img" : "",
+       "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|781|786|798|785|782|861|858|855|862|811|858|849|781|791|853|790|855|860|849|812|865|788|849|799|855|843|781|791|857|860|808|817|839|778|799|798|793|794|789|778|802|825|797|786|"
+      }
+      ,
+      "v4" : {
+        "cd":"si",
+        "ocultaridbtblockiframetopleft":"si",
+         "bollvaafullscreen":"si",
+      "presenta":"iframe",
+        "id" : "id0",
+        "idname" : "v4",
+        "img" : "",
+        "pg" : "785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|857|863|845|867|852|810|845|845|778|863|849|862|853|860|789|795|862|863|794|862|859|862|841|809|781|791|841|847|857|860|808|817|839|778|799|798|793|794|789|778|802|825|797|786|"
+      }  
+       ,
+       "v5" : {
+         "cd":"si",
+         "ocultaridbtblockiframetopleft":"si",
+          "bollvaafullscreen":"si",
+       "presenta":"iframe",
+         "id" : "id0",
+         "idname" : "v5",
+         "img" : "",
+         "pg" : "785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|860|811|841|851|852|808|816|809|855|845|841|799|862|802|798|802|781|863|789|846|866|846|809|865|852|808|781|809|781|803|808|817|839|778|799|798|793|794|789|778|802|825|797|786|"
+        }    
+        ,
+        "v6" : {
+          "cd":"si",
+          "ocultaridbtblockiframetopleft":"si",
+           "bollvaafullscreen":"si",
+        "presenta":"iframe",
+          "id" : "id0",
+          "idname" : "v6",
+          "img" : "",
+          "pg" : "785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|862|787|781|786|865|860|785|814|778|803|865|795|780|787|845|802|857|862|789|785|865|810|794|866|866|847|845|863|861|860|808|817|839|778|799|798|793|794|789|778|802|825|797|786|"
+        } 
+        ,
+        "v7" : {
+          "cd":"si",
+          "ocultaridbtblockiframetopleft":"si",
+           "bollvaafullscreen":"si",
+        "presenta":"iframe",
+          "id" : "id0",
+          "idname" : "v7",
+          "img" : "",
+          "pg" : "785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|853|846|813|850|865|787|841|852|853|860|853|799|865|843|848|812|862|847|865|845|781|788|781|859|866|789|794|803|861|860|808|817|839|778|799|798|793|794|789|778|802|825|797|786|"
+        } 
+  }
+  
+}
+
+
+,
 
   "kingdom" : {
     "id":"id0",
@@ -276,7 +366,7 @@
       "v1" : {
         "cd":"si",
         "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
+         "bollvaafullscreen":"si",
       "presenta":"iframe",
         "id" : "id0",
         "idname" : "v1",
@@ -286,7 +376,7 @@
       "v2" : {
         "cd":"si",
         "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
+         "bollvaafullscreen":"si",
       "presenta":"iframe",
         "id" : "id1",
         "idname" : "v2",
@@ -296,7 +386,7 @@
       "v3" : {
         "cd":"si",
         "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
+         "bollvaafullscreen":"si",
       "presenta":"iframe",
         "id" : "id2",
         "idname" : "v3",
@@ -307,7 +397,7 @@
       "v4" : {
         "cd":"si",
         "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
+         "bollvaafullscreen":"si",
       "presenta":"iframe",
         "id" : "id2",
         "idname" : "v4",
@@ -319,7 +409,7 @@
       "v5" : {
         "cd":"si",
         "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
+         "bollvaafullscreen":"si",
       "presenta":"iframe",
         "id" : "id2",
         "idname" : "v5",
@@ -330,7 +420,7 @@
       "v6" : {
         "cd":"si",
         "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
+         "bollvaafullscreen":"si",
       "presenta":"iframe",
         "id" : "id2",
         "idname" : "v6",
@@ -341,7 +431,7 @@
       "v7" : {
         "cd":"si",
         "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
+         "bollvaafullscreen":"si",
       "presenta":"iframe",
         "id" : "id2",
         "idname" : "v7",
@@ -352,7 +442,7 @@
       "v8" : {
         "cd":"si",
         "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
+         "bollvaafullscreen":"si",
       "presenta":"iframe",
         "id" : "id2",
         "idname" : "v8",
@@ -1978,7 +2068,7 @@
     "v1" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id0",
       "idname" : "v1",
@@ -1988,7 +2078,7 @@
     "v2" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id1",
       "idname" : "v2",
@@ -1998,7 +2088,7 @@
     "v3" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v3",
@@ -2009,7 +2099,7 @@
     "v4" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v4",
@@ -2021,7 +2111,7 @@
     "v5" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v5",
@@ -2032,7 +2122,7 @@
     "v6" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v6",
@@ -2043,7 +2133,7 @@
     "v7" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v7",
@@ -2054,7 +2144,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2066,7 +2156,7 @@
     "v9" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v9",
@@ -2077,7 +2167,7 @@
     "v10" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v10",
@@ -2088,7 +2178,7 @@
     "v11" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v11",
@@ -2099,7 +2189,7 @@
     "v12" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v12",
@@ -2110,7 +2200,7 @@
     "v13" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v13",
@@ -2121,7 +2211,7 @@
     "v14" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v14",
@@ -2132,7 +2222,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2143,7 +2233,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2154,7 +2244,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2165,7 +2255,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2176,7 +2266,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2187,7 +2277,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2198,7 +2288,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2209,7 +2299,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2220,7 +2310,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2231,7 +2321,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2242,7 +2332,7 @@
     "v8" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id2",
       "idname" : "v8",
@@ -2269,7 +2359,7 @@
     "v1" : {
     
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id0",
       "idname" : "v1",
@@ -2279,7 +2369,7 @@
     "v2" : {
       "cd":"si",
       "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"no",
+       "bollvaafullscreen":"si",
     "presenta":"iframe",
       "id" : "id0",
       "idname" : "v2",
@@ -2289,7 +2379,7 @@
      "v3" : {
        "cd":"si",
        "ocultaridbtblockiframetopleft":"si",
-     "bollvaafullscreen":"no",
+        "bollvaafullscreen":"si",
      "presenta":"iframe",
        "id" : "id0",
        "idname" : "v3",
@@ -2300,7 +2390,7 @@
       "v4" : {
         "cd":"si",
         "ocultaridbtblockiframetopleft":"si",
-      "bollvaafullscreen":"no",
+         "bollvaafullscreen":"si",
       "presenta":"iframe",
         "id" : "id0",
         "idname" : "v4",
@@ -2311,7 +2401,7 @@
        "v5" : {
          "cd":"si",
          "ocultaridbtblockiframetopleft":"si",
-       "bollvaafullscreen":"no",
+          "bollvaafullscreen":"si",
        "presenta":"iframe",
          "id" : "id0",
          "idname" : "v5",
@@ -2322,7 +2412,7 @@
         "v6" : {
           "cd":"si",
           "ocultaridbtblockiframetopleft":"si",
-        "bollvaafullscreen":"no",
+           "bollvaafullscreen":"si",
         "presenta":"iframe",
           "id" : "id0",
           "idname" : "v6",
@@ -2332,7 +2422,6 @@
   }
   
 }
-
 
 
 
