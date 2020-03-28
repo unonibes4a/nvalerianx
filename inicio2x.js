@@ -1214,6 +1214,14 @@ arrarypeliculas2019[i].title,arrarypeliculas2019[i].img);
  function empityelementosid(idel){
 
   $(idel).empty();
+
+  if("#idverdaderopeliculas"==idel){
+    stringpelis="";
+
+    
+    stringpelis='<img class="climft" src="ft.gif" alt="">'
+    $("#idverdaderopeliculas").append(stringpelis);
+  }
 }
 
 

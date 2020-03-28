@@ -982,3 +982,13 @@ font-size: 11px;
 font-size: 11px;
 z-index: 12;
   }
+
+  .climft{
+
+    position: absolute;
+    top: -5.0%;
+    left: 0%;
+    width: 30px;
+    height: 70px;
+    background-color: #ff000000;
+  }
