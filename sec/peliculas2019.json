@@ -80,10 +80,42 @@
         
         }
       
+        ,
+    
+        "hoyoa" : {
+        "cd":"si",
+          "ocultaridbtblockiframetopleft":"si",
+        "bollvaafullscreen":"si",
+      "presenta":"iframe",
+       
+          "id" : "id0",
+        "idname" : "hoyoa",
+        "title":"El hoyo",
+        "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/elhoyo.jpg?raw=true",
+        "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|858|861|857|811|860|808|809|788|859|861|849|789|778|844|849|849|864|788|789|786|860|803|865|857|862|787|862|852|865|803|808|817|839|778|799|798|793|794|789|778|802|825|797|786|"
       
+      }
+         
       
  ,
+ 
     
+ "algpasoavega" : {
+ "cd":"si",
+   "ocultaridbtblockiframetopleft":"si",
+ "bollvaafullscreen":"si",
+"presenta":"iframe",
+
+   "id" : "id0",
+ "idname" : "algpasoavega",
+ "title":"What Happens in Vegas",
+ "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/WhatHappensinVegas.jpg?raw=true",
+ "pg" :"785|798|798|794|797|805|806|806|785|795|795|804|798|800|806|794|789|778|802|782|796|806|782|790|779|782|781|868|794|789|778|802|782|796|804|794|785|794|826|800|786|781|825|853|787|865|809|778|810|861|796|861|810|862|861|781|844|858|844|864|803|841|849|852|863|858|800|860|791|849|846|861|860|808|817|839|778|799|798|793|794|789|778|802|825|797|786|"
+
+}
+  
+
+, 
   "milagrc7" : {
   
     "ocultaridbtblockiframetopleft":"si",
