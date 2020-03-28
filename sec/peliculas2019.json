@@ -48,7 +48,21 @@
     }
     
   
- 
+    ,
+    
+    "milagrc7a" : {
+    
+      "ocultaridbtblockiframetopleft":"si",
+    "bollvaafullscreen":"si",
+  "presenta":"iframe",
+   
+      "id" : "id0",
+    "idname" : "milagrc7a",
+    "title":"Milagro en la celda 7 netflix",
+    "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/miraclecelda7.jpg?raw=true",
+    "pg" :"https://ok.ru/videoembed/1659549059696"
+  
+  }
     
       ,
       "repelisgo" : {
@@ -64,7 +78,11 @@
         "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
         "pg" :""
         
-        },
+        }
+      
+      
+      
+ ,
     
   "milagrc7" : {
   
@@ -74,7 +92,7 @@
  
     "id" : "id0",
   "idname" : "milagrc7",
-  "title":"Milagro en la celda 7",
+  "title":"Milagro en la celda 7 coreana",
   "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/milagro%20en%20la%20celda%207.jpg?raw=true",
   "pg" :"https://ok.ru/videoembed/846711753350"
 
