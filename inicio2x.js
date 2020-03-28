@@ -1222,6 +1222,13 @@ arrarypeliculas2019[i].title,arrarypeliculas2019[i].img);
     stringpelis='<img class="climft" src="ft.gif" alt="">'
     $("#idverdaderopeliculas").append(stringpelis);
   }
+  else{
+    stringpelis="";
+
+    
+    stringpelis='<img class="climft" src="ft.gif" alt="">'
+    $("#idverdaderopeliculas").append(stringpelis);
+  }
 }
 
 
