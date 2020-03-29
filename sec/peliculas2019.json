@@ -130,7 +130,21 @@
 
 }
 
+  , 
+  "dejamentrar" : {
   
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
+ 
+    "id" : "id0",
+  "idname" : "dejamentrar",
+  "title":"Dejame Entrar",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/imgsolo1/dejamentrar.jpg?raw=true",
+  "pg" :"https://ok.ru/videoembed/1660713306736"
+
+}
+
         ,
         "coroavt" : {
          
