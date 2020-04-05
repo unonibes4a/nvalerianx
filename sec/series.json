@@ -92,6 +92,178 @@
   }
   
 }
+
+
+,
+
+
+  "casadepapel" : {
+    "id":"id7",
+    "idname":"casadepapel",
+    "title":"La Casa de Papel",
+    "pg":"https://static.pelisplus.co/serie/cover/original/aab757a839ad63d0eeda0c976803a9aa.jpg",
+    "t3" : {
+
+      "id":"id0",
+      "idname":"t3",
+      "title":"Temporada 3",
+      "v1" : {
+        "id" : "id0",
+        "idname" : "v1",
+        "img" : "",
+        "pg" : "https://drive.google.com/file/d/1jPZMFNR0WbU8DRownyy3uwxsovdlIr3o/preview?authuser=0"
+      },
+      "v2" : {
+        "id" : "id1",
+        "idname" : "v2",
+        "img" : "",
+        "pg" : "https://drive.google.com/file/d/1rPfOb__qQssJ2cvRcbyDmgiW-BJJDzmh/preview"
+      },
+      "v3" : {
+        "id" : "id2",
+        "idname" : "v3",
+        "img" : "",
+        "pg" : "https://drive.google.com/file/d/1AxrMvCP_jvQhfA-chUb09WCx67YhDM-p/preview"
+      }
+      ,
+      "v4" : {
+        "id" : "id2",
+        "idname" : "v4",
+        "img" : "",
+        "pg" : "https://drive.google.com/file/d/1FHpQrap8nUYjQjuOkFbiEy4A9n6tWn_X/preview"
+      }
+      
+      ,
+      "v5" : {
+        "id" : "id2",
+        "idname" : "v5",
+        "img" : "",
+        "pg" : "https://drive.google.com/file/d/1hGFehPq9Dx0dsuC0llUiEemnrr-x4PUI/preview?authuser=0"
+      }
+      ,
+      "v6" : {
+        "id" : "id2",
+        "idname" : "v6",
+        "img" : "",
+        "pg" : "https://drive.google.com/file/d/1BIJSk44YoPqWdC9ZFf5uzeJOHHYIgRFT/preview"
+      }
+      ,
+      "v7" : {
+        "id" : "id2",
+        "idname" : "v7",
+        "img" : "",
+        "pg" : "https://drive.google.com/file/d/19SWgIAzfIthd9TtkhKYEMyM3Tp7qgvy1/preview"
+      }
+      ,
+      "v8" : {
+        "id" : "id2",
+        "idname" : "v8",
+        "img" : "",
+        "pg" : "https://drive.google.com/file/d/1ewqV6teRDRk82w3Wyz-XvkcXmbezRV9g/preview?authuser=0"
+      }
+      
+
+    },
+    "t4" : {
+
+      "id":"id0",
+      "idname":"t4",
+      "title":"Temporada 4",  "v1" : {
+        
+        "ocultaridbtblockiframetopleft":"si",
+      "bollvaafullscreen":"si",
+      "presenta":"iframe",
+        "id" : "id0",
+        "idname" : "v1",
+        "img" : "",
+        "pg" :"https://hqq.tv/e/THhJUmpoYWQzL0d0NEhtbzRudzBpdz09&autoplay=si" 
+      },
+      "v2" : {
+
+        "ocultaridbtblockiframetopleft":"si",
+         "bollvaafullscreen":"si",
+      "presenta":"iframe",
+        "id" : "id0",
+        "idname" : "v2",
+        "img" : "",
+        "pg" :"https://hqq.tv/e/QXM0N29IdUFncGhjWEc2d21jZi9RUT09&autoplay=si|"
+      },
+       "v3" : {
+         
+         "ocultaridbtblockiframetopleft":"si",
+          "bollvaafullscreen":"si",
+       "presenta":"iframe",
+         "id" : "id0",
+         "idname" : "v3",
+         "img" : "",
+         "pg" :"https://hqq.tv/e/YjFFR3VEV2JnMFNWYXlERzErSXpPdz09&autoplay=si"
+        }
+        ,
+        "v4" : {
+
+          "ocultaridbtblockiframetopleft":"si",
+           "bollvaafullscreen":"si",
+        "presenta":"iframe",
+          "id" : "id0",
+          "idname" : "v4",
+          "img" : "",
+          "pg" : "https://hqq.tv/e/alZFOVNzQ24wTVAwdXFOWWFRTTVUZz09&autoplay=si"
+        }  
+         ,
+         "v5" : {
+     
+           "ocultaridbtblockiframetopleft":"si",
+            "bollvaafullscreen":"si",
+         "presenta":"iframe",
+           "id" : "id0",
+           "idname" : "v5",
+           "img" : "",
+           "pg" : "https://hqq.tv/e/bCtneWVNbHdTaS90Tm1QWkJQQlAxUT09&autoplay=si"
+          }    
+          ,
+          "v6" : {
+      
+            "ocultaridbtblockiframetopleft":"si",
+             "bollvaafullscreen":"si",
+          "presenta":"iframe",
+            "id" : "id0",
+            "idname" : "v6",
+            "img" : "",
+            "pg" : "https://hqq.tv/e/WVlmUlc1RGNDbEpxbUwwaWJCTG9KQT09&autoplay=si"
+          } 
+          ,
+          "v7" : {
+  
+            "ocultaridbtblockiframetopleft":"si",
+             "bollvaafullscreen":"si",
+          "presenta":"iframe",
+            "id" : "id0",
+            "idname" : "v7",
+            "img" : "",
+            "pg" : "https://hqq.tv/e/UVBxeUx4ZnZWQlNRQTlwWUFyalN4QT09&autoplay=si"
+          } 
+      
+          ,
+          "v8" : {
+  
+            "ocultaridbtblockiframetopleft":"si",
+             "bollvaafullscreen":"si",
+          "presenta":"iframe",
+            "id" : "id0",
+            "idname" : "v8",
+            "img" : "",
+            "pg" : "https://hqq.tv/e/QkF1V0s2dFo3VzhkY2VJNXc3aWpRQT09&autoplay=si"
+          } 
+    }
+    
+  }
+
+
+
+
+
+
+
 ,
 
 
@@ -1207,78 +1379,6 @@
 
 
 
-,
-
-
-  "casadepapel" : {
-    "id":"id7",
-    "idname":"casadepapel",
-    "title":"La Casa de Papel",
-    "pg":"https://static.pelisplus.co/serie/cover/original/aab757a839ad63d0eeda0c976803a9aa.jpg",
-    "t3" : {
-
-      "id":"id0",
-      "idname":"t3",
-      "title":"Temporada 3",
-      "v1" : {
-        "id" : "id0",
-        "idname" : "v1",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1jPZMFNR0WbU8DRownyy3uwxsovdlIr3o/preview?authuser=0"
-      },
-      "v2" : {
-        "id" : "id1",
-        "idname" : "v2",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1rPfOb__qQssJ2cvRcbyDmgiW-BJJDzmh/preview"
-      },
-      "v3" : {
-        "id" : "id2",
-        "idname" : "v3",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1AxrMvCP_jvQhfA-chUb09WCx67YhDM-p/preview"
-      }
-      ,
-      "v4" : {
-        "id" : "id2",
-        "idname" : "v4",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1FHpQrap8nUYjQjuOkFbiEy4A9n6tWn_X/preview"
-      }
-      
-      ,
-      "v5" : {
-        "id" : "id2",
-        "idname" : "v5",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1hGFehPq9Dx0dsuC0llUiEemnrr-x4PUI/preview?authuser=0"
-      }
-      ,
-      "v6" : {
-        "id" : "id2",
-        "idname" : "v6",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1BIJSk44YoPqWdC9ZFf5uzeJOHHYIgRFT/preview"
-      }
-      ,
-      "v7" : {
-        "id" : "id2",
-        "idname" : "v7",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/19SWgIAzfIthd9TtkhKYEMyM3Tp7qgvy1/preview"
-      }
-      ,
-      "v8" : {
-        "id" : "id2",
-        "idname" : "v8",
-        "img" : "",
-        "pg" : "https://drive.google.com/file/d/1ewqV6teRDRk82w3Wyz-XvkcXmbezRV9g/preview?authuser=0"
-      }
-      
-
-    }
-    
-  }
 
 
 
