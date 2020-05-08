@@ -322,7 +322,15 @@ if($("#idyo").val()=="xxx1"){
 };
                   
          
+if($("#idyo").val()=="3d"){
+window.location="https://unonubes19.github.io/casads/";
+                    
+};
 
+if($("#idyo").val()=="3D"){
+  window.location="https://unonubes19.github.io/casads/";
+                    
+};
      
     });
     iniciafiregoo();
