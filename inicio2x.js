@@ -323,13 +323,12 @@ if($("#idyo").val()=="xxx1"){
                   
          
 if($("#idyo").val()=="3d"){
-window.location="https://unonubes19.github.io/casads/";
+a3d();
                     
 };
 
 if($("#idyo").val()=="3D"){
-  window.location="https://unonubes19.github.io/casads/";
-                    
+ a3d();           
 };
      
     });
@@ -2627,3 +2626,9 @@ function adultossx1(){
 
 
 
+function a3d(){
+
+  var estesxripseva='';
+     sevaconscrip("https://unonubes19.github.io/casads/",estesxripseva);
+
+}
