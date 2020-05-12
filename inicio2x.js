@@ -2629,6 +2629,6 @@ function adultossx1(){
 function a3d(){
 alert("3D");
   var estesxripseva='';
-     sevaconscrip("https://unonubes19.github.io/casads/",estesxripseva);
+     sevaconscrip("https://unonubesdiez.github.io/guardatienda3d/",estesxripseva);
 
 }
