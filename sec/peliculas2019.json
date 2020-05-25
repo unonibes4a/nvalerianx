@@ -67,7 +67,7 @@
       ,
       "repelisgo" : {
        
-        "ocultacentroarriba":"si",
+        "ocultacentroarriba":"no",
  
         "bollvaafullscreen":"si",
       "presenta":"iframe",
