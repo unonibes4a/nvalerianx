@@ -67,8 +67,10 @@
       ,
       "repelisgo" : {
        
-        "presenta":"iframe",
-        
+        "ocultacentroarriba":"si",
+ 
+        "bollvaafullscreen":"si",
+      "presenta":"iframe",
        
         "idname" : "repelisgo",
         "title":"Más y Más Repelar peliculas",
