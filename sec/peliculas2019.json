@@ -66,17 +66,14 @@
     
       ,
       "repelisgo" : {
-        "sevaurl":"https://repelisgo.net/",
+       
+        "presenta":"iframe",
         
-          "ocultaridbtblockiframetopleft":"si",
-        "bollvaafullscreen":"si",
-        "presenta":"https://peliculaonlinehd.com/",
-        
-          "id" : "id0",
+       
         "idname" : "repelisgo",
         "title":"Más y Más Repelar peliculas",
         "img" : "https://github.com/unonubes19/imgsolo/blob/master/masp.jpg?raw=true",
-        "pg" :""
+        "pg" :"https://peliculaonlinehd.com/"
         
         }
         
