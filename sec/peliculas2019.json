@@ -64,7 +64,7 @@
         "pg" :"https://peliculaonlinehd.com/"
         
         }
-        
+      
 ,
 
 "ultrapeliculashd" : { 
@@ -75,7 +75,7 @@
   "idname" : "ultrapeliculashd",
   "title":"BUSCAR MÁS PELICULAS ultra",
   "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQSW1w9UFOy9jZdvpOdbe8AJawTnzZxrDBS0aLdUH82f88xUZ13",
-  "pg" :"https://www.ultrapeliculashd.com/" 
+  "pg" :"" 
   }
   ,
     
