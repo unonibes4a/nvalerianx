@@ -153,7 +153,23 @@
   
 ,
   
+"ultrapeliculashd6" : { 
   
+  
+  "ocultacentroarriba":"si",
+
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "ultrapeliculashd6",
+  "title":"mas  mas 4K",
+  "img" : "./img/adulto.png",
+  "pg" :"https://www.peliculasflv.to/"
+  }
+
+,
+
 
  
   "milagrc7a" : {
