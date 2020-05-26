@@ -119,6 +119,25 @@
     
   ,
     
+ 
+
+  "ultrapeliculashd4" : { 
+  
+  
+    "ocultacentroarriba":"si",
+ 
+    "bollvaafullscreen":"si",
+  "presenta":"iframe",
+    
+      "id" : "id0",
+    "idname" : "ultrapeliculashd4",
+    "title":"don mas  Peliculas ya si",
+    "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
+    "pg" :"https://www.pelispedia.mobi/"
+    }
+  
+,
+ 
   "milagrc7a" : {
   
     "ocultaridbtblockiframetopleft":"si",
