@@ -1545,7 +1545,7 @@ if(cosajson.librecargaurl){
 
 }
 if(cosajson.sevaurl){
-alert(cosajson.sevaurl);
+
   selecioneurl(cosajson.sevaurl);
 
 }
@@ -2608,7 +2608,7 @@ if(sturl=="https://pelisplus.me/series/"){
   }   
     
   
-  if(sturl=="https://www.ultrapeliculashd.com/"){
+  if(sturl=="https://www.fullpeliculashd.tv/"){
 
 
     var estesxripseva='';
