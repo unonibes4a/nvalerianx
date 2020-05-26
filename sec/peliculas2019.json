@@ -73,15 +73,19 @@
   "sevaurl":"https://www.ultrapeliculashd.com/",
       
       
+    "ocultacentroarriba":"si",
+ 
+    "bollvaafullscreen":"si",
+  "presenta":"iframe",
   "ocultaridbtblockiframetopleft":"si",
-  "bollvaafullscreen":"si",
-  "presenta":"https://peliculaonlinehd.com/",
+
+
   
     "id" : "id0",
   "idname" : "ultrapeliculashd",
   "title":"Mas Peliculas siii",
   "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
-  "pg" :""
+  "pg" :"https://www.ultrapeliculashd.com/"
   }
   ,
     
