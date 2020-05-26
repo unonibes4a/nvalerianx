@@ -134,8 +134,26 @@
       }
     
   ,
-    
+  
+
+  "ultrapeliculashd5" : { 
+  
+  
+    "ocultacentroarriba":"si",
  
+    "bollvaafullscreen":"si",
+  "presenta":"iframe",
+    
+      "id" : "id0",
+    "idname" : "ultrapeliculashd5",
+    "title":"don mas 4K",
+    "img" : "./img/adulto.png",
+    "pg" :"https://peliculasenhd4k.com/"
+    }
+  
+,
+  
+  
 
  
   "milagrc7a" : {
