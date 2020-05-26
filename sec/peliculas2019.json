@@ -88,22 +88,35 @@
 
   "ultrapeliculashd2" : { 
   
-    "sevaurl":"https://www.fullpeliculashd.tv/",
-      
-      
-    "ocultaridbtblockiframetopleft":"si",
-    "bollvaafullscreen":"si",
-    "presenta":"https://peliculaonlinehd.com/",
     
+    "ocultacentroarriba":"si",
+   
+    "bollvaafullscreen":"si",
+  "presenta":"iframe",
     
       "id" : "id0",
     "idname" : "ultrapeliculashd2",
-    "title":"Mas Peliculas siii ok",
+    "title":"Mas Peliculas siii ok nnn",
     "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
     "pg" :""
     }
+    ,
 
-
+    "ultrapeliculashd3" : { 
+    
+    
+      "ocultacentroarriba":"si",
+   
+      "bollvaafullscreen":"si",
+    "presenta":"iframe",
+      
+        "id" : "id0",
+      "idname" : "ultrapeliculashd3",
+      "title":"don mas  Peliculas ya",
+      "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
+      "pg" :"https://donpelis.com/"
+      }
+    
   ,
     
   "milagrc7a" : {
