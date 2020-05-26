@@ -170,6 +170,24 @@
 
 ,
 
+  
+"ultrapeliculashd7" : { 
+  
+  
+  "ocultacentroarriba":"si",
+
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "ultrapeliculashd7",
+  "title":"mas  ver peli  ",
+  "img" : "./img/adulto.png",
+  "pg" :"https://www.verepeliculas.com/peliculas/"
+  }
+
+,
+
 
  
   "milagrc7a" : {
