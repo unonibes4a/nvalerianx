@@ -69,13 +69,19 @@
 
 "ultrapeliculashd" : { 
 
+
   "sevaurl":"https://www.ultrapeliculashd.com/",
-    "vid":"1",
-    "id" : "id9",
-  "idname" : "ultrapeliculashd",
-  "title":"BUSCAR MÁS PELICULAS ultra",
-  "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQSW1w9UFOy9jZdvpOdbe8AJawTnzZxrDBS0aLdUH82f88xUZ13",
-  "pg" :"" 
+      
+      
+  "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"si",
+  "presenta":"https://peliculaonlinehd.com/",
+  
+    "id" : "id0",
+  "idname" : "repelisst",
+  "title":"Mas Peliculas",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
+  "pg" :""
   }
   ,
     
