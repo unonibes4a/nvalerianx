@@ -1545,7 +1545,7 @@ if(cosajson.librecargaurl){
 
 }
 if(cosajson.sevaurl){
-
+alert(cosajson.sevaurl);
   selecioneurl(cosajson.sevaurl);
 
 }
@@ -2494,7 +2494,7 @@ try {
 if("sevacomourl"==quetresevacomourl){
   window.location=urldondeva;
 }
- 
+ //alert(33);
 window.location=urldondeva;
 } catch (error) {
   
@@ -2554,6 +2554,8 @@ sevaconscrip("https://www.elitestream.io/",estesxripseva);
     
 }
 function selecioneurl(sturl){
+
+
 if(sturl=="http://www.adnstream.com/"){
   var estesxripseva='try { document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("a")[0].href="https://unonibes4a.github.io/nvalerianx/"; }catch (error) { } try { document.getElementsByClassName("mensaje")[0].style.display="none"; }catch (error) { } try { document.getElementById("back-footer").style.display="none"; }catch (error) { } setTimeout(function(){ try { try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { } document.getElementsByClassName("loaded")[0].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } },2000); try { document.getElementsByTagName("div")[10].style.display="none"; }catch (error) { }';
 //sevaconscrip(sturl,estesxripseva);
@@ -2582,7 +2584,7 @@ if(sturl=="https://pelisplus.me/series/"){
   
     if(sturl=="https://pelisplushd.net/"){
 
-
+    
     var estesxripseva='';
     //'setTimeout(function(){ try { document.getElementsByClassName("footer")[0].style.display="none"; }catch (error) { } },1500); try { document.getElementsByClassName("footer")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },1700); try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },800); try { document.getElementsByClassName("nav-logo")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },2800); try { document.getElementsByClassName("m-v-30")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },1200); try { document.getElementById("comentarios").style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },1900); try { document.getElementsByClassName("alert-danger")[0].style.display="none"; }catch (error) { }';
     
@@ -2605,11 +2607,12 @@ if(sturl=="https://pelisplus.me/series/"){
     sevaconscrip(sturl,estesxripseva);
   }   
     
+  
   if(sturl=="https://www.ultrapeliculashd.com/"){
 
 
     var estesxripseva='';
-    //'try { document.getElementsByTagName("img")[10].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("img")[4].src="https://github.com/unonubes19/imgsolo/blob/master/varpng.png?raw=true"; }catch (error) { } try { document.getElementsByTagName("footer")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("right")[0].style.display="none"; }catch (error) { } try { document.getElementsByClassName("left")[0].style.display="none"; }catch (error) { } try { document.getElementById("conversation").style.display="none"; }catch (error) { } try { document.getElementById("layout").style.display="none"; }catch (error) { } try { document.getElementById("conversation").style.display="none"; }catch (error) { }';
+    //'setTimeout(function(){ try { document.getElementsByClassName("footer")[0].style.display="none"; }catch (error) { } },1500); try { document.getElementsByClassName("footer")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },1700); try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },800); try { document.getElementsByClassName("nav-logo")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },2800); try { document.getElementsByClassName("m-v-30")[0].style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },1200); try { document.getElementById("comentarios").style.display="none"; }catch (error) { } setTimeout(function(){ try { document.getElementsByClassName("card-header")[0].style.display="none"; }catch (error) { } },1900); try { document.getElementsByClassName("alert-danger")[0].style.display="none"; }catch (error) { }';
     
     sevaconscrip(sturl,estesxripseva);
   }   
