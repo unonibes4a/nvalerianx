@@ -95,7 +95,36 @@
 
 
 ,
+"lsimpsondia" : {
 
+  "id":"id7",
+  "idname":"lsimpsondia",
+  "title":"pedia series ",
+  "pg":  "./img/adulto.png",
+  "t1" : {
+
+ 
+    "id":"id0",
+    "idname":"t1",
+    "title":"Entrar pedia series ",
+    "v1" : {
+      "ocultacentroarriba":"si",
+      "presenta":"iframe",
+          "bollvaafullscreen":"si",
+      "id" : "id0",
+      "idname" : "v1",
+      "img" : "",
+      "pg" :"https://www.pelispedia.mobi/serie/"
+    }
+    
+
+  }
+  
+}
+
+
+
+,
 
   "casadepapel" : {
     "id":"id7",

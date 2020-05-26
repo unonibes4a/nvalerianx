@@ -96,7 +96,7 @@
     "id" : "id0",
   "idname" : "ultrapeliculashd",
   "title":"Mas Peliculas siii",
-  "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
+  "img" : "./img/adulto.png",
   "pg" :"https://www.ultrapeliculashd.com/"
   }
 
