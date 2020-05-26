@@ -70,16 +70,12 @@
 "ultrapeliculashd" : { 
 
 
-  "sevaurl":"https://www.ultrapeliculashd.com/",
       
-      
-    "ocultacentroarriba":"si",
+
+  "ocultacentroarriba":"si",
  
-    "bollvaafullscreen":"si",
-  "presenta":"iframe",
-  "ocultaridbtblockiframetopleft":"si",
-
-
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
   
     "id" : "id0",
   "idname" : "ultrapeliculashd",
