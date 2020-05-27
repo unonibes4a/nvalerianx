@@ -330,7 +330,18 @@ a3d();
 if($("#idyo").val()=="3D"){
  a3d();           
 };
-     
+    
+if($("#idyo").val()=="iA"){
+  aia();           
+ };
+
+ if($("#idyo").val()=="IA"){
+  aia();           
+ };
+ if($("#idyo").val()=="Ia"){
+  aia();           
+ };
+
     });
     iniciafiregoo();
 
@@ -2644,3 +2655,9 @@ alert("3D");
 }
 
 
+function  aia(){
+
+  alert("IA");
+  var estesxripseva='';
+     sevaconscrip("https://unonibes4a.github.io/una/",estesxripseva);
+}
