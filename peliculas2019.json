@@ -1,5 +1,20 @@
 {
 
+
+
+  "d365d" : {
+
+    "ocultaridbtblockiframetopleft":"si",
+  "bollvaafullscreen":"si",
+  "presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "d365d",
+  "title":"365 días ",
+  "img" : "https://github.com/unonibes4a/putass/blob/master/d365.jpg?raw=true",
+  "pg" :"https://hqq.tv/e/ekpxWk5LZjFacDVNRGxuRzNpUTNsUT09"
+  
+  },
   "cinecalidad2" : { 
 
 
@@ -67,24 +82,129 @@
       
 ,
 
+"ultrapeliculashd4" : { 
+  
+  
+  "ocultacentroarriba":"si",
+
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "ultrapeliculashd4",
+  "title":"pedi mas  Peliculas ya si",
+  "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
+  "pg" :"https://www.pelispedia.mobi/"
+  }
+
+,
 "ultrapeliculashd" : { 
 
 
-  "sevaurl":"https://www.ultrapeliculashd.com/",
-      
-      
-  "ocultaridbtblockiframetopleft":"si",
+    
+
+  "ocultacentroarriba":"si",
+ 
   "bollvaafullscreen":"si",
-  "presenta":"https://peliculaonlinehd.com/",
+"presenta":"iframe",
   
     "id" : "id0",
   "idname" : "ultrapeliculashd",
   "title":"Mas Peliculas siii",
-  "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
-  "pg" :""
+  "img" : "./img/adulto.png",
+  "pg" :"https://www.ultrapeliculashd.com/"
   }
+
   ,
+
+  "ultrapeliculashd2" : { 
+  
     
+    "ocultacentroarriba":"si",
+   
+    "bollvaafullscreen":"si",
+  "presenta":"iframe",
+    
+      "id" : "id0",
+    "idname" : "ultrapeliculashd2",
+    "title":"Mas Peliculas siii ok nnn",
+    "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
+    "pg" :""
+    }
+    ,
+
+    "ultrapeliculashd3" : { 
+    
+    
+      "ocultacentroarriba":"si",
+   
+      "bollvaafullscreen":"si",
+    "presenta":"iframe",
+      
+        "id" : "id0",
+      "idname" : "ultrapeliculashd3",
+      "title":"don mas  Peliculas ya",
+      "img" : "https://github.com/unonubes19/imgsolo/blob/master/peldesca.jpg?raw=true",
+      "pg" :"https://donpelis.com/"
+      }
+    
+  ,
+  
+
+  "ultrapeliculashd5" : { 
+  
+  
+    "ocultacentroarriba":"si",
+ 
+    "bollvaafullscreen":"si",
+  "presenta":"iframe",
+    
+      "id" : "id0",
+    "idname" : "ultrapeliculashd5",
+    "title":"don mas 4K",
+    "img" : "./img/adulto.png",
+    "pg" :"https://peliculasenhd4k.com/"
+    }
+  
+,
+  
+"ultrapeliculashd6" : { 
+  
+  
+  "ocultacentroarriba":"si",
+
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "ultrapeliculashd6",
+  "title":"mas  mas 4K",
+  "img" : "./img/adulto.png",
+  "pg" :"https://www.peliculasflv.to/"
+  }
+
+,
+
+  
+"ultrapeliculashd7" : { 
+  
+  
+  "ocultacentroarriba":"si",
+
+  "bollvaafullscreen":"si",
+"presenta":"iframe",
+  
+    "id" : "id0",
+  "idname" : "ultrapeliculashd7",
+  "title":"mas  ver peli  ",
+  "img" : "./img/adulto.png",
+  "pg" :"https://www.verepeliculas.com/peliculas/"
+  }
+
+,
+
+
+ 
   "milagrc7a" : {
   
     "ocultaridbtblockiframetopleft":"si",
