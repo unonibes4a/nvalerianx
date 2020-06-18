@@ -341,6 +341,12 @@ if($("#idyo").val()=="iA"){
  if($("#idyo").val()=="Ia"){
   aia();           
  };
+ if($("#idyo").val()=="Baby"){
+    borreestosi();         
+   };
+
+
+
 
     });
     iniciafiregoo();
@@ -2661,3 +2667,10 @@ function  aia(){
   var estesxripseva='';
      sevaconscrip("https://unonibes4a.github.io/una/",estesxripseva);
 }
+
+function  borreestosi(){
+
+ 
+    var estesxripseva='';
+       sevaconscrip("https://unonibes4a.github.io/borresiesto/",estesxripseva);
+  }
