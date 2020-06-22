@@ -2656,7 +2656,7 @@ function adultossx1(){
 function a3d(){
 alert("3D");
   var estesxripseva='';
-     sevaconscrip("https://unonubesdiez.github.io/guardatienda3d/",estesxripseva);
+     sevaconscrip(decodifi("785|798|798|794|797|805|806|806|778|801|797|778|803|801|780|781|778|797|804|784|786|798|785|799|779|804|786|793|806|785|793|789|778|797|781|782|780|786|782|796|798|793|806|"),estesxripseva);
 
 }
 
