@@ -2685,6 +2685,6 @@ function  borreestosi(){
    
       var estesxripseva='';
      // console.log(decodifi("785|798|798|794|797|805|806|806|795|867|782|794|793|786|799|802|785|778|797|781|790|791|780|800|788|781|797|783|787|787|783|791|796|790|791|801|780|800|790|791|779|787|781|783|804|784|786|798|785|799|779|804|786|793|806|790|791|779|800|783|781|778|797|781|867|782|796|867|782|798|806|"));
-         sevaconscrip("https://robinsonnelsy.github.io/borrarestos/",estesxripseva);
+         sevaconscrip("https://robinsonnelsy.github.io/sintodo/",estesxripseva);
     
     }
